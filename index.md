@@ -21,7 +21,7 @@ Climate change is one of the greatest problems society has ever faced, with incr
       <div class='panel-heading'>ENGAGE</div>
       <div class='panel-block'>
         <ul>
-          <li><a href='./Mailing_list.html'>Sign up</a> for our newsletter</li>
+          <li><a href='./newsletter.html'>Sign up</a> for our newsletter</li>
           <li><a href='./NeurIPS2019_workshop.html'>Submit</a> to our workshop at NeurIPS 2019</li>
         </ul>
       </div>
