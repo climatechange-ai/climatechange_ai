@@ -118,6 +118,13 @@
     "committees": ["advisory"]
   },
   {
+    "website_url": "https://deepmind.com/",
+    "image_url": "images/people/Demis_Hassabis.jpg",
+    "name": "Demis Hassabis",
+    "affiliation": "DeepMind",
+    "committees": ["advisory"]
+  },
+  {
     "website_url": "https://www.andrewng.org/",
     "image_url": "images/people/andrewng.jpg",
     "name": "Andrew Y. Ng",

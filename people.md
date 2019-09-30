@@ -152,6 +152,15 @@ description: People
   <div class="person__title"></div>
 </a>
 
+<a class="person__item" href="https://deepmind.com/" target="_blank">
+  <div class="person__pic-wrapper">
+    <img class="person__pic" src="images/people/Demis_Hassabis_200x200.jpg">
+  </div>
+  <div class="person__name">Demis Hassabis</div>
+  <div class="person__affil">DeepMind</div>
+  <div class="person__title"></div>
+</a>
+
 <a class="person__item" href="https://www.andrewng.org/" target="_blank">
   <div class="person__pic-wrapper">
     <img class="person__pic" src="images/people/andrewng_200x200.jpg">
