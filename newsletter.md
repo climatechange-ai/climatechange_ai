@@ -4,7 +4,7 @@ layout: default
 
 # Newsletter
 
-<a href='./mailing_list'>Sign up</a> to receive our newsletter and important updates by email. You can view a list of past newsletters below or <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>here</a>.
+<a href='./mailing_list'>Sign up</a> to receive our newsletter and important updates by email.
 
 <!-- <iframe src="https://us3.campaign-archive.com/?u=a5463f28627a77a4b2a79e7d0&id=ef22a3426e" style="border: 0; width: 100%; height: 5in"> Your browser doesn't support iFrames. </iframe> -->
 
@@ -13,7 +13,7 @@ layout: default
 ## Most Recent Newsletter
 
 <div id='newsletter-iframe-wrapper'>
-  Loading...
+  If nothing appears here (e.g. if your browser does not support iframes or javascript), you can click <a href='https://us3.campaign-archive.com/home/?u=a5463f28627a77a4b2a79e7d0&id=e28537c7a1' target='_blank'>here</a> to view an archive of recent newsletters.
 </div>
 
 <script>
