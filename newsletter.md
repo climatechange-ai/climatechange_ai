@@ -21,7 +21,7 @@ $(document).ready(function() {
   var link = $('.campaign a')[0];
   if (link) {
     var href = link.href;
-    $('#newsletter-iframe-wrapper').html("<iframe src='"+href+"' style='width: 100%; height: 100vh'></iframe>");
+    $('#newsletter-iframe-wrapper').html("<iframe class='card' src='"+href+"' style='width: 100%; height: 100vh; border: none;'></iframe>");
   }
 });
 </script>
