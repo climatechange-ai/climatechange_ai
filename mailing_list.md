@@ -8,15 +8,16 @@ layout: default
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  #mc_embed_signup form{padding: 0}
-  #mc_embed_signup .mc-field-group{padding: 0}
-  #mc_embed_signup .indicates-required{float: right}
+	#mc_embed_signup form, #mc_embed_signup .mc-field-group{ padding: 0; }
+  #mc_embed_signup input[type='checkbox']{ margin-right: 5px; }
+  #mc_embed_signup .indicates-required { float: right; }
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
 <form action="https://climatechange.us3.list-manage.com/subscribe/post?u=a5463f28627a77a4b2a79e7d0&amp;id=e28537c7a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
+	<h2>Mailing list for Climate Change AI</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group field">
 	<label for="mce-MMERGE7" class="label">Name (optional) </label>
@@ -28,22 +29,11 @@ layout: default
 	<input type="email" value="" name="EMAIL" class="required email input" id="mce-EMAIL">
 </div>
 <div class="mc-field-group field">
-	<label for="mce-MMERGE1" class="label">Background (optional) </label>
-	<select name="MMERGE1" class="select" id="mce-MMERGE1">
-	<option value=""></option>
-	<option value="Machine learning / AI / tech">Machine learning / AI / tech</option>
-<option value="Climate science / mitigation / adaptation">Climate science / mitigation / adaptation</option>
-<option value="Other science / engineering">Other science / engineering</option>
-<option value="Economics / finance / public policy">Economics / finance / public policy</option>
-<option value="Other">Other</option>
-
-	</select>
-</div>
-<div class="mc-field-group field">
-	<label for="mce-MMERGE3" class="label">Country (optional) </label>
+	<label for="mce-MMERGE3" class="label">Location (optional) </label>
 	<select name="MMERGE3" class="select" id="mce-MMERGE3">
 	<option value=""></option>
-	<option value="United States of America">United States of America</option>
+	<option value="- Select an option -">- Select an option -</option>
+<option value="United States of America">United States of America</option>
 <option value="Aaland Islands">Aaland Islands</option>
 <option value="Afghanistan">Afghanistan</option>
 <option value="Albania">Albania</option>
@@ -297,6 +287,15 @@ layout: default
 
 	</select>
 </div>
+<div class="mc-field-group input-group field">
+    <label class='label'>Background (optional) </label>
+    <ul><li><input type="checkbox" value="1" name="group[25441][1]" id="mce-group[25441]-25441-0"><label for="mce-group[25441]-25441-0">Machine learning / AI / tech</label></li>
+<li><input type="checkbox" value="2" name="group[25441][2]" id="mce-group[25441]-25441-1"><label class='checkbox' for="mce-group[25441]-25441-1">Climate science / mitigation / adaptation</label></li>
+<li><input type="checkbox" value="4" name="group[25441][4]" id="mce-group[25441]-25441-2"><label class='checkbox' for="mce-group[25441]-25441-2">Other science / engineering</label></li>
+<li><input type="checkbox" value="8" name="group[25441][8]" id="mce-group[25441]-25441-3"><label class='checkbox' for="mce-group[25441]-25441-3">Economics / finance / public policy</label></li>
+<li><input type="checkbox" value="16" name="group[25441][16]" id="mce-group[25441]-25441-4"><label class='checkbox' for="mce-group[25441]-25441-4">Other</label></li>
+</ul>
+</div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
@@ -306,5 +305,5 @@ layout: default
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[7]='MMERGE7';ftypes[7]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[6]='MMERGE6';ftypes[6]='text';fnames[1]='MMERGE1';ftypes[1]='dropdown';fnames[3]='MMERGE3';ftypes[3]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
 <!--End mc_embed_signup-->
