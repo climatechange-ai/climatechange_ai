@@ -19,6 +19,13 @@ $dark: black;
 @import "bulma-scss/elements/_button";
 @import "bulma-scss/elements/_tag";
 @import "bulma-scss/form/_all";
+@import "chosen";
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .navbar-item.with-tag {
   &:hover {
@@ -194,9 +201,7 @@ html, body {
   }
 
   &:hover {
-    h2, p {
-      text-decoration: underline;
-    }
+    text-decoration: underline;
   }
 
   &:before {
@@ -206,10 +211,11 @@ html, body {
     margin-right: 0.5em;
     float: left; 
     transition: transform 0.33s ease-in-out;
+    transform-origin: 50% 24px;
   }
 }
 
-.collapsible.is-expanded .collapsible-header {
+.is-expanded .collapsible-header {
   &:before {
     transform: rotate(-225deg);
   }
@@ -230,3 +236,46 @@ html, body {
 .collapsible.is-expanded .collapsible-content {
   max-height: 10000em;
 }
+
+#sections .subsection {
+  float: left;
+
+  .card-content, .card-footer {
+    display: none;
+  }
+}
+
+#sections .subsection.is-expanded {
+  .card-content, .card-footer {
+    display: block;
+  }
+}
+
+#sections .subsection {
+  //margin-right: 1rem;
+  margin-bottom: 1rem;
+  //width: calc(33.33% - 1rem);
+  width: 100%;
+}
+
+#sections.filtering {
+  .subsection {
+    display: none;
+
+    &.ml-visible, &.topic-visible, &.thematic-visible {
+      display: block;
+    }
+  }
+}
+
+//@media only screen and (max-width: 950px) {
+//  #sections .subsection {
+//    width: calc(50% - 1rem);
+//  }
+//}
+//
+//@media only screen and (max-width: 650px) {
+//  #sections .subsection {
+//    width: 100%;
+//  }
+//}

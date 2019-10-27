@@ -1,0 +1,525 @@
+﻿# Electricity Systems
+
+Title: Forecasting supply and demand
+1-2 sentence summary: The supply and demand of power must both be forecast ahead of time to inform electricity planning and scheduling. ML can help make these forecasts more accurate, improve temporal and spatial resolution, and quantify uncertainty.
+ML keywords: supervised learning, unsupervised learning, computer vision, time-series, uncertainty quantification, interpretable ML, deep learning, clustering
+Topic keywords: electricity, electric grid, power grid, low-carbon electricity, variable electricity, renewable energy, solar power, wind power, electricity demand, nowcasting
+Thematic keywords: forecasting, hybrid physical models
+Paper flags: High Leverage
+
+
+Title: Improving scheduling and flexible demand
+1-2 sentence summary: Scheduling algorithms on the power grid have trouble handling large quantities of solar, wind, and other time-varying electricity sources. ML can help improve electricity scheduling algorithms, control storage and flexible demand, and design real-time electricity prices that reduce CO2 emissions.
+ML keywords: supervised learning, reinforcement learning, deep learning
+Topic keywords: 
+Thematic keywords: model approximation, control systems, system optimization
+Paper flags:
+
+
+Title: Accelerated science for materials
+1-2 sentence summary: Designing new materials is important for many applications, including energy storage via fuels and batteries. ML can help suggest promising materials to try, thereby speeding up the materials discovery process.
+ML keywords: supervised learning, unsupervised learning, NLP, interpretable ML, generative models
+Topic keywords:
+Thematic keywords: accelerated experimentation
+Paper flags: High Leverage, Long-term
+
+
+Title: Additional applications (for variable sources)
+1-2 sentence summary: There are many additional ways to facilitate the adoption of solar panels, wind turbines, and other low-carbon electricity generators. ML can help efficiently operate these systems, detect the locations of solar panels, and monitor the electric grid in places with rooftop solar panels.
+ML keywords: reinforcement learning, computer vision, Bayesian/causal inference
+Topic keywords:
+Thematic keywords: remote sensing, data mining and generation, predictive maintenance, system optimization
+Paper flags:
+
+
+Title: Nuclear power plants
+1-2 sentence summary: Nuclear power plants require effective maintenance and inspection to ensure public safety and reduce costs. ML can help improve maintenance and fault detection systems.
+ML keywords: computer vision
+Topic keywords: 
+Thematic keywords: predictive maintenance
+Paper flags:
+
+
+Title: Nuclear fusion
+1-2 sentence summary: Nuclear fusion has the potential to produce safe, carbon-free electricity, but such reactors continue to consume more energy than they produce. ML can help suggest parameters for physical experiments and also model the behavior of plasma inside reactors.
+ML keywords: supervised learning, reinforcement learning, Bayesian/causal inference
+Topic keywords: 
+Thematic keywords: control systems, accelerated experimentation
+Paper flags: High Leverage, Long-term
+
+
+Title: Reducing life-cycle fossil fuel emissions
+1-2 sentence summary: In addition to the unavoidable climate impacts of burning fossil fuels, natural gas pipelines leak methane, a powerful greenhouse gas. ML can help detect and prevent these leaks until society stops burning natural gas.
+ML keywords: supervised learning, computer vision
+Topic keywords:
+Thematic keywords: predictive maintenance, remote sensing
+Paper flags: High Leverage, High Risk
+
+
+Title: Reducing system waste
+1-2 sentence summary: As electricity gets transported from generators to consumers, some of it gets lost as resistive heat on electricity lines. ML can help prevent avoidable losses through predictive maintenance.
+ML keywords: supervised learning
+Topic keywords:
+Thematic keywords: predictive maintenance
+Paper flags:
+
+
+Title: Modeling emissions
+1-2 sentence summary: Reducing the emissions associated with electricity use requires understanding what the emissions on the electric grid actually are at any given moment. ML can help estimate and forecast emissions, and potentially model the uncertainty in these estimates.
+ML keywords:
+Topic keywords: supervised learning, time-series, uncertainty quantification, deep learning
+Thematic keywords: forecasting
+Paper flags:
+
+
+Title: Improving clean energy access
+1-2 sentence summary: Improving access to clean electricity can address climate change while benefiting society, resulting in decreased emissions from wood-fired stoves, diesel generators, and other sources. ML can help manage rural microgrids and gather data to aid energy access policy.
+ML keywords: supervised learning, computer vision, time-series, deep learning
+Topic keywords:
+Thematic keywords: data mining and generation, remote sensing, forecasting
+Paper flags:
+
+
+Title: Low-data settings
+1-2 sentence summary: In many places, data on electricity systems are not widely collected or shared; but addressing these systems is essential for both equity and impact. ML can help gather data in some cases, and ML techniques designed with low-data settings in mind can have outsized impact.
+ML keywords: supervised learning, computer vision, transfer learning
+Topic keywords:
+Thematic keywords: data mining and generation, remote sensing, hybrid physical models
+Paper flags: High Leverage
+Transportation
+Title: Understanding transportation data
+1-2 sentence summary: Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.
+ML keywords:
+Topic keywords:
+Thematic keywords: data mining and generation, remote sensing
+Paper flags: 
+
+
+Title: Modeling demand
+1-2 sentence summary: Infrastructure decisions shape what kinds of transportation options people choose -- both for freight and personal transit. ML can help estimate current transportation usage, forecast future demand, and optimize infrastructure based on demand. 
+ML keywords:
+Topic keywords:
+Thematic keywords: forecasting, system optimization
+Paper flags: High Leverage
+
+
+Title: Shared mobility
+1-2 sentence summary: It is unclear whether shared mobility (such as Uber and Lyft) will increase or decrease emissions. ML can help model the emissions impacts of shared mobility.
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization
+Paper flags: High Risk
+
+
+Title: Freight routing and consolidation
+1-2 sentence summary: Intelligently routing and consolidating freight shipments can dramatically reduce emissions. ML can help optimize freight transportation by gathering information about suppliers, freight demand, and transit delays, and then by using this information to create optimal transportation schedules.
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization, forecasting
+Paper flags: High Leverage
+
+
+Title: Alternatives to transport
+1-2 sentence summary: Technologies such as additive manufacturing or virtual communication may help replace or reduce transportation demand. ML can help develop and improve both of these technologies.
+ML keywords:
+Topic keywords:
+Thematic keywords: accelerated experimentation, human interaction
+Paper flags: High Risk
+
+
+Title: Designing for efficiency
+1-2 sentence summary: There are many ways to reduce the amount of energy that a vehicle uses. ML can help design and operate engines to improve efficiency, provide proxies for complex aerodynamics models used in vehicle design, and improve processes for manufacturing lighter vehicle parts.
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization, model approximation, accelerated experimentation, remote sensing, control systems
+Paper flags:
+
+
+Title: Autonomous vehicles
+1-2 sentence summary: Autonomous vehicles may increase the efficiency of transportation, though they may also increase driving (and therefore emissions). ML can help develop drones to more efficiently deliver freight, synchronize autonomous fleets to drive efficiently, and improve other applications specifically aimed at reducing energy consumption.
+ML keywords: 
+Topic keywords:
+Thematic keywords: control systems, remote sensing, system optimization, 
+Paper flags: High Risk
+
+
+Title: Electric vehicles
+1-2 sentence summary: Electric vehicles can play a key role in decarbonizing transport -- assuming, of course, that electricity is generated using low-carbon sources. ML can help develop and optimize electric vehicle batteries, as well as model charging patterns.
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization, accelerated experimentation, forecasting
+Paper flags: High Leverage
+
+
+Title: Alternative fuels
+1-2 sentence summary:  Aviation, long-distance road transportation, and ocean shipping require liquid fuels with high energy density and are thus not conducive to electrification. ML can help accelerate the discovery of liquid fuels. 
+ML keywords:
+Topic keywords:
+Thematic keywords: accelerated experimentation
+Paper flags: Long-term
+
+
+Title: Passenger preferences
+1-2 sentence summary: Understanding passengers’ travel preferences can inform long-term transportation planning. ML can help predict or infer passengers’ travel choices, as well as design better travel surveys.
+ML keywords:
+Topic keywords:
+Thematic keywords: human interaction
+Paper flags:
+
+
+Title: Enabling low-carbon options[a]
+1-2 sentence summary: Good low-carbon transportation systems often involve coordination between buses, trains, bikes, and other transit options. ML can help with this coordination by predicting arrival times, optimizing the locations of shared bikes and electric scooters, and otherwise ensuring that passengers and freight can switch seamlessly between travel options.
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization, forecasting, remote sensing
+Paper flags: High Leverage
+
+
+# Buildings & Cities
+
+Title: Energy use models
+1-2 sentence summary: Making buildings more energy-efficient will require understanding the increasing amounts of data produced by meters and home energy monitors. ML can help model energy demand within buildings, quantify the energy used by individual appliances, and evaluate the effectiveness of energy efficiency measures.
+ML keywords: Time-Series, Supervised Learning, Hybrid Physical Models, Causal Inference, RL and Control, Transfer Learning
+Topic keywords: Load forecasting, Energy disaggregation, Single-Building Energy Model
+Thematic keywords: system optimization, hybrid physical models, model approximation
+Paper flags:
+
+
+Title: Smart buildings
+1-2 sentence summary: Buildings can decrease their carbon footprint using intelligent appliances and control systems. ML can help control heating and cooling systems more efficiently, adapt lighting and temperature to occupancy patterns, and change energy use in response to carbon-sensitive energy prices.
+ML keywords: Deep Learning, Time-Series, RL and Control, Supervised Learning, Unsupervised Learning
+Topic keywords: Energy Efficiency, HVAC, Fault Detection and Diagnosis, Occupancy Detection, Demand-Side Response, Smart-Meters, Internet of Things, Appliances
+Thematic keywords: control systems, system optimization, forecasting, predictive maintenance
+Paper flags: High Leverage
+
+
+Title: District-level energy use
+1-2 sentence summary: Energy use data is not available for most buildings, limiting the information available for city planners deciding which buildings to retrofit. ML can help predict energy use for buildings without data, based on other buildings within the city or district.
+ML keywords: Supervised Learning, Clustering
+Topic keywords: Energy Planning, Multi-Building Energy Models, Energy Consumption Survey
+Thematic keywords: data mining and generation
+Paper flags: 
+
+
+Title: Gathering infrastructure data
+1-2 sentence summary: Many places have almost no energy consumption data, which can make it difficult to design targeted mitigation strategies. ML can help infer attributes of buildings, such as volume or construction material, that are crucial to predicting energy use and efficiency potential.
+ML keywords: Computer Vision, Clustering, Deep Learning, Transfer Learning, Supervised Learning, Unsupervised Learning
+Topic keywords: Geospatial Data, 3D Building Models, Digital Twins, ML-assisted Mapping
+Thematic keywords: data mining and generation, remote sensing
+Paper flags: High Leverage
+
+
+Title: Data for smart cities
+1-2 sentence summary: Cities have increasingly large and diverse datasets at their disposal to improve efficiency and decrease emissions. ML can help analyze and infer information from these datasets via text-mining and other methods, preprocess large amounts of raw data (such as real-time traffic data), and integrate heterogeneous data sources.
+ML keywords: Deep Learning, Unsupervised Learning, NLP, Time-Series, Supervised Learning
+Topic keywords: Smart City Management, Data Mining, Data Management, Urban Computing
+Thematic keywords: data mining and generation
+Paper flags: 
+
+
+Title: Low-emission infrastructure
+1-2 sentence summary: Urban planning and infrastructure can be designed to make cities more sustainable and foster low-carbon lifestyles. ML can help model and coordinate the interaction between different infrastructure systems (such as buildings and transportation), and also assess how well solutions may transfer between different cities and regions.
+ML keywords:  Supervised Learning, Unsupervised Learning, Uncertainty Quantification
+Topic keywords: Climate Policy, Sector Coordination, Neighborhood Planning, City Typologies, Urban Planning, Infrastructure 
+Thematic keywords: system optimization
+Paper flags: High Leverage
+
+
+# Industry
+
+Title: Supply chains
+1-2 sentence summary: Shipping products and climate-controlled warehousing are major contributors to industrial greenhouse gas emissions, as is the waste from overproduced goods and unused food. ML can help reduce overproduction, optimize supply chains to decrease emissions (if incentive structures are aligned), and potentially recommend climate-friendly options to consumers and firms[b].
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization, forecasting
+Paper flags: High Leverage
+
+
+Title: Materials and construction
+1-2 sentence summary: Cement and steel production together account for approximately 9% of all global greenhouse gas emissions. ML can help develop construction techniques that require less raw material, and also speed up the search for new materials and chemical processes with lower climate impact.
+ML keywords:
+Topic keywords:
+Thematic keywords: accelerated experimentation
+Paper flags: High Leverage
+
+
+Title: Production and energy
+1-2 sentence summary: The amount of energy consumed by industrial processes can be significantly reduced (especially if incentive structures are developed to promote the adoption of more efficient technology). ML can help efficiently control heating and cooling systems, design new catalysts for ammonia production and other processes, increase production efficiency through predictive maintenance, detect leaks of greenhouse gases such as methane and hydrofluorocarbons, and allow flexible demand for electricity according to carbon-sensitive pricing.
+ML keywords: 
+Topic keywords: 
+Thematic keywords: predictive maintenance, control systems, system optimization, accelerated experimentation
+Paper flags: High Leverage
+
+# Farms & Forests
+
+Title: Remote sensing of emissions
+1-2 sentence summary: Greenhouse gases interact with sunlight, by definition, which means they can be picked up by hyperspectral cameras. ML can help track greenhouse gases from satellite or aerial imagery.
+ML keywords: supervised learning, computer vision
+Topic keywords:
+Thematic keywords: remote sensing
+Paper flags: High Leverage
+
+
+Title: Precision agriculture
+1-2 sentence summary: Typical industrial agriculture releases CO2 into the atmosphere by disrupting natural soil chemistry and biodiversity, and also requires chemicals that are emissions-intensive both to produce and to use. ML can help monitor emissions; reduce the need for chemicals by pinpointing pests, diseases, and weeds; and change agricultural paradigms by controlling physical robots.
+ML keywords: supervised learning, reinforcement learning, computer vision
+Topic keywords:
+Thematic keywords: control systems, system optimization, forecasting, remote sensing
+Paper flags: High Leverage, High Risk
+
+
+Title: Protecting peatlands
+1-2 sentence summary: Peatlands (a type of wetland ecosystem) cover only 3% of the Earth’s land area, yet hold twice the total carbon in all the world’s forests. ML can help monitor peatlands, guarding them against drainage or fire, both of which release carbon.
+ML keywords: computer vision
+Topic keywords:
+Thematic keywords: remote sensing
+Paper flags: 
+
+
+Title: Carbon stock estimation
+1-2 sentence summary: Modeling (and pricing) carbon stored in forests requires us to assess how much is being sequestered or released across the planet. ML can help identify tree species and heights from satellite and aerial imagery.
+ML keywords:
+Topic keywords: supervised learning, computer vision
+Thematic keywords: remote sensing
+Paper flags: High Leverage
+
+
+Title: Automated afforestation
+1-2 sentence summary: Planting trees in well-chosen locations can help sequester carbon while (if done with care) improving local ecology. ML can help locate appropriate planting sites, monitor plant health, assess weeds, analyze trends, and even control tree-planting drones.
+ML keywords: supervised learning, computer vision
+Topic keywords:
+Thematic keywords: remote sensing, control systems
+Paper flags: Long-term, High Risk
+
+
+Title: Forest fire management
+1-2 sentence summary: Large forest fires release CO2 into the atmosphere, besides potentially harming people and property, while small fires can be beneficial by preventing large ones. ML can help firefighters better understand and control forest fires by forecasting droughts, estimating moisture in the forest canopy, and predicting the progression of fires.
+ML keywords: supervised learning, reinforcement learning, computer vision
+Topic keywords:
+Thematic keywords: remote sensing, forecasting
+Paper flags:
+
+
+Title: Forestry
+1-2 sentence summary: Forests store a large amount of CO2 in biomass and soil, but much of this CO2 is released when forests are destroyed. ML can help track illegal deforestation using imagery or even audio signals, and also provide tools for sustainable harvesting and forest management.
+ML keywords: computer vision, deep learning
+Topic keywords:
+Thematic keywords: remote sensing
+Paper flags: High Leverage, High Risk
+
+# CO2 Removal
+
+
+Title: Direct air capture (DAC)
+1-2 sentence summary: To some extent, CO2 can be removed from the air using direct air capture (DAC) technologies. ML can help speed up the search for corrosion-resistant materials and sorbents (CO2 “sponges”) that allow DAC technologies to capture CO2 more efficiently and inexpensively.
+ML keywords:
+Topic keywords: direct air capture, DAC, negative emissions, sorbent, amine, calcination, accelerated materials discovery
+Thematic keywords: accelerated experimentation, system optimization
+Paper flags: Long-term
+
+
+Title: Sequestering CO2
+1-2 sentence summary: Once CO2 is captured from power plant exhaust, industrial processes, or ambient air, it will ultimately be released back into the atmosphere unless it is permanently sequestered. ML can help identify promising sequestration locations as well as monitor these locations to prevent leaks.
+ML keywords: supervised learning, time-series, Bayesian/causal inference, uncertainty quantification, transfer learning, deep learning, computer vision
+Topic keywords: Sequestration, sandstone, basalt, geophysics, saline aquifer, injection well, carbon dioxide, plume migration
+Thematic keywords: remote sensing, predictive maintenance, hybrid physical models
+Paper flags: High Leverage, Long-term, High Risk
+
+
+# Climate Prediction
+Title: Uniting data, ML, and climate science
+1-2 sentence summary: Modeling the climate is fundamental for understanding (and responding to) climate change. ML can help characterize physical systems (such as ice sheets and clouds) that are important to understanding climate, intelligently combine the outputs of multiple climate models, and even build new climate modeling techniques by combining data and climate physics. 
+ML keywords: supervised learning, computer vision, uncertainty quantification, ensemble methods, generative models, Bayesian/causal inference, time-series, interpretable ML, deep learning
+Topic keywords: Earth system models, global circulation models
+Thematic keywords: hybrid physical models, model approximation, remote sensing, accelerated experimentation
+Paper flags: High Leverage
+
+
+Title: Forecasting extreme events
+1-2 sentence summary: Storms, droughts, fires, floods, and other extreme events will continue to become stronger and more frequent as climate change progresses. ML can help forecast extreme events, enabling more informed decisions about infrastructure, asset valuation and disaster response planning. 
+ML keywords: time series, Bayesian/causal inference, computer vision, deep learning
+Topic keywords:
+Thematic keywords: forecasting, remote sensing, hybrid physical models
+Paper flags: High Leverage
+
+
+# Societal Impacts
+
+Title: Monitoring ecosystems
+1-2 sentence summary: Climate change poses catastrophic threats to global ecosystems, endangering the food supply and other natural resources on which humanity depends. ML can help model ecosystem effects and track changes in real time via remote sensing.
+ML keywords: supervised learning, transfer learning, computer vision, deep learning
+Topic keywords: sensor networks, global climate models
+Thematic keywords: remote sensing, data mining and generation
+Paper flags: High Leverage
+
+
+Title: Monitoring biodiversity
+1-2 sentence summary: Responding to ecological impacts requires understanding the changing abundance and distribution of individual species. ML can help work with data created by networks of citizen scientists and can also monitor species directly via camera trap data and aerial imagery.
+ML keywords: supervised learning, computer vision, deep learning
+Topic keywords: citizen science, camera trap data
+Thematic keywords: remote sensing, data mining and generation
+Paper flags: High Leverage
+
+
+Title: Design
+1-2 sentence summary: Infrastructure such as roads, power grids, and water mains must be designed to account for the increasing frequency and severity of extreme weather events. ML can help pinpoint vulnerable areas, provide localized predictions, and incorporate historical or proxy data to identify what infrastructure is needed.
+ML keywords: uncertainty quantification, interpretable ML
+Topic keywords: intelligent infrastructure, resilient infrastructure
+Thematic keywords: forecasting, data mining and generation
+Paper flags: Long-term
+
+
+Title: Maintenance
+1-2 sentence summary: Under the increased threat of extreme events, society must efficiently allocate limited resources to effectively maintain infrastructure. ML can help predict where failures are most likely to occur and pinpoint failures if they do occur.
+ML keywords: supervised learning, reinforcement learning, time-series, uncertainty quantification, transfer learning, ensemble methods
+Topic keywords: intelligent infrastructure, resilient infrastructure
+Thematic keywords: predictive maintenance, data mining and generation
+Paper flags: High Leverage
+
+
+Title: Securing food supplies
+1-2 sentence summary: Climate change is expected to decrease crop yields in many locations, due to drought and desertification. ML can help monitor the real-time risk of food shortages, forecast longer-term crop yields, and improve the resilience of food supply chains to help society better manage food security threats.
+ML keywords: supervised learning, computer vision, time-series, transfer learning, deep learning
+Topic keywords: early warning systems
+Thematic keywords: remote sensing, data mining and generation, forecasting, system optimization
+Paper flags: High Leverage
+
+
+
+
+Title: Supporting resilient livelihoods
+1-2 sentence summary: Farmers and other individuals whose livelihoods depend directly on ecological systems are at especially high risk from climate change. ML can help increase resilience by facilitating equipment and information sharing, better target social interventions by monitoring economic health, and improve online employment matching and skill training systems.
+ML keywords: supervised learning, NLP, time series, interpretable ML, recommender systems
+Topic keywords: mobile money, early warning systems
+Thematic keywords: system optimization, data mining and generation, human interaction
+Paper flags: 
+
+Title: Supporting displaced people
+1-2 sentence summary: Climate change will likely have large-scale economic and socio-political consequences, which can lead to mass human migration. ML can help provide support to migrants by monitoring and predicting large-scale migration patterns, though care must be taken to ensure such monitoring is not used to exploit migrants.
+ML keywords: unsupervised learning, NLP, time-series, uncertainty quantification, transfer learning, recommender systems
+Topic keywords: social data mining
+Thematic keywords: data mining and generation, remote sensing, human interaction
+Paper flags: Long-term, High Risk
+
+Title: Assessing health risks
+1-2 sentence summary: Climate change is expected to exacerbate existing health hazards, by increasing the frequency and severity of heatwaves, expanding the range of vector borne diseases, and reducing air quality. ML can monitor exposures and drive strategies to protect vulnerable populations.
+ML keywords: supervised learning, time series, interpretable ML, Bayesian/causal inference
+Topic keywords: exposure monitoring, public health
+Thematic keywords: forecasting, data mining and generation
+Paper flags:
+
+Title: Managing epidemics
+1-2 sentence summary: Climate change may increase the likelihood of disease epidemics. ML can help model the spread of disease and provide scalable tools for diagnosis to help society better respond to epidemics.
+ML keywords: time-series, reinforcement learning, uncertainty quantification, Bayesian / causal inference
+Topic keywords: disease surveillance, disease response
+Thematic keywords: forecasting, data mining and generation
+Paper flags: 
+
+Title: Responding to disasters
+1-2 sentence summary: Storms, droughts, fires, floods, and other disasters will continue to become stronger and more frequent as climate change progresses. ML can help inform evacuation plans, infrastructure retrofits, and relief efforts by improving maps and retrieving information from social media.
+ML keywords: supervised learning, unsupervised learning, NLP, transfer learning, interpretable ML
+Topic keywords: social data mining
+Thematic keywords: remote sensing, data mining and generation
+Paper flags: High Leverage
+
+# Solar Geoengineering
+
+Title: Understanding and improving aerosols
+1-2 sentence summary: Many solar geoengineering proposals rely on injecting aerosol particles into the atmosphere to partially reflect sunlight, but their physics is not fully understood. ML can help speed up physical models and quantify the uncertainty of predictions (and possibly help discover better candidate molecules).
+ML keywords: uncertainty quantification, generative models, time-series, deep learning
+Topic keywords: solar geoengineering, aerosol physics, climate modeling, climate engineering
+Thematic keywords: model approximation, accelerated experimentation, hybrid physical models
+Paper flags: Long-term
+
+Title: Engineering a control system
+1-2 sentence summary: Controlling a geoengineering system comes with a multitude of challenges and a host of possible side effects, many of which could be catastrophic. Speculatively, ML can help fine-tune geoengineering interventions by suggesting control actions and emulating the complex dynamical systems involved.
+ML keywords: reinforcement learning, uncertainty quantification, time-series, deep learning
+Topic keywords: solar geoengineering, climate engineering, stratospheric aerosols
+Thematic keywords: control systems, model approximation, hybrid physical models
+Paper flags: High Impact, Long-term, High Risk
+
+Title: Modeling impacts
+1-2 sentence summary: It remains unclear what consequences will result from geoengineering proposals such as injecting aerosols into the stratosphere. ML can help model the impact of aerosols on human health, the effect of diminished light on agriculture, and other potential consequences of solar geoengineering. 
+ML keywords: uncertainty quantification, deep learning
+Topic keywords: integrated assessment modeling, agriculture yield prediction, stratospheric aerosols
+Thematic keywords: 
+Paper flags: Long-term
+
+# Tools for Individuals
+
+Title: Understanding personal carbon footprint
+1-2 sentence summary: Individuals constantly make decisions that affect their carbon footprint, and many wish to reduce their impact. ML can help quantify the climate impact of consumer products and actions, and also estimate the benefits resulting from personal behavior change.
+ML keywords: supervised learning, causal inference, computer vision, NLP, deep learning
+Topic keywords: flights, groceries, ride-sharing, household carbon footprint
+Thematic keywords: data mining and generation, human interaction
+Paper flags:  
+
+Title: Reducing household energy impact
+1-2 sentence summary: About a third of global electricity consumption occurs in the home, and reducing the associated emissions can benefit both individuals and society as a whole. ML can help provide appliance-level energy use data, optimize appliances to operate when low-carbon electricity is available, and identify households with high potential for efficiency gain.[c]
+ML keywords: supervised learning, reinforcement learning, time-series, deep learning, clustering
+Topic keywords: energy disaggregation, scheduling appliances, household emissions
+Thematic keywords: data mining and generation, forecasting, system optimization, control systems, human interaction
+Paper flags: 
+
+Title: Facilitating behavior change
+1-2 sentence summary: Many consumers are eager to contribute to climate change solutions, and engaging them can be highly impactful. ML can help effectively inform consumers and provide constructive opportunities by modeling consumer behavior.
+ML keywords: supervised learning, unsupervised learning, NLP, deep learning, clustering, recommender systems
+Topic keywords: targeting interventions, consumption characteristics, demographics
+Thematic keywords: data mining and generation, human interaction
+Paper flags: High Leverage
+
+# Tools for Society
+
+Title: Policy design
+1-2 sentence summary: Designing effective climate policies is essential to tackling climate change. ML can help with this process by modeling human preferences and modeling the effects of proposed policies.
+ML keywords:
+Topic keywords:
+Thematic keywords: data mining and generation
+Paper flags: 
+
+Title: Market design
+1-2 sentence summary: Carbon pricing and other market-based proposals can accelerate the reduction of greenhouse gas emissions. ML can help design effective pricing systems by modeling markets and consumer behavior.  
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization
+Paper flags: 
+
+Title: Multi-objective optimization and decision-making
+1-2 sentence summary: Decision-makers must often make complex trade-offs when designing climate change policies. ML can help provide tools for multi-criteria decision-making and multi-objective optimization, two commonly-used frameworks for understanding these trade-offs. 
+ML keywords:
+Topic keywords:
+Thematic keywords: system optimization
+Paper flags: 
+
+# Education
+
+Title: AI in education
+1-2 sentence summary: In addition to being universally beneficial, education can improve the resilience of communities to climate change, especially in developing countries. ML can help enable personalized and scalable tools for education.
+ML keywords: supervised learning, deep learning
+Topic keywords: AIED, learner analytics, educational data mining.
+Thematic keywords: human interaction
+Paper flags: 
+
+Title: Learning about climate
+1-2 sentence summary: Education can empower individuals to adopt more sustainable lifestyles. ML can help educate the public about climate change through conversational agents and adaptive learning techniques.
+ML keywords: NLP, supervised learning.
+Topic keywords: climate education, sustainability education.
+Thematic keywords: human interaction
+Paper flags: 
+
+# Finance
+
+Title: Climate investment
+1-2 sentence summary: There is wide demand for investment in companies with low carbon footprint or those that actively address the climate crisis, both for reasons of societal benefit and because these are widely expected to be good investments in the long term. ML can help, potentially, both in designing portfolios and in timing investments.
+ML keywords: NLP, time-series, supervised learning
+Topic keywords: carbon-neutral investment, green finance
+Thematic keywords: forecasting
+Paper flags: 
+
+
+Title: Climate analytics
+1-2 sentence summary: Climate change will seriously impact a wide swath of global companies, and quantifying the expected financial impacts can incentivize investors and companies to act. ML can help forecast prices in carbon markets, identify climate risks and investment opportunities from corporate disclosures, and quantify the monetary impact of climate change on supply and demand. 
+ML keywords: NLP, time-series, uncertainty quantification, deep learning
+Topic keywords: climate risk, financial impact, carbon markets
+Thematic keywords: forecasting, data mining and generation
+Paper flags: High Leverage
