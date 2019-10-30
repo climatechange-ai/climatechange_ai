@@ -22,9 +22,9 @@ Climate change is one of the greatest problems society has ever faced, with incr
       <div class='panel-heading'>ENGAGE</div>
       <div class='panel-block'>
         <ul>
+          <li><a href='https://forum.climatechange.ai/' target='_blank'>Join</a> our discussion forum</li>
           <li><a href='./mailing_list.html'>Sign up</a> for our <a href='./newsletter.html'>newsletter</a></li>
           <li>Attend our workshops at <a href='./NeurIPS2019_workshop.html'>NeurIPS 2019</a> or <a href='./AMLD2020_workshop.html'>AMLD 2020</a></li>
-          <li><a href='https://forum.climatechange.ai/' target='_blank'>Join</a> our discussion forum</li>
         </ul>
       </div>
     </div>
