@@ -17,7 +17,27 @@ $dark: black;
 @import "bulma-scss/components/_panel";
 @import "bulma-scss/components/_card";
 @import "bulma-scss/elements/_button";
+@import "bulma-scss/elements/_tag";
 @import "bulma-scss/form/_all";
+
+.navbar-item.with-tag {
+  &:hover {
+    text-decoration: none;
+
+    .link-text {
+      text-decoration: underline;
+    }
+  }
+
+  .tag {
+    margin-left: 1em;
+    background-color: rgb(78,154,207);
+    color: white;
+    font-size: 12px;
+    padding: 0 9px;
+    text-decoration: none !important;
+  }
+}
 
 .panel ul {
   padding-left: 1.5rem;
