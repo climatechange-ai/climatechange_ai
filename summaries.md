@@ -54,6 +54,7 @@ $(document).ready(function() {
       for (let i = 0; i < s.subsections.length; i++) {
         const ss = s.subsections[i];
         const tags = [];
+        const flags = [];
         for (let kw of ss.ml_keywords) {
           ml_kwds.add(kw);
           tags.push(`<a class="tag is-light is-ml">#${kw}</a>`);
@@ -66,6 +67,15 @@ $(document).ready(function() {
           thematic_kwds.add(kw);
           tags.push(`<a href="#" class="tag is-light is-thematic">#${kw}</a>`);
         }
+        for (let flag of ss.paper_flags) {
+          if (flag == 'High Risk' || flag == 'Uncertain Impact') {
+            flags.push(`<span class='tag paper-flag is-uncertain-impact'>Uncertain Impact</span>`);
+          } else if (flag == 'Long-term') {
+            flags.push(`<span class='tag paper-flag is-long-term'>Long-Term</span>`);
+          } else if (flag == 'High Leverage') {
+            flags.push(`<span class='tag paper-flag is-high-leverage'>High Leverage</span>`);
+          }
+        }
 
         html += `
           <div class="subsection card clearfix"
@@ -74,11 +84,10 @@ $(document).ready(function() {
             data-thematic='${JSON.stringify(ss.thematic_keywords)}'>
 
             <header class="card-header collapsible-header">
-              <span class="card-header-title">
+              <div class="card-header-title">
                 ${ss.title}
-              </span>
-              <a href="#" class="card-header-icon" aria-label="more options">
-              </a>
+                <div class='paper-flags'>${flags.join(" ")}</div>
+              </div>
             </header>
             <div class="card-content">
               <div class="content">

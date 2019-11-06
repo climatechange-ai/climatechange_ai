@@ -21,6 +21,7 @@ $dark: black;
 @import "bulma-scss/form/_all";
 @import "chosen";
 
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -284,4 +285,36 @@ html, body {
   .tag:hover {
     cursor: pointer;
   }
+}
+
+#sections .card-header-title {
+  display: block;
+}
+
+.paper-flags {
+  float: right;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 650px) {
+  .paper-flags {
+    float: none;
+  }
+}
+
+.tag.paper-flag {
+  background: white;
+  border: 1px solid;
+  margin-top: 1px;
+  vertical-align: text-top;
+}
+
+.tag.is-high-leverage {
+  color: rgb(3,117,180);
+}
+.tag.is-long-term {
+  color: rgb(0,120,73);
+}
+.tag.is-uncertain-impact {
+  color: rgb(219,175,0);
 }
