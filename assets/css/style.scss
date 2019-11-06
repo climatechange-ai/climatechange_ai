@@ -252,9 +252,7 @@ html, body {
 }
 
 #sections .subsection {
-  //margin-right: 1rem;
   margin-bottom: 1rem;
-  //width: calc(33.33% - 1rem);
   width: 100%;
 }
 
@@ -281,14 +279,9 @@ html, body {
   vertical-align: top;
 }
 
-//@media only screen and (max-width: 950px) {
-//  #sections .subsection {
-//    width: calc(50% - 1rem);
-//  }
-//}
-//
-//@media only screen and (max-width: 650px) {
-//  #sections .subsection {
-//    width: 100%;
-//  }
-//}
+#sections .card-footer-item p {
+  margin-bottom: 0;
+  .tag:hover {
+    cursor: pointer;
+  }
+}

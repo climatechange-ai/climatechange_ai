@@ -27,9 +27,9 @@ On this page, we provide an interactive view of <a href='https://arxiv.org/abs/1
 
 
 <style>
-  /* quick hack: hide the topic keywords without changing the code. delete this <style> to make them visible. */
+  /* quick hack: hide the topic keywords without changing the code. comment or uncomment as desired */
   .tag.is-topic, .topic-keywords {
-    display: none !important;
+    // display: none !important;
   }
 </style>
 
@@ -56,15 +56,15 @@ $(document).ready(function() {
         const tags = [];
         for (let kw of ss.ml_keywords) {
           ml_kwds.add(kw);
-          tags.push(`<a class="tag is-primary is-ml">${kw}</a>`);
+          tags.push(`<a class="tag is-light is-ml">#${kw}</a>`);
         }
         for (let kw of ss.topic_keywords) {
           topic_kwds.add(kw);
-          tags.push(`<a href="#" class="tag is-success is-topic">${kw}</a>`);
+          tags.push(`<a href="#" class="tag is-light is-topic">#${kw}</a>`);
         }
         for (let kw of ss.thematic_keywords) {
           thematic_kwds.add(kw);
-          tags.push(`<a href="#" class="tag is-info is-thematic">${kw}</a>`);
+          tags.push(`<a href="#" class="tag is-light is-thematic">#${kw}</a>`);
         }
 
         html += `
@@ -82,13 +82,16 @@ $(document).ready(function() {
             </header>
             <div class="card-content">
               <div class="content">
-                ${tags.join(" ")}
-                <hr/>
-                ${ss.summary}
+                <p>${ss.summary}</p>
+                <a class='button is-link' href="https://arxiv.org/pdf/1906.05433.pdf#subsection.${j+1}.${i+1}" target="_blank">Read More</a>
               </div>
             </div>
             <footer class='card-footer'>
-              <a class='card-footer-item' href="https://arxiv.org/pdf/1906.05433.pdf#subsection.${j+1}.${i+1}" target="_blank">Read more</a>
+              <div class='card-footer-item'>
+                <p>
+                ${tags.join(" ")}
+                </p>
+              </div>
             </footer>
           </div>
         `;
@@ -193,15 +196,15 @@ $(document).ready(function() {
     });
 
     $('.is-thematic').click((ev) => {
-      theme_sel.val($(ev.currentTarget).text()).trigger("change").trigger("chosen:updated");
+      theme_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
     });
 
     $('.is-topic').click((ev) => {
-      topic_sel.val($(ev.currentTarget).text()).trigger("change").trigger("chosen:updated");
+      topic_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
     });
 
     $('.is-ml').click((ev) => {
-      learn_sel.val($(ev.currentTarget).text()).trigger("change").trigger("chosen:updated");
+      learn_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
     });
 
     $('#reset').click(() => {
