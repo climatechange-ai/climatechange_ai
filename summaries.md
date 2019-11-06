@@ -2,10 +2,19 @@
 
 On this page, we provide an interactive view of <a href='https://arxiv.org/abs/1906.05433' target='_blank'>the paper</a> at a subsection level. You can select keywords below to filter the list.
 
-
+<div class='keywords field'>
+  <label class='label'>Paper Section</label>
+  <div class='control'>
+    <div class='select is-small'>
+      <select id='section-select' placeholder="Select a paper section...">
+        <option></option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <div class='keywords field'>
-  <label class='label'>Machine Learning Keywords</label>
+  <label class='label'>ML Keywords</label>
   <div class='control'>
     <select multiple data-placeholder="Select machine learning keywords..." class="chosen-select" id='ml-keywords'></select>
   </div>
@@ -22,17 +31,6 @@ On this page, we provide an interactive view of <a href='https://arxiv.org/abs/1
   <label class='label'>Topic Keywords</label>
   <div class='control'>
   <select multiple data-placeholder="Select topic-specific keywords..." class="chosen-select" id='topic-keywords'></select>
-  </div>
-</div>
-
-<div class='keywords field'>
-  <label class='label'>Paper Section</label>
-  <div class='control'>
-    <div class='select is-small'>
-      <select id='section-select' placeholder="Select a paper section...">
-        <option></option>
-      </select>
-    </div>
   </div>
 </div>
 
@@ -72,6 +70,7 @@ $(document).ready(function() {
         const ss = s.subsections[i];
         const tags = [];
         const flags = [];
+
         for (let kw of ss.ml_keywords) {
           ml_kwds.add(kw);
           tags.push(`<a class="tag is-light is-ml">#${kw}</a>`);
@@ -94,6 +93,24 @@ $(document).ready(function() {
           }
         }
 
+        let pdfLink;
+        if (ss.pdf_location) {
+          pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#${ss.pdf_location}`;
+        } else if (ss.section_number) {
+          const level = ss.section_number.split(".").length;
+          if (level == 3) {
+            pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#subsubsection.${ss.section_number}`;
+          } else if (level == 2) {
+            pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#subsection.${ss.section_number}`;
+          } else if (level == 1) {
+            pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#section.${ss.section_number}`;
+          } else {
+            console.log(`WARNING: missing pdf link for ${s.title} > ${ss.title}`);
+          }
+        } else {
+          console.log(`WARNING: missing pdf link for ${s.title} > ${ss.title}`);
+        }
+
         html += `
           <div class="subsection card clearfix"
             data-section='${JSON.stringify([s.title])}'
@@ -110,7 +127,7 @@ $(document).ready(function() {
             <div class="card-content">
               <div class="content">
                 <p>${ss.summary}</p>
-                <a class='button is-link' href="https://arxiv.org/pdf/1906.05433.pdf#subsection.${j+1}.${i+1}" target="_blank">Read More</a>
+                <a class='button is-link' href="${pdfLink}" target="_blank">Read More</a>
               </div>
             </div>
             <footer class='card-footer'>

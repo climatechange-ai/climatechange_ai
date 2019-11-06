@@ -16,9 +16,6 @@
           "clustering"
         ],
         "topic_keywords": [
-          "electricity",
-          "electric grid",
-          "power grid",
           "low-carbon electricity",
           "variable electricity",
           "renewable energy",
@@ -33,7 +30,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.1"
       },
       {
         "title": "Improving scheduling and flexible demand",
@@ -44,7 +43,15 @@
           "deep learning"
         ],
         "topic_keywords": [
-
+          "electricity",
+          "electric grid",
+          "power grid",
+          "scheduling and dispatch",
+          "optimal power flow",
+          "unit commitment",
+          "flexible demand",
+          "demand response",
+          "decentralized control"
         ],
         "thematic_keywords": [
           "model approximation",
@@ -53,10 +60,12 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.1"
       },
       {
-        "title": "Accelerated science for materials",
+        "title": "Accelerating materials science",
         "summary": "Designing new materials is important for many applications, including energy storage via fuels and batteries. ML can help suggest promising materials to try, thereby speeding up the materials discovery process.",
         "ml_keywords": [
           "supervised learning",
@@ -66,7 +75,11 @@
           "generative models"
         ],
         "topic_keywords": [
-
+          "solar fuels",
+          "batteries",
+          "materials science",
+          "computational science",
+          "patent analysis"
         ],
         "thematic_keywords": [
           "accelerated experimentation"
@@ -74,7 +87,10 @@
         "paper_flags": [
           "High Leverage",
           "Long-term"
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.1",
+        "pdf_location": "page=8&zoom=auto,0,450"
       },
       {
         "title": "Additional applications (for variable sources)",
@@ -85,7 +101,13 @@
           "Bayesian/causal inference"
         ],
         "topic_keywords": [
-
+          "low-carbon electricity",
+          "variable electricity",
+          "renewable energy",
+          "solar power",
+          "wind power",
+          "distributed energy resources",
+          "fault detection"
         ],
         "thematic_keywords": [
           "remote sensing",
@@ -95,34 +117,50 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.1"
       },
       {
-        "title": "Nuclear power plants",
-        "summary": "Nuclear power plants require effective maintenance and inspection to ensure public safety and reduce costs. ML can help improve maintenance and fault detection systems.",
+        "title": "Managing existing technologies",
+        "summary": "Many controllable low-carbon technologies, such as geothermal, nuclear fission, and (in some cases) dam-based hydropower, are already commercially available. ML can help plan where these technologies should be deployed and maintain power plants that are already operating.",
         "ml_keywords": [
           "computer vision"
         ],
         "topic_keywords": [
-
+          "low-carbon electricity",
+          "geothermal",
+          "nuclear power",
+          "nuclear waste",
+          "next-generation nuclear plant",
+          "bioenergy",
+          "carbon capture and storage",
+          "carbon capture and sequestration"
         ],
         "thematic_keywords": [
+          "remote sensing",
           "predictive maintenance"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.2"
       },
       {
-        "title": "Nuclear fusion",
+        "title": "Accelerating fusion science",
         "summary": "Nuclear fusion has the potential to produce safe, carbon-free electricity, but such reactors continue to consume more energy than they produce. ML can help suggest parameters for physical experiments and also model the behavior of plasma inside reactors.",
         "ml_keywords": [
+          "low-carbon electricity",
           "supervised learning",
           "reinforcement learning",
           "Bayesian/causal inference"
         ],
         "topic_keywords": [
-
+          "tokamak",
+          "magnetic confinement",
+          "inertial confinement",
+          "magnetohydrodynamic equations"
         ],
         "thematic_keywords": [
           "control systems",
@@ -131,7 +169,9 @@
         "paper_flags": [
           "High Leverage",
           "Long-term"
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.1.2"
       },
       {
         "title": "Reducing life-cycle fossil fuel emissions",
@@ -141,7 +181,9 @@
           "computer vision"
         ],
         "topic_keywords": [
-
+          "fossil fuels",
+          "natural gas pipeline",
+          "natural gas compressor station"
         ],
         "thematic_keywords": [
           "predictive maintenance",
@@ -149,8 +191,10 @@
         ],
         "paper_flags": [
           "High Leverage",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.2"
       },
       {
         "title": "Reducing system waste",
@@ -159,20 +203,29 @@
           "supervised learning"
         ],
         "topic_keywords": [
-
+          "electricity",
+          "electric grid",
+          "power grid"
         ],
         "thematic_keywords": [
           "predictive maintenance"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.2"
       },
       {
         "title": "Modeling emissions",
         "summary": "Reducing the emissions associated with electricity use requires understanding what the emissions on the electric grid actually are at any given moment. ML can help estimate and forecast emissions, and potentially model the uncertainty in these estimates.",
         "ml_keywords": [
-
+          "electricity",
+          "electric grid",
+          "power grid",
+          "marginal emissions factors",
+          "average emissions factors",
+          "curtailments"
         ],
         "topic_keywords": [
           "supervised learning",
@@ -185,7 +238,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.2"
       },
       {
         "title": "Improving clean energy access",
@@ -197,7 +252,10 @@
           "deep learning"
         ],
         "topic_keywords": [
-
+          "electricity",
+          "electric grid",
+          "power grid",
+          "rural electrification"
         ],
         "thematic_keywords": [
           "data mining and generation",
@@ -206,10 +264,12 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.3"
       },
       {
-        "title": "Low-data settings",
+        "title": "Approaching low-data settings",
         "summary": "In many places, data on electricity systems are not widely collected or shared; but addressing these systems is essential for both equity and impact. ML can help gather data in some cases, and ML techniques designed with low-data settings in mind can have outsized impact.",
         "ml_keywords": [
           "supervised learning",
@@ -217,7 +277,9 @@
           "transfer learning"
         ],
         "topic_keywords": [
-
+          "electricity",
+          "electric grid",
+          "power grid"
         ],
         "thematic_keywords": [
           "data mining and generation",
@@ -226,7 +288,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Electricity Systems",
+        "section_number": "1.3"
       }
     ]
   },
@@ -237,10 +301,15 @@
         "title": "Understanding transportation data",
         "summary": "Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "computer vision",
+          "time-series",
+          "clustering"
         ],
         "topic_keywords": [
-
+          "traffic monitoring",
+          "vehicle counting"
         ],
         "thematic_keywords": [
           "data mining and generation",
@@ -248,16 +317,27 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.1"
       },
       {
         "title": "Modeling demand",
-        "summary": "Infrastructure decisions shape what kinds of transportation options people choose -- both for freight and personal transit. ML can help estimate current transportation usage, forecast future demand, and optimize infrastructure based on demand.",
+        "summary": "Infrastructure decisions shape what kinds of transportation options people choose -- both for freight and personal transit. ML can help model  current transportation usage, forecast future demand, and optimize infrastructure based on demand.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "uncertainty quantification",
+          "time-series",
+          "reinforcement learning",
+          "clustering",
+          "transfer learning"
         ],
         "topic_keywords": [
-
+          "agent-based travel demand models",
+          "transit ridership",
+          "spatiotemporal traffic forecasting",
+          "airport demand and capacity management"
         ],
         "thematic_keywords": [
           "forecasting",
@@ -265,66 +345,99 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.1"
       },
       {
         "title": "Shared mobility",
-        "summary": "It is unclear whether shared mobility (such as Uber and Lyft) will increase or decrease emissions. ML can help model the emissions impacts of shared mobility.",
+        "summary": "It is unclear whether shared mobility (such as ride-sharing services) will increase or decrease emissions. ML can help model the emissions impacts of shared mobility.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "ensemble methods",
+          "Bayesian/causal inference"
         ],
         "topic_keywords": [
-
+          "on-demand ride service",
+          "vehicle sharing"
         ],
         "thematic_keywords": [
           "system optimization"
         ],
         "paper_flags": [
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.1"
       },
       {
         "title": "Freight routing and consolidation",
         "summary": "Intelligently routing and consolidating freight shipments can dramatically reduce emissions. ML can help optimize freight transportation by gathering information about suppliers, freight demand, and transit delays, and then by using this information to create optimal transportation schedules.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "time-series",
+          "clustering",
+          "uncertainty quantification"
         ],
         "topic_keywords": [
-
+          "operations research",
+          "less-than-truckload",
+          "logistics service providers"
         ],
         "thematic_keywords": [
           "system optimization",
-          "forecasting"
+          "forecasting",
+          "control systems"
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.1"
       },
       {
         "title": "Alternatives to transport",
         "summary": "Technologies such as additive manufacturing or virtual communication may help replace or reduce transportation demand. ML can help develop and improve both of these technologies.",
         "ml_keywords": [
-
+          "supervised learning",
+          "computer vision",
+          "deep learning",
+          "reinforcement learning"
         ],
         "topic_keywords": [
-
+          "additive manufacturing",
+          "3-D printing",
+          "virtual communication",
+          "telepresence"
         ],
         "thematic_keywords": [
           "accelerated experimentation",
           "human interaction"
         ],
         "paper_flags": [
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.1"
       },
       {
         "title": "Designing for efficiency",
         "summary": "There are many ways to reduce the amount of energy that a vehicle uses. ML can help design and operate engines to improve efficiency, provide proxies for complex aerodynamics models used in vehicle design, and improve processes for manufacturing lighter vehicle parts.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "deep learning",
+          "computer vision"
         ],
         "topic_keywords": [
-
+          "combustion engine design",
+          "hybrid electric vehicles",
+          "turbulence",
+          "aerodynamics",
+          "additive manufacturing",
+          "3-D printing"
         ],
         "thematic_keywords": [
           "system optimization",
@@ -335,16 +448,23 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.2"
       },
       {
         "title": "Autonomous vehicles",
         "summary": "Autonomous vehicles may increase the efficiency of transportation, though they may also increase driving (and therefore emissions). ML can help develop drones to more efficiently deliver freight, synchronize autonomous fleets to drive efficiently, and improve other applications specifically aimed at reducing energy consumption.",
         "ml_keywords": [
-
+          "supervised learning",
+          "computer vision",
+          "deep learning",
+          "reinforcement learning"
         ],
         "topic_keywords": [
-
+          "autonomous driving",
+          "platooning",
+          "eco-driving"
         ],
         "thematic_keywords": [
           "control systems",
@@ -352,67 +472,101 @@
           "system optimization"
         ],
         "paper_flags": [
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.2"
       },
       {
         "title": "Electric vehicles",
-        "summary": "Electric vehicles can play a key role in decarbonizing transport -- assuming, of course, that electricity is generated using low-carbon sources. ML can help develop and optimize electric vehicle batteries, as well as model charging patterns.",
+        "summary": "Electric vehicles (EVs) can play a key role in decarbonizing transport and -- assuming, of course, that electricity is generated using low-carbon sources. ML can help improving EVs in various ways. Applications include modeling and scheduling charging, integrating EVs in the electric grid, and developing and optimizinge EVelectric vehicle batteries, as well as model charging patterns.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "reinforcement learning",
+          "clustering",
+          "deep learning"
         ],
         "topic_keywords": [
-
+          "charge scheduling",
+          "congestion management",
+          "vehicle-to-grid algorithms",
+          "battery energy management",
+          "energy disaggregation",
+          "battery R&D"
         ],
         "thematic_keywords": [
           "system optimization",
           "accelerated experimentation",
-          "forecasting"
+          "forecasting",
+          "control systems"
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.3"
       },
       {
         "title": "Alternative fuels",
-        "summary": "Aviation, long-distance road transportation, and ocean shipping require liquid fuels with high energy density and are thus not conducive to electrification. ML can help accelerate the discovery of liquid fuels.",
+        "summary": "Aviation, long-distance road transportation, and ocean shipping require fuels with high energy density and are thus not conducive to electrification. ML can help accelerate the discovery of low-carbonliquid fuels.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "interpretable ML",
+          "generative models"
         ],
         "topic_keywords": [
-
+          "electrofuels",
+          "biofuels",
+          "hydrogen",
+          "alternative fuels"
         ],
         "thematic_keywords": [
           "accelerated experimentation"
         ],
         "paper_flags": [
           "Long-term"
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.3"
       },
       {
         "title": "Passenger preferences",
         "summary": "Understanding passengers’ travel preferences can inform long-term transportation planning. ML can help predict or infer passengers’ travel choices, as well as design better travel surveys.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "deep learning",
+          "clustering"
         ],
         "topic_keywords": [
-
+          "travel mode choice",
+          "transportation mode detection"
         ],
         "thematic_keywords": [
-          "human interaction"
+          "human interaction",
+          "data mining and generation"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.4"
       },
       {
-        "title": "Enabling low-carbon options[a]",
-        "summary": "Good low-carbon transportation systems often involve coordination between buses, trains, bikes, and other transit options. ML can help with this coordination by predicting arrival times, optimizing the locations of shared bikes and electric scooters, and otherwise ensuring that passengers and freight can switch seamlessly between travel options.",
+        "title": "Enabling low-carbon options",
+        "summary": "Good low-carbon transportation should be reliable, respond to user demand, and be integrated with other transit options. ML can help by predicting arrival times and demand, optimizing the locations of shared bikes and electric scooters, and predicting maintenance needs for rail.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "deep learning"
         ],
         "topic_keywords": [
-
+          "public transit",
+          "intermodal",
+          "multimodal",
+          "bike share"
         ],
         "thematic_keywords": [
           "system optimization",
@@ -421,15 +575,13 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Buildings & Cities",
-    "subsections": [
+        ],
+        "paper_section": "Transportation",
+        "section_number": "2.4",
+        "buildings_&_cities": ""
+      },
       {
-        "title": "Energy use models",
+        "title": "Modeling building energy",
         "summary": "Making buildings more energy-efficient will require understanding the increasing amounts of data produced by meters and home energy monitors. ML can help model energy demand within buildings, quantify the energy used by individual appliances, and evaluate the effectiveness of energy efficiency measures.",
         "ml_keywords": [
           "Time-Series",
@@ -451,7 +603,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.1"
       },
       {
         "title": "Smart buildings",
@@ -481,10 +635,12 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.1"
       },
       {
-        "title": "District-level energy use",
+        "title": "Modeling energy use across buildings",
         "summary": "Energy use data is not available for most buildings, limiting the information available for city planners deciding which buildings to retrofit. ML can help predict energy use for buildings without data, based on other buildings within the city or district.",
         "ml_keywords": [
           "Supervised Learning",
@@ -500,7 +656,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.2"
       },
       {
         "title": "Gathering infrastructure data",
@@ -525,7 +683,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.2"
       },
       {
         "title": "Data for smart cities",
@@ -547,11 +707,13 @@
           "data mining and generation"
         ],
         "paper_flags": [
-
-        ]
+          "High Leverage"
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.3"
       },
       {
-        "title": "Low-emission infrastructure",
+        "title": "Low-emissions infrastructure",
         "summary": "Urban planning and infrastructure can be designed to make cities more sustainable and foster low-carbon lifestyles. ML can help model and coordinate the interaction between different infrastructure systems (such as buildings and transportation), and also assess how well solutions may transfer between different cities and regions.",
         "ml_keywords": [
           "Supervised Learning",
@@ -570,8 +732,10 @@
           "system optimization"
         ],
         "paper_flags": [
-          "High Leverage"
-        ]
+
+        ],
+        "paper_section": "Buildings & Cities",
+        "section_number": "3.3"
       }
     ]
   },
@@ -579,8 +743,8 @@
     "title": "Industry",
     "subsections": [
       {
-        "title": "Supply chains",
-        "summary": "Shipping products and climate-controlled warehousing are major contributors to industrial greenhouse gas emissions, as is the waste from overproduced goods and unused food. ML can help reduce overproduction, optimize supply chains to decrease emissions (if incentive structures are aligned), and potentially recommend climate-friendly options to consumers and firms[b].",
+        "title": "Reducing overproduction",
+        "summary": "The production, shipment, and climate-controlled warehousing of excess goods are major contributors to industrial greenhouse gas emissions. ML can help reduce overproduction by improving demand forecasting.",
         "ml_keywords": [
 
         ],
@@ -588,16 +752,54 @@
 
         ],
         "thematic_keywords": [
-          "system optimization",
           "forecasting"
         ],
         "paper_flags": [
-          "High Leverage"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.1"
       },
       {
-        "title": "Materials and construction",
-        "summary": "Cement and steel production together account for approximately 9% of all global greenhouse gas emissions. ML can help develop construction techniques that require less raw material, and also speed up the search for new materials and chemical processes with lower climate impact.",
+        "title": "Recommender systems",
+        "summary": "Consumers and purchasing firms in search of climate-friendly options may have difficulty interpreting information about products’ life-cycle greenhouse gas emissions. ML can help identify the cleanest options, given relevant data.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "data mining and generation"
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.1"
+      },
+      {
+        "title": "Reducing food waste",
+        "summary": "Globally, society loses or wastes 1.3 billion metric tons of food each year. ML can help reduce food waste by optimizing delivery routes, forecasting demand, improving refrigeration systems, and identifying spoiled produce.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "forecasting",
+          "system optimization"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.1"
+      },
+      {
+        "title": "Climate-friendly construction",
+        "summary": "The production of cement and steel accounts for over 10% of all global GHG emissions. ML can help reduce the need for these materials by developing techniques that require less raw material and accelerating the discovery of carbon-friendly replacements.",
         "ml_keywords": [
 
         ],
@@ -608,12 +810,15 @@
           "accelerated experimentation"
         ],
         "paper_flags": [
-          "High Leverage"
-        ]
+          "High Leverage",
+          "Long-term"
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.2"
       },
       {
-        "title": "Production and energy",
-        "summary": "The amount of energy consumed by industrial processes can be significantly reduced (especially if incentive structures are developed to promote the adoption of more efficient technology). ML can help efficiently control heating and cooling systems, design new catalysts for ammonia production and other processes, increase production efficiency through predictive maintenance, detect leaks of greenhouse gases such as methane and hydrofluorocarbons, and allow flexible demand for electricity according to carbon-sensitive pricing.",
+        "title": "Climate-friendly chemicals",
+        "summary": "Ammonia production for fertilizer use relies upon natural gas to heat up and catalyze the reaction, and accounts for around 2% of global energy consumption. ML can help facilitate cleaner ammonia production by accelerating the discovery of new electrocatalysts or proton conductors for use in the production process.",
         "ml_keywords": [
 
         ],
@@ -621,14 +826,68 @@
 
         ],
         "thematic_keywords": [
-          "predictive maintenance",
-          "control systems",
-          "system optimization",
           "accelerated experimentation"
         ],
         "paper_flags": [
+          "High Leverage",
+          "Long-term"
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.2"
+      },
+      {
+        "title": "Adaptive control",
+        "summary": "Industrial HVAC systems and other control mechanisms can be extremely energy- and emissions-intensive. ML can help reduce GHG emissions from such systems via adaptive control.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "control systems"
+        ],
+        "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.3"
+      },
+      {
+        "title": "Predictive maintenance",
+        "summary": "Effective maintenance of industrial equipment can increase energy efficiency and also cut emissions directly by reducing leaks of methane and other greenhouse gases. ML can help in the creation of “digital twin” models that simulate wear and tear, as well as possible interventions, before a system fails in real life.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "predictive maintenance"
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.3"
+      },
+      {
+        "title": "Using cleaner electricity",
+        "summary": "Industrial processes such as cement crushing and powder-coating can be extremely energy- and emissions-intensive. ML can help optimize the timing of these processes to use cleaner electricity (e.g. wind and solar) when it is available.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Industry",
+        "section_number": "4.3"
       }
     ]
   },
@@ -650,7 +909,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.1"
       },
       {
         "title": "Precision agriculture",
@@ -666,16 +927,17 @@
         "thematic_keywords": [
           "control systems",
           "system optimization",
-          "forecasting",
           "remote sensing"
         ],
         "paper_flags": [
           "High Leverage",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.2"
       },
       {
-        "title": "Protecting peatlands",
+        "title": "Monitoring peatlands",
         "summary": "Peatlands (a type of wetland ecosystem) cover only 3% of the Earth’s land area, yet hold twice the total carbon in all the world’s forests. ML can help monitor peatlands, guarding them against drainage or fire, both of which release carbon.",
         "ml_keywords": [
           "computer vision"
@@ -687,11 +949,13 @@
           "remote sensing"
         ],
         "paper_flags": [
-
-        ]
+          "High Leverage"
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.3"
       },
       {
-        "title": "Carbon stock estimation",
+        "title": "Estimating carbon stock",
         "summary": "Modeling (and pricing) carbon stored in forests requires us to assess how much is being sequestered or released across the planet. ML can help identify tree species and heights from satellite and aerial imagery.",
         "ml_keywords": [
 
@@ -705,10 +969,12 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.4"
       },
       {
-        "title": "Automated afforestation",
+        "title": "Automating afforestation",
         "summary": "Planting trees in well-chosen locations can help sequester carbon while (if done with care) improving local ecology. ML can help locate appropriate planting sites, monitor plant health, assess weeds, analyze trends, and even control tree-planting drones.",
         "ml_keywords": [
           "supervised learning",
@@ -723,11 +989,13 @@
         ],
         "paper_flags": [
           "Long-term",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.4"
       },
       {
-        "title": "Forest fire management",
+        "title": "Managing forest fires",
         "summary": "Large forest fires release CO2 into the atmosphere, besides potentially harming people and property, while small fires can be beneficial by preventing large ones. ML can help firefighters better understand and control forest fires by forecasting droughts, estimating moisture in the forest canopy, and predicting the progression of fires.",
         "ml_keywords": [
           "supervised learning",
@@ -743,10 +1011,12 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.4"
       },
       {
-        "title": "Forestry",
+        "title": "Reducing deforestation",
         "summary": "Forests store a large amount of CO2 in biomass and soil, but much of this CO2 is released when forests are destroyed. ML can help track illegal deforestation using imagery or even audio signals, and also provide tools for sustainable harvesting and forest management.",
         "ml_keywords": [
           "computer vision",
@@ -759,9 +1029,10 @@
           "remote sensing"
         ],
         "paper_flags": [
-          "High Leverage",
-          "High Risk"
-        ]
+          "High Leverage"
+        ],
+        "paper_section": "Farms & Forests",
+        "section_number": "5.4"
       }
     ]
   },
@@ -769,10 +1040,13 @@
     "title": "CO2 Removal",
     "subsections": [
       {
-        "title": "Direct air capture (DAC)",
+        "title": "Direct air capture",
         "summary": "To some extent, CO2 can be removed from the air using direct air capture (DAC) technologies. ML can help speed up the search for corrosion-resistant materials and sorbents (CO2 “sponges”) that allow DAC technologies to capture CO2 more efficiently and inexpensively.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "interpretable ML",
+          "generative models"
         ],
         "topic_keywords": [
           "direct air capture",
@@ -789,7 +1063,9 @@
         ],
         "paper_flags": [
           "Long-term"
-        ]
+        ],
+        "paper_section": "CO2 Removal",
+        "section_number": "6.1"
       },
       {
         "title": "Sequestering CO2",
@@ -821,8 +1097,10 @@
         "paper_flags": [
           "High Leverage",
           "Long-term",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "CO2 Removal",
+        "section_number": "6.2"
       }
     ]
   },
@@ -830,59 +1108,127 @@
     "title": "Climate Prediction",
     "subsections": [
       {
-        "title": "Uniting data, ML, and climate science",
-        "summary": "Modeling the climate is fundamental for understanding (and responding to) climate change. ML can help characterize physical systems (such as ice sheets and clouds) that are important to understanding climate, intelligently combine the outputs of multiple climate models, and even build new climate modeling techniques by combining data and climate physics.",
+        "title": "Data for climate models",
+        "summary": "There are many opportunities to integrate data-driven insights into climate models. ML can help calibrate data-gathering sensors and generate dataclassify observational data (such as on crop cover or pollutant sources) from satellite imagery.",
         "ml_keywords": [
           "supervised learning",
-          "computer vision",
-          "uncertainty quantification",
-          "ensemble methods",
-          "generative models",
-          "Bayesian/causal inference",
-          "time-series",
-          "interpretable ML",
-          "deep learning"
+          "unsupervised learning",
+          "computer vision"
         ],
         "topic_keywords": [
-          "Earth system models",
-          "global circulation models"
+
         ],
         "thematic_keywords": [
-          "hybrid physical models",
-          "model approximation",
-          "remote sensing",
-          "accelerated experimentation"
+          "remote sensing"
         ],
         "paper_flags": [
-          "High Leverage"
-        ]
+
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.1.1"
       },
       {
-        "title": "Forecasting extreme events",
-        "summary": "Storms, droughts, fires, floods, and other extreme events will continue to become stronger and more frequent as climate change progresses. ML can help forecast extreme events, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.",
+        "title": "Clouds and aerosols",
+        "summary": "Clouds are the largest source of uncertainty in current climate models. ML can help provide computationally inexpensive representations of cloud physics for inclusion in climate models.",
         "ml_keywords": [
-          "time series",
-          "Bayesian/causal inference",
-          "computer vision",
           "deep learning"
         ],
         "topic_keywords": [
 
         ],
         "thematic_keywords": [
-          "forecasting",
+          "hybrid physical models",
+          "model approximation"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.1.2"
+      },
+      {
+        "title": "Ice sheets and sea level rise",
+        "summary": "Ice sheet dynamics and sea level rise are important but uncertain components of climate models. ML can help infer critical information such as sea ice reflectivity and ocean heat mixing from satellite and video data.",
+        "ml_keywords": [
+          "computer vision",
+          "time-series"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "remote sensing"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.1.2"
+      },
+      {
+        "title": "Working with climate models",
+        "summary": "Climate models can be extremely complex, and often predictions are made on the basis of the outputs of several different climate models.are often ensembled together to make predictions. ML can help identify and leverage relationships between variables within climate models, and intelligently combine the outputs of multiple climate models.",
+        "ml_keywords": [
+          "unsupervised learning",
+          "supervised learning",
+          "ensemble methods"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "accelerated experimentation",
+          "hybrid physical models"
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.1.3"
+      },
+      {
+        "title": "Storm tracking",
+        "summary": "Identifying and tracking extreme events can be valuable for informing disaster response efforts. ML can help classify, detect, and track climate-related extreme events such as hurricanes and atmospheric rivers.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "time-series",
+          "computer vision"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
           "remote sensing",
           "hybrid physical models"
         ],
         "paper_flags": [
+
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.2.1"
+      },
+      {
+        "title": "Local forecasts",
+        "summary": "Storms, droughts, fires, floods, and other extreme events are expectedwill continue to become stronger and more frequent as climate change progresses. ML can help create localized forecasts of extreme events and infer local climate change risks from climate model outputs, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.",
+        "ml_keywords": [
+          "supervised learning",
+          "time-series",
+          "uncertainty quantification"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "forecasting"
+        ],
+        "paper_flags": [
           "High Leverage"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Societal Impacts",
-    "subsections": [
+        ],
+        "paper_section": "Climate Prediction",
+        "section_number": "7.2.2",
+        "societal_impacts": ""
+      },
       {
         "title": "Monitoring ecosystems",
         "summary": "Climate change poses catastrophic threats to global ecosystems, endangering the food supply and other natural resources on which humanity depends. ML can help model ecosystem effects and track changes in real time via remote sensing.",
@@ -902,7 +1248,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.1"
       },
       {
         "title": "Monitoring biodiversity",
@@ -922,10 +1270,12 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.1"
       },
       {
-        "title": "Design",
+        "title": "Designing infrastructure",
         "summary": "Infrastructure such as roads, power grids, and water mains must be designed to account for the increasing frequency and severity of extreme weather events. ML can help pinpoint vulnerable areas, provide localized predictions, and incorporate historical or proxy data to identify what infrastructure is needed.",
         "ml_keywords": [
           "uncertainty quantification",
@@ -941,10 +1291,12 @@
         ],
         "paper_flags": [
           "Long-term"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.2"
       },
       {
-        "title": "Maintenance",
+        "title": "Maintaining infrastructure",
         "summary": "Under the increased threat of extreme events, society must efficiently allocate limited resources to effectively maintain infrastructure. ML can help predict where failures are most likely to occur and pinpoint failures if they do occur.",
         "ml_keywords": [
           "supervised learning",
@@ -964,10 +1316,12 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.2"
       },
       {
-        "title": "Securing food supplies",
+        "title": "Food security",
         "summary": "Climate change is expected to decrease crop yields in many locations, due to drought and desertification. ML can help monitor the real-time risk of food shortages, forecast longer-term crop yields, and improve the resilience of food supply chains to help society better manage food security threats.",
         "ml_keywords": [
           "supervised learning",
@@ -987,10 +1341,12 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.3"
       },
       {
-        "title": "Supporting resilient livelihoods",
+        "title": "Resilient livelihoods",
         "summary": "Farmers and other individuals whose livelihoods depend directly on ecological systems are at especially high risk from climate change. ML can help increase resilience by facilitating equipment and information sharing, better target social interventions by monitoring economic health, and improve online employment matching and skill training systems.",
         "ml_keywords": [
           "supervised learning",
@@ -1010,7 +1366,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.3"
       },
       {
         "title": "Supporting displaced people",
@@ -1033,8 +1391,10 @@
         ],
         "paper_flags": [
           "Long-term",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.3"
       },
       {
         "title": "Assessing health risks",
@@ -1055,7 +1415,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.3"
       },
       {
         "title": "Managing epidemics",
@@ -1076,10 +1438,12 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.4"
       },
       {
-        "title": "Responding to disasters",
+        "title": "Disaster response",
         "summary": "Storms, droughts, fires, floods, and other disasters will continue to become stronger and more frequent as climate change progresses. ML can help inform evacuation plans, infrastructure retrofits, and relief efforts by improving maps and retrieving information from social media.",
         "ml_keywords": [
           "supervised learning",
@@ -1097,7 +1461,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Societal Impacts",
+        "section_number": "8.4"
       }
     ]
   },
@@ -1105,11 +1471,31 @@
     "title": "Solar Geoengineering",
     "subsections": [
       {
-        "title": "Understanding and improving aerosols",
-        "summary": "Many solar geoengineering proposals rely on injecting aerosol particles into the atmosphere to partially reflect sunlight, but their physics is not fully understood. ML can help speed up physical models and quantify the uncertainty of predictions (and possibly help discover better candidate molecules).",
+        "title": "Understanding and improving aerosols: design",
+        "summary": "Many solar geoengineering proposals rely on injecting aerosol particles into the atmosphere to partially reflect sunlight. ML can (speculatively) accelerate the search for new aerosols that are chemically nonreactive but still reflective, cheap, and easy to keep aloft.",
+        "ml_keywords": [
+          "generative models"
+        ],
+        "topic_keywords": [
+          "solar geoengineering",
+          "aerosol physics",
+          "climate modeling",
+          "climate engineering"
+        ],
+        "thematic_keywords": [
+          "accelerated experimentation"
+        ],
+        "paper_flags": [
+          "Long-term"
+        ],
+        "paper_section": "Solar Geoengineering",
+        "section_number": "9.1"
+      },
+      {
+        "title": "Understanding and improving aerosols: modeling",
+        "summary": "Many solar geoengineering proposals rely on injecting aerosol particles into the atmosphere to partially reflect sunlight, but their physics is not fully understood. ML can help speed up physical models and quantify the uncertainty of predictions.",
         "ml_keywords": [
           "uncertainty quantification",
-          "generative models",
           "time-series",
           "deep learning"
         ],
@@ -1121,15 +1507,16 @@
         ],
         "thematic_keywords": [
           "model approximation",
-          "accelerated experimentation",
           "hybrid physical models"
         ],
         "paper_flags": [
-          "Long-term"
-        ]
+
+        ],
+        "paper_section": "Solar Geoengineering",
+        "section_number": "9.1"
       },
       {
-        "title": "Engineering a control system",
+        "title": "Engineering a planetary control system",
         "summary": "Controlling a geoengineering system comes with a multitude of challenges and a host of possible side effects, many of which could be catastrophic. Speculatively, ML can help fine-tune geoengineering interventions by suggesting control actions and emulating the complex dynamical systems involved.",
         "ml_keywords": [
           "reinforcement learning",
@@ -1150,8 +1537,10 @@
         "paper_flags": [
           "High Impact",
           "Long-term",
-          "High Risk"
-        ]
+          "Uncertain Impact"
+        ],
+        "paper_section": "Solar Geoengineering",
+        "section_number": "9.2"
       },
       {
         "title": "Modeling impacts",
@@ -1170,66 +1559,52 @@
         ],
         "paper_flags": [
           "Long-term"
-        ]
+        ],
+        "paper_section": "Solar Geoengineering",
+        "section_number": "9.3"
       }
     ]
   },
   {
-    "title": "Tools for Individuals",
+    "title": "Individual Action",
     "subsections": [
       {
         "title": "Understanding personal carbon footprint",
-        "summary": "Individuals constantly make decisions that affect their carbon footprint, and many wish to reduce their impact. ML can help quantify the climate impact of consumer products and actions, and also estimate the benefits resulting from personal behavior change.",
+        "summary": "Individuals and households constantly make decisions that affect their carbon footprint, and many wish to reduce their impact. ML can help quantify the climate impact of consumer products and actions, estimate the benefits resulting from personal behavior change, provide appliance-level residential energy use data, identify households with high potential for efficiency gain, and optimize appliances to operate when low-carbon electricity is available.",
         "ml_keywords": [
           "supervised learning",
-          "causal inference",
+          "reinforcement learning",
           "computer vision",
           "NLP",
+          "time-series",
+          "Bayesian/causal inference",
           "deep learning"
         ],
         "topic_keywords": [
           "flights",
           "groceries",
           "ride-sharing",
-          "household carbon footprint"
-        ],
-        "thematic_keywords": [
-          "data mining and generation",
-          "human interaction"
-        ],
-        "paper_flags": [
-
-        ]
-      },
-      {
-        "title": "Reducing household energy impact",
-        "summary": "About a third of global electricity consumption occurs in the home, and reducing the associated emissions can benefit both individuals and society as a whole. ML can help provide appliance-level energy use data, optimize appliances to operate when low-carbon electricity is available, and identify households with high potential for efficiency gain.[c]",
-        "ml_keywords": [
-          "supervised learning",
-          "reinforcement learning",
-          "time-series",
-          "deep learning",
-          "clustering"
-        ],
-        "topic_keywords": [
+          "household carbon footprint",
           "energy disaggregation",
           "scheduling appliances",
           "household emissions"
         ],
         "thematic_keywords": [
+          "control systems",
           "data mining and generation",
           "forecasting",
-          "system optimization",
-          "control systems",
-          "human interaction"
+          "human interaction",
+          "system optimization"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Individual Action",
+        "section_number": "10.1"
       },
       {
         "title": "Facilitating behavior change",
-        "summary": "Many consumers are eager to contribute to climate change solutions, and engaging them can be highly impactful. ML can help effectively inform consumers and provide constructive opportunities by modeling consumer behavior.",
+        "summary": "Many individuals are eager to contribute to climate change solutions, and engaging them can be highly impactful. ML can help effectively inform people and provide them constructive opportunities by modeling consumer behavior and simplifying information on climate-relevant laws and policies.",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
@@ -1249,60 +1624,184 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Individual Action",
+        "section_number": "10.2"
       }
     ]
   },
   {
-    "title": "Tools for Society",
+    "title": "Collective decisions",
     "subsections": [
       {
-        "title": "Policy design",
-        "summary": "Designing effective climate policies is essential to tackling climate change. ML can help with this process by modeling human preferences and modeling the effects of proposed policies.",
+        "title": "Modeling social interactions",
+        "summary": "When designing climate change strategies, it is critical to understand how organizations and individuals act and interact in response to different incentives and constraints. ML can help model social interactions by integrating data-driven insights into agent-based models and by providing new tools such as multi-agent reinforcement learning.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "reinforcement learning",
+          "generative models",
+          "interpretable ML"
         ],
         "topic_keywords": [
-
+          "agent-based models",
+          "game theory"
         ],
         "thematic_keywords": [
+          "data mining and generation",
+          "human interaction"
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.1"
+      },
+      {
+        "title": "Gathering data",
+        "summary": "When creating policies, decision-makers must often negotiate fundamental uncertainties in the underlying data. ML can help alleviate some of this uncertainty by extracting information from satellite imagery, sensors, social media posts, policy documents, and other sources (as detailed elsewhere in the paper). .",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "computer vision",
+          "NLP",
+          "time-series",
+          "Bayesian/causal inference",
+          "uncertainty quantification",
+          "transfer learning",
+          "interpretable ML",
+          "deep learning",
+          "clustering"
+        ],
+        "topic_keywords": [
+          "remote sensing",
           "data mining and generation"
         ],
-        "paper_flags": [
+        "thematic_keywords": [
 
-        ]
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.2"
       },
       {
-        "title": "Market design",
-        "summary": "Carbon pricing and other market-based proposals can accelerate the reduction of greenhouse gas emissions. ML can help design effective pricing systems by modeling markets and consumer behavior.",
+        "title": "Assessing policy options",
+        "summary": "Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help analyze the inputs and outputs of these models, and provide techniques for solving these models.",
         "ml_keywords": [
-
+          "supervised learning",
+          "unsupervised learning",
+          "clustering",
+          "uncertainty quantification",
+          "time-series",
+          "interpretable ML"
         ],
         "topic_keywords": [
-
+          "integrated assessment models",
+          "operations research",
+          "multi-criteria decision-making",
+          "downscaling"
         ],
         "thematic_keywords": [
-          "system optimization"
+          "human interaction"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.2"
       },
       {
-        "title": "Multi-objective optimization and decision-making",
-        "summary": "Decision-makers must often make complex trade-offs when designing climate change policies. ML can help provide tools for multi-criteria decision-making and multi-objective optimization, two commonly-used frameworks for understanding these trade-offs.",
+        "title": "Evaluating policy effects",
+        "summary": "When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of previously-implemented policies and by performing causal inference on historical data.",
         "ml_keywords": [
-
+          "unsupervised learning",
+          "NLP",
+          "Bayesian/causal inference",
+          "interpretable ML"
         ],
         "topic_keywords": [
-
+          "text analysis",
+          "causal inference"
         ],
         "thematic_keywords": [
-          "system optimization"
+
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.2"
+      },
+      {
+        "title": "Predicting carbon prices",
+        "summary": "Market-based tools such as cap-and-trade can be used to enforce prices reflecting the societal cost of greenhouse gases attributed to a particular good or service. ML can help analyze prices within carbon markets.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "time-series",
+          "clustering"
+        ],
+        "topic_keywords": [
+          "time-series"
+        ],
+        "thematic_keywords": [
+          "forecasting"
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.3"
+      },
+      {
+        "title": "Non-carbon markets",
+        "summary": "Market design can influence greenhouse gas emissions even in settings where such emissions are not directly penalized, for instance as it might enable more renewable generation in electricity markets or make freight markets more energy efficient. ML can help analyze behavior, set dynamic prices, and solve auctions with the goal of encouraging climate-beneficial behavior in non-carbon markets.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "reinforcement learning"
+        ],
+        "topic_keywords": [
+          "bandit problem",
+          "auction market",
+          "market power"
+        ],
+        "thematic_keywords": [
+          "control systems",
+          "forecasting"
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.3"
+      },
+      {
+        "title": "Assessing market effects",
+        "summary": "When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "clustering",
+          "interpretable ML",
+          "deep learning",
+          "Bayesian/causal inference"
+        ],
+        "topic_keywords": [
+          "hedonic pricing",
+          "equity",
+          "carbon offsetting"
+        ],
+        "thematic_keywords": [
+
+        ],
+        "paper_flags": [
+
+        ],
+        "paper_section": "Collective Decisions",
+        "section_number": "11.3"
       }
     ]
   },
@@ -1310,7 +1809,7 @@
     "title": "Education",
     "subsections": [
       {
-        "title": "AI in education",
+        "title": "AI in Education",
         "summary": "In addition to being universally beneficial, education can improve the resilience of communities to climate change, especially in developing countries. ML can help enable personalized and scalable tools for education.",
         "ml_keywords": [
           "supervised learning",
@@ -1325,8 +1824,10 @@
           "human interaction"
         ],
         "paper_flags": [
-
-        ]
+          "Long-term"
+        ],
+        "paper_section": "Education",
+        "section_number": "12"
       },
       {
         "title": "Learning about climate",
@@ -1344,7 +1845,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Education",
+        "section_number": "12"
       }
     ]
   },
@@ -1368,7 +1871,9 @@
         ],
         "paper_flags": [
 
-        ]
+        ],
+        "paper_section": "Finance",
+        "section_number": "13"
       },
       {
         "title": "Climate analytics",
@@ -1390,7 +1895,9 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ]
+        ],
+        "paper_section": "Finance",
+        "section_number": "13"
       }
     ]
   }
