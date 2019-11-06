@@ -1,5 +1,429 @@
 [
   {
+    "title": "﻿# Electricity Systems",
+    "subsections": [
+      {
+        "title": "Forecasting supply and demand",
+        "summary": "The supply and demand of power must both be forecast ahead of time to inform electricity planning and scheduling. ML can help make these forecasts more accurate, improve temporal and spatial resolution, and quantify uncertainty.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "computer vision",
+          "time-series",
+          "uncertainty quantification",
+          "interpretable ML",
+          "deep learning",
+          "clustering"
+        ],
+        "topic_keywords": [
+          "electricity",
+          "electric grid",
+          "power grid",
+          "low-carbon electricity",
+          "variable electricity",
+          "renewable energy",
+          "solar power",
+          "wind power",
+          "electricity demand",
+          "nowcasting"
+        ],
+        "thematic_keywords": [
+          "forecasting",
+          "hybrid physical models"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ]
+      },
+      {
+        "title": "Improving scheduling and flexible demand",
+        "summary": "Scheduling algorithms on the power grid have trouble handling large quantities of solar, wind, and other time-varying electricity sources. ML can help improve electricity scheduling algorithms, control storage and flexible demand, and design real-time electricity prices that reduce CO2 emissions.",
+        "ml_keywords": [
+          "supervised learning",
+          "reinforcement learning",
+          "deep learning"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "model approximation",
+          "control systems",
+          "system optimization"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Accelerated science for materials",
+        "summary": "Designing new materials is important for many applications, including energy storage via fuels and batteries. ML can help suggest promising materials to try, thereby speeding up the materials discovery process.",
+        "ml_keywords": [
+          "supervised learning",
+          "unsupervised learning",
+          "NLP",
+          "interpretable ML",
+          "generative models"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "accelerated experimentation"
+        ],
+        "paper_flags": [
+          "High Leverage",
+          "Long-term"
+        ]
+      },
+      {
+        "title": "Additional applications (for variable sources)",
+        "summary": "There are many additional ways to facilitate the adoption of solar panels, wind turbines, and other low-carbon electricity generators. ML can help efficiently operate these systems, detect the locations of solar panels, and monitor the electric grid in places with rooftop solar panels.",
+        "ml_keywords": [
+          "reinforcement learning",
+          "computer vision",
+          "Bayesian/causal inference"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "remote sensing",
+          "data mining and generation",
+          "predictive maintenance",
+          "system optimization"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Nuclear power plants",
+        "summary": "Nuclear power plants require effective maintenance and inspection to ensure public safety and reduce costs. ML can help improve maintenance and fault detection systems.",
+        "ml_keywords": [
+          "computer vision"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "predictive maintenance"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Nuclear fusion",
+        "summary": "Nuclear fusion has the potential to produce safe, carbon-free electricity, but such reactors continue to consume more energy than they produce. ML can help suggest parameters for physical experiments and also model the behavior of plasma inside reactors.",
+        "ml_keywords": [
+          "supervised learning",
+          "reinforcement learning",
+          "Bayesian/causal inference"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "control systems",
+          "accelerated experimentation"
+        ],
+        "paper_flags": [
+          "High Leverage",
+          "Long-term"
+        ]
+      },
+      {
+        "title": "Reducing life-cycle fossil fuel emissions",
+        "summary": "In addition to the unavoidable climate impacts of burning fossil fuels, natural gas pipelines leak methane, a powerful greenhouse gas. ML can help detect and prevent these leaks until society stops burning natural gas.",
+        "ml_keywords": [
+          "supervised learning",
+          "computer vision"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "predictive maintenance",
+          "remote sensing"
+        ],
+        "paper_flags": [
+          "High Leverage",
+          "High Risk"
+        ]
+      },
+      {
+        "title": "Reducing system waste",
+        "summary": "As electricity gets transported from generators to consumers, some of it gets lost as resistive heat on electricity lines. ML can help prevent avoidable losses through predictive maintenance.",
+        "ml_keywords": [
+          "supervised learning"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "predictive maintenance"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Modeling emissions",
+        "summary": "Reducing the emissions associated with electricity use requires understanding what the emissions on the electric grid actually are at any given moment. ML can help estimate and forecast emissions, and potentially model the uncertainty in these estimates.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+          "supervised learning",
+          "time-series",
+          "uncertainty quantification",
+          "deep learning"
+        ],
+        "thematic_keywords": [
+          "forecasting"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Improving clean energy access",
+        "summary": "Improving access to clean electricity can address climate change while benefiting society, resulting in decreased emissions from wood-fired stoves, diesel generators, and other sources. ML can help manage rural microgrids and gather data to aid energy access policy.",
+        "ml_keywords": [
+          "supervised learning",
+          "computer vision",
+          "time-series",
+          "deep learning"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "data mining and generation",
+          "remote sensing",
+          "forecasting"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Low-data settings",
+        "summary": "In many places, data on electricity systems are not widely collected or shared; but addressing these systems is essential for both equity and impact. ML can help gather data in some cases, and ML techniques designed with low-data settings in mind can have outsized impact.",
+        "ml_keywords": [
+          "supervised learning",
+          "computer vision",
+          "transfer learning"
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "data mining and generation",
+          "remote sensing",
+          "hybrid physical models"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ],
+        "": [
+
+        ]
+      },
+      {
+        "title": "Understanding transportation data",
+        "summary": "Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "data mining and generation",
+          "remote sensing"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Modeling demand",
+        "summary": "Infrastructure decisions shape what kinds of transportation options people choose -- both for freight and personal transit. ML can help estimate current transportation usage, forecast future demand, and optimize infrastructure based on demand.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "forecasting",
+          "system optimization"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ]
+      },
+      {
+        "title": "Shared mobility",
+        "summary": "It is unclear whether shared mobility (such as Uber and Lyft) will increase or decrease emissions. ML can help model the emissions impacts of shared mobility.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization"
+        ],
+        "paper_flags": [
+          "High Risk"
+        ]
+      },
+      {
+        "title": "Freight routing and consolidation",
+        "summary": "Intelligently routing and consolidating freight shipments can dramatically reduce emissions. ML can help optimize freight transportation by gathering information about suppliers, freight demand, and transit delays, and then by using this information to create optimal transportation schedules.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization",
+          "forecasting"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ]
+      },
+      {
+        "title": "Alternatives to transport",
+        "summary": "Technologies such as additive manufacturing or virtual communication may help replace or reduce transportation demand. ML can help develop and improve both of these technologies.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "accelerated experimentation",
+          "human interaction"
+        ],
+        "paper_flags": [
+          "High Risk"
+        ]
+      },
+      {
+        "title": "Designing for efficiency",
+        "summary": "There are many ways to reduce the amount of energy that a vehicle uses. ML can help design and operate engines to improve efficiency, provide proxies for complex aerodynamics models used in vehicle design, and improve processes for manufacturing lighter vehicle parts.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization",
+          "model approximation",
+          "accelerated experimentation",
+          "remote sensing",
+          "control systems"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Autonomous vehicles",
+        "summary": "Autonomous vehicles may increase the efficiency of transportation, though they may also increase driving (and therefore emissions). ML can help develop drones to more efficiently deliver freight, synchronize autonomous fleets to drive efficiently, and improve other applications specifically aimed at reducing energy consumption.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "control systems",
+          "remote sensing",
+          "system optimization"
+        ],
+        "paper_flags": [
+          "High Risk"
+        ]
+      },
+      {
+        "title": "Electric vehicles",
+        "summary": "Electric vehicles can play a key role in decarbonizing transport -- assuming, of course, that electricity is generated using low-carbon sources. ML can help develop and optimize electric vehicle batteries, as well as model charging patterns.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization",
+          "accelerated experimentation",
+          "forecasting"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ]
+      },
+      {
+        "title": "Alternative fuels",
+        "summary": "Aviation, long-distance road transportation, and ocean shipping require liquid fuels with high energy density and are thus not conducive to electrification. ML can help accelerate the discovery of liquid fuels.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "accelerated experimentation"
+        ],
+        "paper_flags": [
+          "Long-term"
+        ]
+      },
+      {
+        "title": "Passenger preferences",
+        "summary": "Understanding passengers’ travel preferences can inform long-term transportation planning. ML can help predict or infer passengers’ travel choices, as well as design better travel surveys.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "human interaction"
+        ],
+        "paper_flags": [
+
+        ]
+      },
+      {
+        "title": "Enabling low-carbon options[a]",
+        "summary": "Good low-carbon transportation systems often involve coordination between buses, trains, bikes, and other transit options. ML can help with this coordination by predicting arrival times, optimizing the locations of shared bikes and electric scooters, and otherwise ensuring that passengers and freight can switch seamlessly between travel options.",
+        "ml_keywords": [
+
+        ],
+        "topic_keywords": [
+
+        ],
+        "thematic_keywords": [
+          "system optimization",
+          "forecasting",
+          "remote sensing"
+        ],
+        "paper_flags": [
+          "High Leverage"
+        ]
+      }
+    ]
+  },
+  {
     "title": "Buildings & Cities",
     "subsections": [
       {

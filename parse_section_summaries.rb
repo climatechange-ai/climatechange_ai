@@ -12,9 +12,9 @@ key_dict = {
   'Paper flags' => 'paper_flags'
 }
 
-data = f.split(/^#/m)[1..-1].map(&:strip).map { |section|
+data = f.split(/^#/m).map(&:strip).map { |section|
   {
-    'title' => section.split("\n")[0].strip,
+    'title' => section.split("\n")[0].strip.sub(/^#\s*/, ''),
     'subsections' => section.split(/Title: /m)[1..-1].map(&:strip).map { |sub|
       sub.split("\r\n")[1..-1].each.with_object({
         'title' => sub.split("\r\n")[0].strip
