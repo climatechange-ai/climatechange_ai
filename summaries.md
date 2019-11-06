@@ -108,13 +108,11 @@ $(document).ready(function() {
       html += `</div>`;
     }
 
-    function setOverlap(a, b) {
-      if (!a) return false;
-      if (!b) return false;
-      for (const el of a)
-        if (b.indexOf(el) >= 0)
-          return true;
-      return false;
+    function allWithin(a, b) {
+      for (const el of b)
+        if (a.indexOf(el) == -1)
+          return false;
+      return true;
     }
 
     $('#sections').append(html);
@@ -139,82 +137,43 @@ $(document).ready(function() {
       theme_sel.append(`<option value="${kw}">${kw}</option>`);
     });
 
-    function toggleOverall() {
-      if (learn_sel.val() + topic_sel.val() + theme_sel.val()) {
-        $('#sections').addClass('filtering');
+    function toggleVisibility(select, key) {
+      if (select.val()) {
+        $('#sections').addClass(`${key}-filtering`);
       } else {
-        $('#sections').removeClass('filtering');
+        $('#sections').removeClass(`${key}-filtering`);
       }
-    };
 
-    learn_sel.change(() => {
-      toggleOverall();
       $('.subsection').each((index, el) => {
-        if (setOverlap($(el).data('ml'),learn_sel.val())) {
-          $(el).addClass('ml-visible');
+        if (allWithin($(el).data(key), select.val())) {
+          $(el).removeClass(`${key}-filtered`);
         } else {
-          $(el).removeClass('ml-visible');
+          $(el).addClass(`${key}-filtered`);
         }
       });
 
       $('.section').each((index, el) => {
-        if ($(el).find('.subsection.ml-visible').length) {
-          $(el).addClass('ml-visible');
+        if ($(el).find(`.subsection:not(.${key}-filtered)`).length) {
+          $(el).removeClass(`${key}-filtered`);
         } else {
-          $(el).removeClass('ml-visible');
+          $(el).addClass(`${key}-filtered`);
         }
       });
-    });
+    }
 
-    topic_sel.change(() => {
-      toggleOverall();
-      $('.subsection').each((index, el) => {
-        if (setOverlap($(el).data('topic'), topic_sel.val())) {
-          $(el).addClass('topic-visible');
-        } else {
-          $(el).removeClass('topic-visible');
-        }
+    for (let pair of [[learn_sel, 'ml'], [topic_sel, 'topic'], [theme_sel, 'thematic']]) {
+      const select = pair[0];
+      const key = pair[1];
+
+      select.change(() => {
+        toggleVisibility(select, key);
       });
 
-      $('.section').each((index, el) => {
-        if ($(el).find('.subsection.topic-visible').length) {
-          $(el).addClass('topic-visible');
-        } else {
-          $(el).removeClass('topic-visible');
-        }
+      $(`is-${key}`).click((ev) => {
+        select.val($(ev.currentTarget).text().slice(1));
+        select.trigger("change").trigger("chosen:updated");
       });
-    });
-
-    theme_sel.change(() => {
-      toggleOverall();
-      $('.subsection').each((index, el) => {
-        if (setOverlap($(el).data('thematic'), theme_sel.val())) {
-          $(el).addClass('theme-visible');
-        } else {
-          $(el).removeClass('theme-visible');
-        }
-      });
-
-      $('.section').each((index, el) => {
-        if ($(el).find('.subsection.theme-visible').length) {
-          $(el).addClass('theme-visible');
-        } else {
-          $(el).removeClass('theme-visible');
-        }
-      });
-    });
-
-    $('.is-thematic').click((ev) => {
-      theme_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
-    });
-
-    $('.is-topic').click((ev) => {
-      topic_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
-    });
-
-    $('.is-ml').click((ev) => {
-      learn_sel.val($(ev.currentTarget).text().slice(1)).trigger("change").trigger("chosen:updated");
-    });
+    }
 
     $('#reset').click(() => {
       learn_sel.val('').trigger("change").trigger("chosen:updated");

@@ -261,17 +261,19 @@ html, body {
   display: none;
 }
 
-#sections.filtering {
-  #reset {
-    display: initial;
-  }
-  .subsection, .section {
-    display: none;
+#sections.ml-filtering {
+  #reset { display: initial; }
+  .ml-filtered { display: none; }
+}
 
-    &.ml-visible, &.topic-visible, &.theme-visible {
-      display: block;
-    }
-  }
+#sections.topic-filtering {
+  #reset { display: initial; }
+  .topic-filtered { display: none; }
+}
+
+#sections.thematic-filtering {
+  #reset { display: initial; }
+  .thematic-filtered { display: none; }
 }
 
 .keywords.field {
