@@ -131,8 +131,8 @@
 
   <script>
     $(document).ready(function() {
-      $('.collapsible-header').click(function() {
-        var h = $(this);
+      $('.collapsible-header').click(function(ev) {
+        var h = $(ev.currentTarget);
         h.closest('.collapsible').toggleClass('is-expanded');
       });
     });
