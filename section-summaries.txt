@@ -1,6 +1,5 @@
 ﻿
 # Electricity Systems
-
 Title: Forecasting supply and demand
 1-2 sentence summary: The supply and demand of power must both be forecast ahead of time to inform electricity planning and scheduling. ML can help make these forecasts more accurate, improve temporal and spatial resolution, and quantify uncertainty.
 ML keywords: supervised learning, unsupervised learning, computer vision, time-series, uncertainty quantification, interpretable ML, deep learning, clustering
@@ -361,7 +360,7 @@ Title: Estimating carbon stock
 1-2 sentence summary: Modeling (and pricing) carbon stored in forests requires us to assess how much is being sequestered or released across the planet. ML can help identify tree species and heights from satellite and aerial imagery.
 ML keywords:
 Topic keywords: supervised learning, computer vision
- Thematic keywords: remote sensing
+Thematic keywords: remote sensing
 Paper flags: High Leverage
 Paper section: Farms & Forests
 Section number: 5.4
@@ -638,7 +637,7 @@ Paper section: Collective Decisions
 Section number: 11.2
 
 Title: Assessing policy options
-1-2 sentence summary: Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help analyze the inputs and outputs of these models, and provide techniques for solving these models.
+1-2 sentence summary: Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help analyze the inputs and outputs of these models, and provide techniques for solving these models. Decision-makers must often make complex trade-offs when designing climate change policies. ML can help analyze and 
 ML keywords: supervised learning, unsupervised learning, clustering, uncertainty quantification, time-series, interpretable ML
 Topic keywords: integrated assessment models, operations research, multi-criteria decision-making, downscaling
 Thematic keywords: human interaction
@@ -647,7 +646,7 @@ Paper section: Collective Decisions
 Section number: 11.2
 
 Title: Evaluating policy effects
-1-2 sentence summary: When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of previously-implemented policies and by performing causal inference on historical data.
+1-2 sentence summary: When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of already-implemented policies and by performing causal inference on historical data.
 ML keywords: unsupervised learning, NLP, Bayesian/causal inference, interpretable ML
 Topic keywords: text analysis, causal inference
 Thematic keywords: 
@@ -665,7 +664,7 @@ Paper section: Collective Decisions
 Section number: 11.3
 
 Title: Non-carbon markets
-1-2 sentence summary: Market design can influence greenhouse gas emissions even in settings where such emissions are not directly penalized, for instance as it might enable more renewable generation in electricity markets or make freight markets more energy efficient. ML can help analyze behavior, set dynamic prices, and solve auctions with the goal of encouraging climate-beneficial behavior in non-carbon markets.
+1-2 sentence summary: Market design can influence greenhouse gas emissions even in settings where such emissions are not directly penalized, for instance by enabling more renewables in electricity markets or encouraging more efficient shipping of goods. ML can help analyze market behavior, set dynamic prices, and solve auctions with the goal of encouraging climate-beneficial behavior in the markets where it is applied.
 ML keywords: supervised learning, unsupervised learning, reinforcement learning
 Topic keywords: bandit problem, auction market, market power
 Thematic keywords: control systems, forecasting
@@ -674,7 +673,7 @@ Paper section: Collective Decisions
 Section number: 11.3
 
 Title: Assessing market effects
-1-2 sentence summary: When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected. 
+1-2 sentence summary: When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected. ML can help assess the effects of market-based strategies to ensure they are effective and equitable. 
 ML keywords: supervised learning, unsupervised learning, clustering, interpretable ML, deep learning, Bayesian/causal inference
 Topic keywords: hedonic pricing, equity, carbon offsetting
 Thematic keywords: 

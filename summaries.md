@@ -75,7 +75,7 @@ $(document).ready(function() {
           ml_kwds.add(kw);
           tags.push(`<a class="tag is-light is-ml">#${kw}</a>`);
         }
-        for (let kw of ss.topic_keywords) {
+        for (let kw of ss.topic_keywords || []) {
           topic_kwds.add(kw);
           tags.push(`<a href="#" class="tag is-light is-topic">#${kw}</a>`);
         }

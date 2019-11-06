@@ -1688,7 +1688,7 @@
       },
       {
         "title": "Assessing policy options",
-        "summary": "Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help analyze the inputs and outputs of these models, and provide techniques for solving these models.",
+        "summary": "Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help analyze the inputs and outputs of these models, and provide techniques for solving these models. Decision-makers must often make complex trade-offs when designing climate change policies. ML can help analyze and",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
@@ -1714,7 +1714,7 @@
       },
       {
         "title": "Evaluating policy effects",
-        "summary": "When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of previously-implemented policies and by performing causal inference on historical data.",
+        "summary": "When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of already-implemented policies and by performing causal inference on historical data.",
         "ml_keywords": [
           "unsupervised learning",
           "NLP",
@@ -1757,7 +1757,7 @@
       },
       {
         "title": "Non-carbon markets",
-        "summary": "Market design can influence greenhouse gas emissions even in settings where such emissions are not directly penalized, for instance as it might enable more renewable generation in electricity markets or make freight markets more energy efficient. ML can help analyze behavior, set dynamic prices, and solve auctions with the goal of encouraging climate-beneficial behavior in non-carbon markets.",
+        "summary": "Market design can influence greenhouse gas emissions even in settings where such emissions are not directly penalized, for instance by enabling more renewables in electricity markets or encouraging more efficient shipping of goods. ML can help analyze market behavior, set dynamic prices, and solve auctions with the goal of encouraging climate-beneficial behavior in the markets where it is applied.",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
@@ -1780,7 +1780,7 @@
       },
       {
         "title": "Assessing market effects",
-        "summary": "When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected.",
+        "summary": "When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected. ML can help assess the effects of market-based strategies to ensure they are effective and equitable.",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
