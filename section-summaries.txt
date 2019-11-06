@@ -1,4 +1,5 @@
-﻿# Electricity Systems
+﻿
+# Electricity Systems
 
 Title: Forecasting supply and demand
 1-2 sentence summary: The supply and demand of power must both be forecast ahead of time to inform electricity planning and scheduling. ML can help make these forecasts more accurate, improve temporal and spatial resolution, and quantify uncertainty.
@@ -86,7 +87,9 @@ ML keywords: supervised learning, computer vision, transfer learning
 Topic keywords:
 Thematic keywords: data mining and generation, remote sensing, hybrid physical models
 Paper flags: High Leverage
-Transportation
+
+# Transportation
+
 Title: Understanding transportation data
 1-2 sentence summary: Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.
 ML keywords:

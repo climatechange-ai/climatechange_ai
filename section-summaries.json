@@ -1,6 +1,6 @@
 [
   {
-    "title": "﻿# Electricity Systems",
+    "title": "Electricity Systems",
     "subsections": [
       {
         "title": "Forecasting supply and demand",
@@ -226,11 +226,13 @@
         ],
         "paper_flags": [
           "High Leverage"
-        ],
-        "": [
-
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title": "Transportation",
+    "subsections": [
       {
         "title": "Understanding transportation data",
         "summary": "Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.",

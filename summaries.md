@@ -1,14 +1,40 @@
 # Section Summaries
 
-<select multiple data-placeholder="Select machine learning keywords..." class="chosen-select" id='ml-keywords'></select>
+On this page, we provide an interactive view of <a href='https://arxiv.org/abs/1906.05433' target='_blank'>the paper</a> at a subsection level. You can select keywords below to filter the list.
 
-<select multiple data-placeholder="Select topic-specific keywords..." class="chosen-select" id='topic-keywords'></select>
 
-<select multiple data-placeholder="Select thematic keywords..." class="chosen-select" id='thematic-keywords'></select>
 
-<button class='button' id='reset'>Clear filters</button>
+<div class='keywords field'>
+  <label class='label'>Machine Learning Keywords</label>
+  <div class='control'>
+    <select multiple data-placeholder="Select machine learning keywords..." class="chosen-select" id='ml-keywords'></select>
+  </div>
+</div>
+
+<div class='keywords field'>
+  <label class='label'>Thematic Keywords</label>
+  <div class='control'>
+    <select multiple data-placeholder="Select thematic keywords..." class="chosen-select" id='thematic-keywords'></select>
+  </div>
+</div>
+
+<div class='keywords field topic-keywords'>
+  <label class='label'>Topic Keywords</label>
+  <div class='control'>
+  <select multiple data-placeholder="Select topic-specific keywords..." class="chosen-select" id='topic-keywords'></select>
+  </div>
+</div>
+
+
+<style>
+  /* quick hack: hide the topic keywords without changing the code. delete this <style> to make them visible. */
+  .tag.is-topic, .topic-keywords {
+    display: none !important;
+  }
+</style>
 
 <section id='sections' class='clearfix'>
+  <p><button class='button is-small' id='reset'>Clear filters</button></p>
 </section>
 
 <script src="assets/js/chosen.jquery.js"></script>
@@ -23,6 +49,8 @@ $(document).ready(function() {
     let html = '';
     for (let j = 0; j < summaries.length; j++) {
       const s = summaries[j];
+
+      html += `<div class='section'><h2>${s.title}</h2>`;
       for (let i = 0; i < s.subsections.length; i++) {
         const ss = s.subsections[i];
         const tags = [];
@@ -32,11 +60,11 @@ $(document).ready(function() {
         }
         for (let kw of ss.topic_keywords) {
           topic_kwds.add(kw);
-          tags.push(`<a href="#" class="tag is-info is-topic">${kw}</a>`);
+          tags.push(`<a href="#" class="tag is-success is-topic">${kw}</a>`);
         }
         for (let kw of ss.thematic_keywords) {
           thematic_kwds.add(kw);
-          tags.push(`<a href="#" class="tag is-success is-thematic">${kw}</a>`);
+          tags.push(`<a href="#" class="tag is-info is-thematic">${kw}</a>`);
         }
 
         html += `
@@ -60,11 +88,12 @@ $(document).ready(function() {
               </div>
             </div>
             <footer class='card-footer'>
-              <a class='card-footer-item' href="https://arxiv.org/pdf/1906.05433.pdf#subsection.${j+3}.${i+1}" target="_blank">Read more</a>
+              <a class='card-footer-item' href="https://arxiv.org/pdf/1906.05433.pdf#subsection.${j+1}.${i+1}" target="_blank">Read more</a>
             </footer>
           </div>
         `;
       }
+      html += `</div>`;
     }
 
     function setOverlap(a, b) {
@@ -115,6 +144,14 @@ $(document).ready(function() {
           $(el).removeClass('ml-visible');
         }
       });
+
+      $('.section').each((index, el) => {
+        if ($(el).find('.subsection.ml-visible').length) {
+          $(el).addClass('ml-visible');
+        } else {
+          $(el).removeClass('ml-visible');
+        }
+      });
     });
 
     topic_sel.change(() => {
@@ -126,12 +163,28 @@ $(document).ready(function() {
           $(el).removeClass('topic-visible');
         }
       });
+
+      $('.section').each((index, el) => {
+        if ($(el).find('.subsection.topic-visible').length) {
+          $(el).addClass('topic-visible');
+        } else {
+          $(el).removeClass('topic-visible');
+        }
+      });
     });
 
     theme_sel.change(() => {
       toggleOverall();
       $('.subsection').each((index, el) => {
         if (setOverlap($(el).data('thematic'), theme_sel.val())) {
+          $(el).addClass('theme-visible');
+        } else {
+          $(el).removeClass('theme-visible');
+        }
+      });
+
+      $('.section').each((index, el) => {
+        if ($(el).find('.subsection.theme-visible').length) {
           $(el).addClass('theme-visible');
         } else {
           $(el).removeClass('theme-visible');

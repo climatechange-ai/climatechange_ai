@@ -258,14 +258,27 @@ html, body {
   width: 100%;
 }
 
+#sections #reset {
+  display: none;
+}
+
 #sections.filtering {
-  .subsection {
+  #reset {
+    display: initial;
+  }
+  .subsection, .section {
     display: none;
 
-    &.ml-visible, &.topic-visible, &.thematic-visible {
+    &.ml-visible, &.topic-visible, &.theme-visible {
       display: block;
     }
   }
+}
+
+.keywords.field {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: top;
 }
 
 //@media only screen and (max-width: 950px) {

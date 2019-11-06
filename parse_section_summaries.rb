@@ -2,7 +2,8 @@ require 'pry'
 require 'yaml'
 require 'json'
 
-f = "\n"+File.read('section-summaries.txt')
+# ensure there is a blank line at the start of this text file
+f = "\n\n"+File.read('section-summaries.txt')
 
 key_dict = {
   '1-2 sentence summary' => 'summary',
@@ -12,9 +13,9 @@ key_dict = {
   'Paper flags' => 'paper_flags'
 }
 
-data = f.split(/^#/m).map(&:strip).map { |section|
+data = f.split(/^#/m).map(&:strip)[1..-1].map { |section|
   {
-    'title' => section.split("\n")[0].strip.sub(/^#\s*/, ''),
+    'title' => section.split("\n")[0].strip,
     'subsections' => section.split(/Title: /m)[1..-1].map(&:strip).map { |sub|
       sub.split("\r\n")[1..-1].each.with_object({
         'title' => sub.split("\r\n")[0].strip
