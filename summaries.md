@@ -25,11 +25,21 @@ On this page, we provide an interactive view of <a href='https://arxiv.org/abs/1
   </div>
 </div>
 
+<div class='keywords field'>
+  <label class='label'>Paper Section</label>
+  <div class='control'>
+    <div class='select is-small'>
+      <select id='section-select' placeholder="Select a paper section...">
+        <option></option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <style>
   /* quick hack: hide the topic keywords without changing the code. comment or uncomment as desired */
   .tag.is-topic, .topic-keywords {
-    // display: none !important;
+    display: none !important;
   }
 </style>
 
@@ -46,11 +56,18 @@ $(document).ready(function() {
     let topic_kwds = new Set();
     let thematic_kwds = new Set();
 
+    const learn_sel = $('#ml-keywords');
+    const topic_sel = $('#topic-keywords');
+    const theme_sel = $('#thematic-keywords');
+    const section_sel = $('#section-select');
+
     let html = '';
     for (let j = 0; j < summaries.length; j++) {
       const s = summaries[j];
 
       html += `<div class='section'><h2>${s.title}</h2>`;
+      section_sel.append(`<option value="${s.title}">${s.title}</option>`);
+
       for (let i = 0; i < s.subsections.length; i++) {
         const ss = s.subsections[i];
         const tags = [];
@@ -79,6 +96,7 @@ $(document).ready(function() {
 
         html += `
           <div class="subsection card clearfix"
+            data-section='${JSON.stringify([s.title])}'
             data-ml='${JSON.stringify(ss.ml_keywords)}'
             data-topic='${JSON.stringify(ss.topic_keywords)}'
             data-thematic='${JSON.stringify(ss.thematic_keywords)}'>
@@ -109,6 +127,7 @@ $(document).ready(function() {
     }
 
     function allWithin(a, b) {
+      if (!Array.isArray(b)) b = [b];
       for (const el of b)
         if (a.indexOf(el) == -1)
           return false;
@@ -120,10 +139,6 @@ $(document).ready(function() {
     $(document).on('click', '.collapsible-header', (ev) => {
       $(ev.currentTarget).closest('.subsection').toggleClass('is-expanded');
     });
-
-    const learn_sel = $('#ml-keywords');
-    const topic_sel = $('#topic-keywords');
-    const theme_sel = $('#thematic-keywords');
 
     ml_kwds.forEach((kw) => {
       learn_sel.append(`<option value="${kw}">${kw}</option>`);
@@ -137,15 +152,24 @@ $(document).ready(function() {
       theme_sel.append(`<option value="${kw}">${kw}</option>`);
     });
 
+    const filters = [
+      [learn_sel, 'ml'],
+      [topic_sel, 'topic'],
+      [theme_sel, 'thematic'],
+      [section_sel, 'section']
+    ];
+    const filterClassSelectors = filters.map((el) => `.${el[1]}-filtered`);
+
     function toggleVisibility(select, key) {
-      if (select.val()) {
+      if (select.val().length) {
         $('#sections').addClass(`${key}-filtering`);
       } else {
         $('#sections').removeClass(`${key}-filtering`);
+        $('.subsection').removeClass(`${key}-filtered`);
       }
 
       $('.subsection').each((index, el) => {
-        if (allWithin($(el).data(key), select.val())) {
+        if (select.val().length == 0 || allWithin($(el).data(key), select.val())) {
           $(el).removeClass(`${key}-filtered`);
         } else {
           $(el).addClass(`${key}-filtered`);
@@ -153,15 +177,15 @@ $(document).ready(function() {
       });
 
       $('.section').each((index, el) => {
-        if ($(el).find(`.subsection:not(.${key}-filtered)`).length) {
-          $(el).removeClass(`${key}-filtered`);
+        if ($(el).find('.subsection').not(filterClassSelectors.join(", ")).length) {
+          $(el).removeClass(`all-filtered`);
         } else {
-          $(el).addClass(`${key}-filtered`);
+          $(el).addClass(`all-filtered`);
         }
       });
     }
 
-    for (let pair of [[learn_sel, 'ml'], [topic_sel, 'topic'], [theme_sel, 'thematic']]) {
+    for (let pair of filters) {
       const select = pair[0];
       const key = pair[1];
 
@@ -179,6 +203,7 @@ $(document).ready(function() {
       learn_sel.val('').trigger("change").trigger("chosen:updated");
       theme_sel.val('').trigger("change").trigger("chosen:updated");
       topic_sel.val('').trigger("change").trigger("chosen:updated");
+      section_sel.val('').trigger("change");
     });
 
     $('.chosen-select').chosen();

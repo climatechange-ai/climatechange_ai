@@ -276,6 +276,15 @@ html, body {
   .thematic-filtered { display: none; }
 }
 
+#sections.section-filtering {
+  #reset { display: initial; }
+  .section-filtered { display: none; }
+}
+
+.all-filtered {
+  display: none;
+}
+
 .keywords.field {
   display: inline-block;
   margin-right: 1rem;
@@ -319,4 +328,8 @@ html, body {
 }
 .tag.is-uncertain-impact {
   color: rgb(219,175,0);
+}
+
+#section-select {
+  font-size: 0.85rem;
 }
