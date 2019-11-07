@@ -95,7 +95,7 @@ $(document).ready(function() {
 
         let pdfLink;
         if (ss.pdf_location) {
-          pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#${ss.pdf_location}`;
+          pdfLink = `https://arxiv.org/pdf/1906.05433.pdf#${ss.pdf_location.replace(/&zoom=.*$/gi, "")}`;
         } else if (ss.section_number) {
           const level = ss.section_number.split(".").length;
           if (level == 3) {
