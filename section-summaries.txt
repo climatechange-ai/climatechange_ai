@@ -8,7 +8,7 @@ Topic keywords: low-carbon electricity, variable electricity, renewable energy, 
 Thematic keywords: forecasting, hybrid physical models
 Paper flags: High Leverage
 Section number: 1.1.1
-PDF location: page=7&zoom=auto,0,100
+PDF location: page=7&zoom=100,0,100
 
 Title: Improving scheduling and flexible demand
 1-2 sentence summary: Scheduling algorithms on the power grid have trouble handling large quantities of solar, wind, and other time-varying electricity sources. ML can help improve electricity scheduling algorithms, control storage and flexible demand, and design real-time electricity prices that reduce CO2 emissions.
@@ -17,7 +17,7 @@ Topic keywords: electricity, electric grid, power grid, scheduling and dispatch,
 Thematic keywords: model approximation, control systems, system optimization
 Paper flags:
 Section number: 1.1.1
-PDF location: page=7&zoom=auto,0,710
+PDF location: page=7&zoom=100,0,710
 
 Title: Accelerating materials science
 1-2 sentence summary: Designing new materials is important for many applications, including energy storage via fuels and batteries. ML can help suggest promising materials to try, thereby speeding up the materials discovery process.
@@ -26,7 +26,7 @@ Topic keywords: solar fuels, batteries, materials science, computational science
 Thematic keywords: accelerated experimentation
 Paper flags: High Leverage, Long-term
 Section number: 1.1.1
-PDF location: page=8&zoom=auto,0,450
+PDF location: page=8&zoom=100,0,450
 
 Title: Additional applications (for variable sources)
 1-2 sentence summary: There are many additional ways to facilitate the adoption of solar panels, wind turbines, and other low-carbon electricity generators. ML can help efficiently operate these systems, detect the locations of solar panels, and monitor the electric grid in places with rooftop solar panels.
@@ -35,7 +35,7 @@ Topic keywords: low-carbon electricity, variable electricity, renewable energy, 
 Thematic keywords: remote sensing, data mining and generation, predictive maintenance, system optimization
 Paper flags:
 Section number: 1.1.1
-PDF location: page=8&zoom=auto,0,870
+PDF location: page=8&zoom=100,0,870
 
 Title: Managing existing technologies
 1-2 sentence summary: Many controllable low-carbon technologies, such as geothermal, nuclear fission, and (in some cases) dam-based hydropower, are already commercially available. ML can help plan where these technologies should be deployed and maintain power plants that are already operating.
@@ -52,7 +52,7 @@ Topic keywords: tokamak, magnetic confinement, inertial confinement, magnetohydr
 Thematic keywords: control systems, accelerated experimentation
 Paper flags: High Leverage, Long-term
 Section number: 1.1.2
-PDF location: page=9&zoom=auto,0,750
+PDF location: page=9&zoom=100,0,750
 
 Title: Reducing life-cycle fossil fuel emissions
 1-2 sentence summary: In addition to the unavoidable climate impacts of burning fossil fuels, natural gas pipelines leak methane, a powerful greenhouse gas. ML can help detect and prevent these leaks until society stops burning natural gas.
@@ -69,16 +69,16 @@ Topic keywords: electricity, electric grid, power grid
 Thematic keywords: predictive maintenance
 Paper flags:
 Section number: 1.2
-PDF location: page=10&zoom=auto,0,700
+PDF location: page=10&zoom=100,0,700
 
 Title: Modeling emissions
 1-2 sentence summary: Reducing the emissions associated with electricity use requires understanding what the emissions on the electric grid actually are at any given moment. ML can help estimate and forecast emissions, and potentially model the uncertainty in these estimates.
-ML keywords: electricity, electric grid, power grid, marginal emissions factors, average emissions factors, curtailments
-Topic keywords: supervised learning, time-series, uncertainty quantification, deep learning
+ML keywords: supervised learning, time-series, uncertainty quantification, deep learning
+Topic keywords: electricity, electric grid, power grid, marginal emissions factors, average emissions factors, curtailments
 Thematic keywords: forecasting
 Paper flags:
 Section number: 1.2
-PDF location: page=10&zoom=auto,0,850
+PDF location: page=10&zoom=100,0,850
 
 Title: Improving clean energy access
 1-2 sentence summary: Improving access to clean electricity can address climate change while benefiting society, resulting in decreased emissions from wood-fired stoves, diesel generators, and other sources. ML can help manage rural microgrids and gather data to aid energy access policy.
@@ -95,7 +95,7 @@ Topic keywords: electricity, electric grid, power grid
 Thematic keywords: data mining and generation, remote sensing, hybrid physical models
 Paper flags: High Leverage
 Section number: 1.3
-PDF location: page=11&zoom=auto,0,660
+PDF location: page=11&zoom=100,0,660
 # Transportation
 Title: Understanding transportation data
 1-2 sentence summary: Many areas of transportation lack data, and decision-makers often plan infrastructure and policy based on uncertain information. ML can help provide relevant information about today’s transportation systems by interpreting data from sensors and satellite imagery.
@@ -112,7 +112,7 @@ Topic keywords: agent-based travel demand models, transit ridership, spatiotempo
 Thematic keywords: forecasting, system optimization
 Paper flags: High Leverage
 Section number: 2.1
-PDF location: page=14&zoom=auto,0,750
+PDF location: page=14&zoom=100,0,750
 
 Title: Shared mobility
 1-2 sentence summary: It is unclear whether shared mobility (such as ride-sharing services) will increase or decrease emissions. ML can help model the emissions impacts of shared mobility.
@@ -121,7 +121,7 @@ Topic keywords: on-demand ride service, vehicle sharing
 Thematic keywords: system optimization
 Paper flags: Uncertain Impact
 Section number: 2.1
-PDF location: page=15&zoom=auto,0,180
+PDF location: page=15&zoom=100,0,180
 
 Title: Freight routing and consolidation
 1-2 sentence summary: Intelligently routing and consolidating freight shipments can dramatically reduce emissions. ML can help optimize freight transportation by gathering information about suppliers, freight demand, and transit delays, and then by using this information to create optimal transportation schedules.
@@ -130,7 +130,7 @@ Topic keywords: operations research, less-than-truckload, logistics service prov
 Thematic keywords: system optimization, forecasting, control systems
 Paper flags: High Leverage
 Section number: 2.1
-PDF location: page=15&zoom=auto,0,700
+PDF location: page=15&zoom=100,0,700
 
 Title: Alternatives to transport
 1-2 sentence summary: Technologies such as additive manufacturing or virtual communication may help replace or reduce transportation demand. ML can help develop and improve both of these technologies.
@@ -139,7 +139,7 @@ Topic keywords: additive manufacturing, 3-D printing, virtual communication, tel
 Thematic keywords: accelerated experimentation, human interaction
 Paper flags: Uncertain Impact
 Section number: 2.1
-PDF location: page=16&zoom=auto,0,150
+PDF location: page=16&zoom=100,0,150
 
 Title: Designing for efficiency
 1-2 sentence summary: There are many ways to reduce the amount of energy that a vehicle uses. ML can help design and operate engines to improve efficiency, provide proxies for complex aerodynamics models used in vehicle design, and improve processes for manufacturing lighter vehicle parts.
@@ -156,7 +156,7 @@ Topic keywords: autonomous driving, platooning, eco-driving
 Thematic keywords: control systems, remote sensing, system optimization
 Paper flags: Uncertain Impact
 Section number: 2.2
-PDF location: page=16&zoom=auto,0,750
+PDF location: page=16&zoom=100,0,750
 
 Title: Electric vehicles
 1-2 sentence summary: Electric vehicles (EVs) can play a key role in decarbonizing transport and -- assuming, of course, that electricity is generated using low-carbon sources. ML can help improving EVs in various ways. Applications include modeling and scheduling charging, integrating EVs in the electric grid, and developing and optimizinge EVelectric vehicle batteries, as well as model charging patterns.
@@ -173,7 +173,7 @@ Topic keywords: electrofuels, biofuels, hydrogen, alternative fuels
 Thematic keywords: accelerated experimentation
 Paper flags: Long-term
 Section number: 2.3
-PDF location: page=17&zoom=auto,0,810
+PDF location: page=17&zoom=100,0,810
 
 Title: Passenger preferences
 1-2 sentence summary: Understanding passengers’ travel preferences can inform long-term transportation planning. ML can help predict or infer passengers’ travel choices, as well as design better travel surveys.
@@ -190,7 +190,7 @@ Topic keywords: public transit, intermodal, multimodal, bike share
 Thematic keywords: system optimization, forecasting, remote sensing, 
 Paper flags: High Leverage
 Section number: 2.4
-PDF location: page=18&zoom=auto,0,540
+PDF location: page=18&zoom=100,0,540
 
 Buildings & Cities
 Title: Modeling building energy
@@ -208,16 +208,16 @@ Topic keywords: energy efficiency, HVAC, fault detection and diagnosis, occupanc
 Thematic keywords: control systems, system optimization, forecasting, predictive maintenance
 Paper flags: High Leverage
 Section number: 3.1
-PDF location: page=21&zoom=auto,0,780
+PDF location: page=21&zoom=100,0,780
 
 Title: Modeling energy use across buildings
 1-2 sentence summary: Energy use data is not available for most buildings, limiting the information available for city planners deciding which buildings to retrofit. ML can help predict energy use for buildings without data, based on other buildings within the city or district.
-ML keywords: supervised Learning, clustering
+ML keywords: supervised learning, clustering
 Topic keywords: energy planning, multi-building energy models, energy consumption survey
 Thematic keywords: data mining and generation
 Paper flags:
 Section number: 3.2
-PDF location: page=23&zoom=auto,0,100
+PDF location: page=23&zoom=100,0,100
 
 Title: Gathering infrastructure data
 1-2 sentence summary: Many places have almost no energy consumption data, which can make it difficult to design targeted mitigation strategies. ML can help infer attributes of buildings, such as volume or construction material, that are crucial to predicting energy use and efficiency potential.
@@ -226,7 +226,7 @@ Topic keywords: geospatial data, 3D building models, digital twins, ML-assisted 
 Thematic keywords: data mining and generation, remote sensing
 Paper flags: High Leverage
 Section number: 3.2
-PDF location: page=23&zoom=auto,0,610
+PDF location: page=23&zoom=100,0,610
 
 Title: Data for smart cities
 1-2 sentence summary: Cities have increasingly large and diverse datasets at their disposal to improve efficiency and decrease emissions. ML can help analyze and infer information from these datasets via text-mining and other methods, preprocess large amounts of raw data (such as real-time traffic data), and integrate heterogeneous data sources.
@@ -243,7 +243,7 @@ Topic keywords: climate policy, sector coordination, neighborhood planning, city
 Thematic keywords: system optimization
 Paper flags: 
 Section number: 3.3
-PDF location: page=24&zoom=auto,0,780
+PDF location: page=24&zoom=100,0,780
 
 # Industry
 
@@ -254,7 +254,7 @@ Topic keywords:
 Thematic keywords: forecasting
 Paper flags: Uncertain Impact
 Section number: 4.1
-PDF location: page=27&zoom=auto,0,220
+PDF location: page=27&zoom=100,0,220
 
 Title: Recommender systems
 1-2 sentence summary: Consumers and purchasing firms in search of climate-friendly options may have difficulty interpreting information about products’ life-cycle greenhouse gas emissions. ML can help identify the cleanest options, given relevant data. 
@@ -263,7 +263,7 @@ Topic keywords:
 Thematic keywords: data mining and generation
 Paper flags:
 Section number: 4.1
-PDF location: page=27&zoom=auto,0,530
+PDF location: page=27&zoom=100,0,530
 
 Title: Reducing food waste
 1-2 sentence summary: Globally, society loses or wastes 1.3 billion metric tons of food each year. ML can help reduce food waste by optimizing delivery routes, forecasting demand, improving refrigeration systems, and identifying spoiled produce.
@@ -272,7 +272,7 @@ Topic keywords:
 Thematic keywords: forecasting, system optimization
 Paper flags: High Leverage
 Section number: 4.1
-PDF location: page=27&zoom=auto,0,700
+PDF location: page=27&zoom=100,0,700
 
 Title: Climate-friendly construction
 1-2 sentence summary: The production of cement and steel accounts for over 10% of all global GHG emissions. ML can help reduce the need for these materials by developing techniques that require less raw material and accelerating the discovery of carbon-friendly replacements.
@@ -289,7 +289,7 @@ Topic keywords:
 Thematic keywords: accelerated experimentation
 Paper flags: High Leverage, Long-term
 Section number: 4.2
-PDF location: page=28&zoom=auto,0,370
+PDF location: page=28&zoom=100,0,370
 
 Title: Adaptive control
 1-2 sentence summary: Industrial HVAC systems and other control mechanisms can be extremely energy- and emissions-intensive. ML can help reduce GHG emissions from such systems via adaptive control.
@@ -306,7 +306,7 @@ Topic keywords: supervised learning, unsupervised learning
 Thematic keywords: predictive maintenance
 Paper flags:
 Section number: 4.3
-PDF location: page=29&zoom=auto,0,150
+PDF location: page=29&zoom=100,0,150
 
 Title: Using cleaner electricity
 1-2 sentence summary: Industrial processes such as cement crushing and powder-coating can be extremely energy- and emissions-intensive. ML can help optimize the timing of these processes to use cleaner electricity (e.g. wind and solar) when it is available.
@@ -315,7 +315,7 @@ Topic keywords:
 Thematic keywords: system optimization, control systems
 Paper flags: High Leverage
 Section number: 4.3
-PDF location: page=29&zoom=auto,0,370
+PDF location: page=29&zoom=100,0,370
 # Farms & Forests
 Title: Remote sensing of emissions
 1-2 sentence summary: Greenhouse gases interact with sunlight, by definition, which means they can be picked up by hyperspectral cameras. ML can help track greenhouse gases from satellite or aerial imagery.
@@ -356,7 +356,7 @@ Topic keywords:
 Thematic keywords: remote sensing, control systems
 Paper flags: Long-term, Uncertain Impact
 Section number: 5.4
-PDF location: page=32&zoom=auto,0,650
+PDF location: page=32&zoom=100,0,650
 
 Title: Managing forest fires
 1-2 sentence summary: Large forest fires release CO2 into the atmosphere, besides potentially harming people and property, while small fires can be beneficial by preventing large ones. ML can help firefighters better understand and control forest fires by forecasting droughts, estimating moisture in the forest canopy, and predicting the progression of fires.
@@ -365,7 +365,7 @@ Topic keywords:
 Thematic keywords: remote sensing, forecasting
 Paper flags:
 Section number: 5.4
-PDF location: page=32&zoom=auto,0,870
+PDF location: page=32&zoom=100,0,870
 
 Title: Reducing deforestation
 1-2 sentence summary: Forests store a large amount of CO2 in biomass and soil, but much of this CO2 is released when forests are destroyed. ML can help track illegal deforestation using imagery or even audio signals, and also provide tools for sustainable harvesting and forest management.
@@ -374,7 +374,7 @@ Topic keywords:
 Thematic keywords: remote sensing
 Paper flags: High Leverage
 Section number: 5.4
-PDF location: page=33&zoom=auto,0,270
+PDF location: page=33&zoom=100,0,270
 # CO2 Removal
 
 Title: Direct air capture
@@ -419,7 +419,7 @@ Topic keywords:
 Thematic keywords: remote sensing
 Paper flags: High Leverage
 Section number: 7.1.2
-PDF location: page=38&zoom=auto,0,170
+PDF location: page=38&zoom=100,0,170
 
 Title: Working with climate models
 1-2 sentence summary: Climate models can be extremely complex, and climate predictions are often made using the outputs of 20+ climate models. ML can help identify and leverage relationships between variables within climate models, and intelligently combine the outputs of multiple climate models.
@@ -460,7 +460,7 @@ Topic keywords: citizen science, camera trap data
 Thematic keywords: remote sensing, data mining and generation
 Paper flags: High Leverage
 Section number: 8.1
-PDF location: page=42&zoom=auto,0,650
+PDF location: page=42&zoom=100,0,650
 
 Title: Designing infrastructure
 1-2 sentence summary: Infrastructure such as roads, power grids, and water mains must be designed to account for the increasing frequency and severity of extreme weather events. ML can help pinpoint vulnerable areas, provide localized predictions, and incorporate historical or proxy data to identify what infrastructure is needed.
@@ -477,7 +477,7 @@ Topic keywords: intelligent infrastructure, resilient infrastructure
 Thematic keywords: predictive maintenance, data mining and generation
 Paper flags: High Leverage
 Section number: 8.2
-PDF location: page=43&zoom=auto,0,900
+PDF location: page=43&zoom=100,0,900
 
 Title: Food security
 1-2 sentence summary: Climate change is expected to decrease crop yields in many locations, due to drought and desertification. ML can help monitor the real-time risk of food shortages, forecast longer-term crop yields, and improve the resilience of food supply chains to help society better manage food security threats.
@@ -489,12 +489,12 @@ Section number: 8.3
 
 Title: Resilient livelihoods
 1-2 sentence summary: Farmers and other individuals whose livelihoods depend directly on ecological systems are at especially high risk from climate change. ML can help increase resilience by facilitating equipment and information sharing, better target social interventions by monitoring economic health, and improve online employment matching and skill training systems.
-ML keywords: supervised learning, NLP, time series, interpretable ML, recommender systems
+ML keywords: supervised learning, NLP, time-series, interpretable ML, recommender systems
 Topic keywords: mobile money, early warning systems
 Thematic keywords: data mining and generation, system optimization, human interaction
 Paper flags:
 Section number: 8.3
-PDF location: page=44&zoom=auto,0,780
+PDF location: page=44&zoom=100,0,780
 
 Title: Supporting displaced people
 1-2 sentence summary: Climate change will likely have large-scale economic and socio-political consequences, which can lead to mass human migration. ML can help provide support to migrants by monitoring and predicting large-scale migration patterns, though care must be taken to ensure such monitoring is not used to exploit migrants.
@@ -503,7 +503,7 @@ Topic keywords: social data mining
 Thematic keywords: remote sensing, data mining and generation, human interaction
 Paper flags: Long-term, Uncertain Impact
 Section number: 8.3
-PDF location: page=45&zoom=auto,0,100
+PDF location: page=45&zoom=100,0,100
 
 Title: Assessing health risks
 1-2 sentence summary: Climate change is expected to exacerbate existing health hazards, by increasing the frequency and severity of heatwaves, expanding the range of vector borne diseases, and reducing air quality. ML can monitor exposures and drive strategies to protect vulnerable populations.
@@ -512,7 +512,7 @@ Topic keywords: exposure monitoring, public health
 Thematic keywords: data mining and generation, forecasting
 Paper flags:
 Section number: 8.3
-PDF location: page=45&zoom=auto,0,300
+PDF location: page=45&zoom=100,0,300
 
 Title: Managing epidemics
 1-2 sentence summary: Climate change may increase the likelihood of disease epidemics. ML can help model the spread of disease and provide scalable tools for diagnosis to help society better respond to epidemics.
@@ -529,7 +529,7 @@ Topic keywords: social data mining
 Thematic keywords: remote sensing, data mining and generation
 Paper flags: High Leverage
 Section number: 8.4
-PDF location: page=46&zoom=auto,0,170
+PDF location: page=46&zoom=100,0,170
 
 # Solar Geoengineering
 Title: Understanding and improving aerosols: design
@@ -547,7 +547,7 @@ Topic keywords: solar geoengineering, aerosol physics, climate modeling, climate
 Thematic keywords: hybrid physical models
 Paper flags:
 Section number: 9.1
-PDF location: page=47&zoom=auto,0,920
+PDF location: page=47&zoom=100,0,920
 
 Title: Engineering a planetary control system
 1-2 sentence summary: Controlling a geoengineering system comes with a multitude of challenges and a host of possible side effects, many of which could be catastrophic. Speculatively, ML can help fine-tune geoengineering interventions by suggesting control actions and emulating the complex dynamical systems involved.
@@ -601,7 +601,7 @@ Topic keywords: remote sensing, data mining and generation
 Thematic keywords:
 Paper flags: High Leverage
 Section number: 11.2
-PDF location: page=53&zoom=auto,0,200
+PDF location: page=53&zoom=100,0,200
 
 Title: Assessing policy options
 1-2 sentence summary: Decision-makers often construct mathematical models to help them assess or trade off between different policy alternatives. ML can help provide new techniques for working with integrated assessment models, multi-objective optimization, and other models commonly used by decision-makers.
@@ -610,7 +610,7 @@ Topic keywords: integrated assessment models, operations research, multi-criteri
 Thematic keywords: human interaction
 Paper flags:
 Section number: 11.2
-PDF location: page=53&zoom=auto,0,390
+PDF location: page=53&zoom=100,0,390
 
 Title: Evaluating policy effects
 1-2 sentence summary: When creating new policies, decision-makers may wish to understand previous policies and analyze how these policies performed. ML can help on both fronts by analyzing the text of existing policies and by performing causal inference on historical data.
@@ -619,7 +619,7 @@ Topic keywords: text analysis, causal inference
 Thematic keywords: 
 Paper flags: High Leverage
 Section number: 11.2
-PDF location: page=54&zoom=auto,0,330
+PDF location: page=54&zoom=100,0,330
 
 Title: Predicting carbon prices
 1-2 sentence summary: Carbon pricing and other market-based measures can incentivize the reduction of greenhouse gas emissions. ML can help predict prices in carbon markets and analyze the main drivers of these prices. 
@@ -636,7 +636,7 @@ Topic keywords: bandit problem, auction market, market power
 Thematic keywords: control systems, forecasting
 Paper flags:
 Section number: 11.3
-PDF location: page=55&zoom=auto,0,100
+PDF location: page=55&zoom=100,0,100
 
 Title: Assessing market effects
 1-2 sentence summary: When designing market-based strategies, it is necessary to understand how effectively each strategy will reduce emissions, as well as how the underlying socio-technical system may be affected. ML can help assess the outcomes of market-based strategies to ensure they are effective and equitable. 
@@ -645,7 +645,7 @@ Topic keywords: hedonic pricing, equity, carbon offsetting
 Thematic keywords: 
 Paper flags:
 Section number: 11.3
-PDF location: page=55&zoom=auto,0,280
+PDF location: page=55&zoom=100,0,280
 # Education
 Title: AI in Education
 1-2 sentence summary: In addition to being universally beneficial, education can improve the resilience of communities to climate change, especially in developing countries. ML can help enable personalized and scalable tools for education.
@@ -654,16 +654,16 @@ Topic keywords: AIED, learner analytics, educational data mining.
 Thematic keywords: human interaction
 Paper flags: Long-term
 Section number: 12
-PDF location: page=56&zoom=auto,0,330
+PDF location: page=56&zoom=100,0,330
 
 Title: Learning about climate
 1-2 sentence summary: Education can empower individuals to adopt more sustainable lifestyles. ML can help educate the public about climate change through conversational agents and adaptive learning techniques.
-ML keywords: NLP, supervised learning.
+ML keywords: NLP, supervised learning
 Topic keywords: climate education, sustainability education.
 Thematic keywords: human interaction
 Paper flags:
 Section number: 12
-PDF location: page=56&zoom=auto,0,850
+PDF location: page=56&zoom=100,0,850
 # Finance
 Title: Climate investment
 1-2 sentence summary: There is wide demand for investment in companies with low carbon footprint or those that actively address the climate crisis, both for reasons of societal benefit and because these are widely expected to be good investments in the long term. ML can help, potentially, both in designing portfolios and in timing investments.
@@ -672,7 +672,7 @@ Topic keywords: carbon-neutral investment, green finance
 Thematic keywords: forecasting
 Paper flags:
 Section number: 13
-PDF location: page=58&zoom=auto,0,330
+PDF location: page=58&zoom=100,0,330
 
 Title: Climate analytics
 1-2 sentence summary: Climate change will seriously impact a wide swath of global companies, and quantifying the expected financial impacts can incentivize investors and companies to act. ML can help forecast prices in carbon markets, identify climate risks and investment opportunities from corporate disclosures, and quantify the monetary impact of climate change on supply and demand. 
@@ -681,4 +681,4 @@ Topic keywords: climate risk, financial impact, carbon markets
 Thematic keywords: forecasting, data mining and generation
 Paper flags: High Leverage
 Section number: 13
-PDF location: page=58&zoom=auto,0,560
+PDF location: page=58&zoom=100,0,560

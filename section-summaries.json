@@ -217,18 +217,18 @@
         "title": "Modeling emissions",
         "summary": "Reducing the emissions associated with electricity use requires understanding what the emissions on the electric grid actually are at any given moment. ML can help estimate and forecast emissions, and potentially model the uncertainty in these estimates.",
         "ml_keywords": [
+          "supervised learning",
+          "time-series",
+          "uncertainty quantification",
+          "deep learning"
+        ],
+        "topic_keywords": [
           "electricity",
           "electric grid",
           "power grid",
           "marginal emissions factors",
           "average emissions factors",
           "curtailments"
-        ],
-        "topic_keywords": [
-          "supervised learning",
-          "time-series",
-          "uncertainty quantification",
-          "deep learning"
         ],
         "thematic_keywords": [
           "forecasting"
@@ -633,7 +633,7 @@
         "title": "Modeling energy use across buildings",
         "summary": "Energy use data is not available for most buildings, limiting the information available for city planners deciding which buildings to retrofit. ML can help predict energy use for buildings without data, based on other buildings within the city or district.",
         "ml_keywords": [
-          "supervised Learning",
+          "supervised learning",
           "clustering"
         ],
         "topic_keywords": [
@@ -1331,7 +1331,7 @@
         "ml_keywords": [
           "supervised learning",
           "NLP",
-          "time series",
+          "time-series",
           "interpretable ML",
           "recommender systems"
         ],
@@ -1799,7 +1799,7 @@
         "summary": "Education can empower individuals to adopt more sustainable lifestyles. ML can help educate the public about climate change through conversational agents and adaptive learning techniques.",
         "ml_keywords": [
           "NLP",
-          "supervised learning."
+          "supervised learning"
         ],
         "topic_keywords": [
           "climate education",
