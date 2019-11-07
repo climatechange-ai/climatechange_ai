@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'How to get involved'
+title: 'Get Involved'
 description: 'Get Involved'
 ---
 
