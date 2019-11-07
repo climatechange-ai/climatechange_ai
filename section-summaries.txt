@@ -1,5 +1,4 @@
 ﻿
-
 # Electricity Systems
 Title: Forecasting supply and demand
 1-2 sentence summary: The supply and demand of power must both be forecast ahead of time to inform electricity planning and scheduling. ML can help make these forecasts more accurate, improve temporal and spatial resolution, and quantify uncertainty.
@@ -192,7 +191,7 @@ Paper flags: High Leverage
 Section number: 2.4
 PDF location: page=18&zoom=100,0,540
 
-Buildings & Cities
+# Buildings & Cities
 Title: Modeling building energy
 1-2 sentence summary: Making buildings more energy-efficient will require understanding the increasing amounts of data produced by meters and home energy monitors. ML can help model energy demand within buildings, quantify the energy used by individual appliances, and evaluate the effectiveness of energy efficiency measures.
 ML keywords: supervised learning, reinforcement learning, time-series, Bayesian/causal Inference, transfer learning
@@ -444,7 +443,7 @@ Topic keywords:
 Thematic keywords: forecasting
 Paper flags: High Leverage
 Section number: 7.2.2
-Societal Impacts
+# Societal Impacts
 Title: Monitoring ecosystems
 1-2 sentence summary: Climate change poses catastrophic threats to global ecosystems, endangering the food supply and other natural resources on which humanity depends. ML can help model ecosystem effects and track changes in real time via remote sensing.
 ML keywords: supervised learning, computer vision, transfer learning, deep learning
@@ -584,7 +583,7 @@ Paper flags: High Leverage
 Section number: 10.2
 
 
-# Collective decisions
+# Collective Decisions
 
 Title: Modeling social interactions
 1-2 sentence summary: When designing climate change strategies, it is critical to understand how organizations and individuals act and interact in response to different incentives and constraints. ML can help model social interactions by integrating data-driven insights into agent-based models and by providing new tools such as multi-agent reinforcement learning.

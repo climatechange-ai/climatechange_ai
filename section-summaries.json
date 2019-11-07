@@ -569,9 +569,13 @@
           "High Leverage"
         ],
         "section_number": "2.4",
-        "pdf_location": "page=18&zoom=100,0,540",
-        "buildings_&_cities": ""
-      },
+        "pdf_location": "page=18&zoom=100,0,540"
+      }
+    ]
+  },
+  {
+    "title": "Buildings & Cities",
+    "subsections": [
       {
         "title": "Modeling building energy",
         "summary": "Making buildings more energy-efficient will require understanding the increasing amounts of data produced by meters and home energy monitors. ML can help model energy demand within buildings, quantify the energy used by individual appliances, and evaluate the effectiveness of energy efficiency measures.",
@@ -1208,9 +1212,13 @@
         "paper_flags": [
           "High Leverage"
         ],
-        "section_number": "7.2.2",
-        "societal_impacts": ""
-      },
+        "section_number": "7.2.2"
+      }
+    ]
+  },
+  {
+    "title": "Societal Impacts",
+    "subsections": [
       {
         "title": "Monitoring ecosystems",
         "summary": "Climate change poses catastrophic threats to global ecosystems, endangering the food supply and other natural resources on which humanity depends. ML can help model ecosystem effects and track changes in real time via remote sensing.",
@@ -1601,7 +1609,7 @@
     ]
   },
   {
-    "title": "Collective decisions",
+    "title": "Collective Decisions",
     "subsections": [
       {
         "title": "Modeling social interactions",
