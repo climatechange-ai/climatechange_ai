@@ -149,7 +149,6 @@
         "title": "Accelerating fusion science",
         "summary": "Nuclear fusion has the potential to produce safe, carbon-free electricity, but such reactors continue to consume more energy than they produce. ML can help suggest parameters for physical experiments and also model the behavior of plasma inside reactors.",
         "ml_keywords": [
-          "low-carbon electricity",
           "supervised learning",
           "reinforcement learning",
           "Bayesian/causal inference"
@@ -158,7 +157,8 @@
           "tokamak",
           "magnetic confinement",
           "inertial confinement",
-          "magnetohydrodynamic equations"
+          "magnetohydrodynamic equations",
+          "low-carbon electricity"
         ],
         "thematic_keywords": [
           "control systems",

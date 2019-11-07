@@ -47,8 +47,8 @@ Section number: 1.1.2
 
 Title: Accelerating fusion science
 1-2 sentence summary: Nuclear fusion has the potential to produce safe, carbon-free electricity, but such reactors continue to consume more energy than they produce. ML can help suggest parameters for physical experiments and also model the behavior of plasma inside reactors.
-ML keywords: low-carbon electricity, supervised learning, reinforcement learning, Bayesian/causal inference
-Topic keywords: tokamak, magnetic confinement, inertial confinement, magnetohydrodynamic equations
+ML keywords: supervised learning, reinforcement learning, Bayesian/causal inference
+Topic keywords: tokamak, magnetic confinement, inertial confinement, magnetohydrodynamic equations, low-carbon electricity
 Thematic keywords: control systems, accelerated experimentation
 Paper flags: High Leverage, Long-term
 Section number: 1.1.2
