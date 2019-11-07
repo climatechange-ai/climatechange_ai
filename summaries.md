@@ -2,7 +2,7 @@
 
 Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. In our paper “Tackling Climate Change with Machine Learning,” we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. Specifically, we identify high impact problems where existing gaps can be filled by machine learning, in collaboration with other fields.
 
-This page provides an interactive overview and summary of the applications described in our <a href='https://arxiv.org/abs/1906.05433' target='_blank'>paper</a>. Applications can be filtered by machine learning technique or thematic area using the keyword fields below.
+This page provides an interactive summary of the applications described in our <a href='https://arxiv.org/abs/1906.05433' target='_blank'>paper</a>. Applications can be filtered by machine learning technique or thematic area using the keyword fields below.
 
 <div class='keywords field'>
   <label class='label'>Paper Section</label>
