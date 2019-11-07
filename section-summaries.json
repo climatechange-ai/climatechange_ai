@@ -473,7 +473,7 @@
       },
       {
         "title": "Electric vehicles",
-        "summary": "Electric vehicles (EVs) can play a key role in decarbonizing transport and -- assuming, of course, that electricity is generated using low-carbon sources. ML can help improving EVs in various ways. Applications include modeling and scheduling charging, integrating EVs in the electric grid, and developing and optimizinge EVelectric vehicle batteries, as well as model charging patterns.",
+        "summary": "Electric vehicles (EVs) can play a key role in decarbonizing transport. ML can help improve EVs by modeling and scheduling charging, integrating EVs into the electric grid, and developing and optimizing EV batteries.",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
@@ -1173,7 +1173,7 @@
       },
       {
         "title": "Storm tracking",
-        "summary": "Identifying extreme events in climate model outputs can inform scientific understanding of where and when these events may occur. ML can help classify, detect, and track climate-related extreme events such as hurricanes and atmospheric rivers in climate model outputs.",
+        "summary": "Identifying extreme events in climate model outputs can inform scientific understanding of where and when these events may occur. ML can help classify, detect, and track climate-related extreme events such as hurricanes in climate model outputs.",
         "ml_keywords": [
           "supervised learning",
           "unsupervised learning",
@@ -1184,8 +1184,7 @@
 
         ],
         "thematic_keywords": [
-          "remote sensing",
-          "hybrid physical models"
+          "remote sensing"
         ],
         "paper_flags": [
 
@@ -1194,7 +1193,7 @@
       },
       {
         "title": "Local forecasts",
-        "summary": "Storms, droughts, fires, floods, and other extreme events are expected to become stronger and more frequent as climate change progresses. ML can help forecast extreme events and more infer climate change risks at a local level, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.",
+        "summary": "Storms, droughts, fires, floods, and other extreme events are expected to become stronger and more frequent as climate change progresses. ML can help forecast extreme events and infer climate change risks at a local level, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.",
         "ml_keywords": [
           "supervised learning",
           "time-series",

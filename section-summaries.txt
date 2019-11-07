@@ -159,7 +159,7 @@ Section number: 2.2
 PDF location: page=16&zoom=100,0,750
 
 Title: Electric vehicles
-1-2 sentence summary: Electric vehicles (EVs) can play a key role in decarbonizing transport and -- assuming, of course, that electricity is generated using low-carbon sources. ML can help improving EVs in various ways. Applications include modeling and scheduling charging, integrating EVs in the electric grid, and developing and optimizinge EVelectric vehicle batteries, as well as model charging patterns.
+1-2 sentence summary: Electric vehicles (EVs) can play a key role in decarbonizing transport. ML can help improve EVs by modeling and scheduling charging, integrating EVs into the electric grid, and developing and optimizing EV batteries.
 ML keywords: supervised learning, unsupervised learning, reinforcement learning, clustering, deep learning
 Topic keywords: charge scheduling, congestion management, vehicle-to-grid algorithms, battery energy management, energy disaggregation, battery R&D
 Thematic keywords: system optimization, accelerated experimentation, forecasting, control systems
@@ -430,15 +430,15 @@ Paper flags:
 Section number: 7.1.3
 
 Title: Storm tracking
-1-2 sentence summary: Identifying extreme events in climate model outputs can inform scientific understanding of where and when these events may occur. ML can help classify, detect, and track climate-related extreme events such as hurricanes and atmospheric rivers in climate model outputs.
+1-2 sentence summary: Identifying extreme events in climate model outputs can inform scientific understanding of where and when these events may occur. ML can help classify, detect, and track climate-related extreme events such as hurricanes in climate model outputs.
 ML keywords: supervised learning, unsupervised learning, time-series, computer vision
 Topic keywords:
-Thematic keywords: remote sensing, hybrid physical models
+Thematic keywords: remote sensing
 Paper flags:
 Section number: 7.2.1
 
 Title: Local forecasts
-1-2 sentence summary: Storms, droughts, fires, floods, and other extreme events are expected to become stronger and more frequent as climate change progresses. ML can help forecast extreme events and more infer climate change risks at a local level, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.
+1-2 sentence summary: Storms, droughts, fires, floods, and other extreme events are expected to become stronger and more frequent as climate change progresses. ML can help forecast extreme events and infer climate change risks at a local level, enabling more informed decisions about infrastructure, asset valuation and disaster response planning.
 ML keywords: supervised learning, time-series, uncertainty quantification
 Topic keywords:
 Thematic keywords: forecasting
