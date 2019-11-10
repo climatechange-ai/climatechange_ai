@@ -53,7 +53,7 @@ description: 'ICML 2019 Workshop: Climate Change: How Can AI Help?'
  4:30 - 4:50 - Neel Guha: [**Machine Learning for AC Optimal Power Flow**](https://slideslive.com/38917844){:target="_blank"}     *(Spotlight talk)*    
  4:40 - 4:50 - Christian Clough, Gopal Erinjippurath: 	[**Planetary Scale Monitoring of Urban Growth in High Flood Risk Areas**](https://slideslive.com/38917845){:target="_blank"}  *(Spotlight talk)*       
  4:50 - 5:15 - [**"Ideas" mini-spotlights**](https://slideslive.com/38917846){:target="_blank"}  
- 5:15 -  6:00 - Yoshua Bengio, Andrew Ng, Raia Hadsell, John Platt, Claire Monteleoni: [**Panel discussion**](https://slideslive.com/38917847){:target="_blank"}
+ 5:15 -  6:00 - Yoshua Bengio, Andrew Ng, Sims Witherspoon, John Platt, Claire Monteleoni: [**Panel discussion**](https://slideslive.com/38917847){:target="_blank"}
 
 
 ## Organizers

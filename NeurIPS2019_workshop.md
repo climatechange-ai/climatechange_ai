@@ -6,44 +6,75 @@ description: 'NeurIPS 2019 Workshop: Tackling Climate Change with Machine Learni
 
 <h1>NeurIPS 2019 Workshop <br> Tackling Climate Change with Machine Learning</h1>
 
-***
-
-<center> <h3>Announcements</h3> </center>
-* Limited **travel grants** are now available! Travel grant applications will be accepted until October 3. More information [here](#travel-grants).
-* We will be awarding **$30K in prizes** to top workshop submissions! More information [here](#call-for-submissions).
-* Authors may include appendices in their paper submissions. See the [FAQ](#frequently-asked-questions) for important details.
-
-***
-
 Many in the ML community wish to take action on climate change, yet feel their skills are inapplicable. This workshop aims to show that in fact the opposite is true: while no silver bullet, **ML can be an invaluable tool both in reducing greenhouse gas emissions and in helping society adapt to the effects of climate change**. Climate change is a complex problem, for which action takes many forms - from designing smart electrical grids to tracking deforestation in satellite imagery. Many of these actions represent high-impact opportunities for real-world change, as well as being interesting problems for ML research.
 
-## Speakers
-**Jeff Dean** (Google AI)  
-**Carla Gomes** (Cornell)  
-**Felix Creutzig** (MCC Berlin, TU Berlin)  
-**Lester Mackey** (Microsoft Research, Stanford)  
-*additional speakers to be announced*
-
-## About NeurIPS
-NeurIPS (formerly written "NIPS") is one of the premier conferences on machine learning, and includes a wide audience of researchers and practitioners in academia, industry, and related fields. It is possible to attend the workshop without either presenting at or attending the main NeurIPS conference. 
-
-### Registration
-Those interested in attending the "Tackling Climate Change with Machine Learning" workshop should register for the "Workshops" component of NeurIPS at <https://neurips.cc/Register/view-registration>. 
-Registration for NeurIPS will be based on a <a href="https://neurips.cc/Conferences/2019/Press?article=2299" target="_blank">lottery</a> -- entry to the lottery must be made **between Sept. 6 and Sept. 25**. We encourage all workshop participants to register for this lottery, regardless of whether they are submitting. A full refund is available until Nov. 28.
-
-In addition, a limited number of tickets will be reserved for accepted submissions to the workshop. We will make these available to accepted authors who are not selected in the NeurIPS registration lottery.
-
-## About the workshop
+## About the Workshop
  - Date:  Saturday, December 14, 2019
  - Location:   Vancouver, British Columbia, Canada
- - Submission deadline:  <s>September 11, 11:59 PM Pacific Time</s>
- - Notification:  <s>October 1</s>
+ - <s>Submission deadline: September 11, 11:59 PM Pacific Time</s>
+ - <s>Notification: October 1</s>
  - Submission website: <https://cmt3.research.microsoft.com/CCAINeurIPS2019>
  - Registration: <https://neurips.cc/Register/view-registration> ("Workshops" component)
  - Contact: <climatechangeai.neurips2019@gmail.com>
  
+## Invited Speakers
+**Jeff Dean** (Google AI)  
+**Carla Gomes** (Cornell)  
+**Felix Creutzig** (MCC Berlin, TU Berlin)  
+**Lester Mackey** (Microsoft Research, Stanford)  
+
+## Schedule
+8:15 -  8:30 - **Welcome and opening remarks**    
+8:30 - 9:05 - Jeff Dean (Google AI) *(Invited talk)*    
+9:05 - 9:15 - Felipe Oviedo: **Machine learning identifies the most valuable synthesis conditions for next-generation photovoltaics** *(Spotlight talk)*  
+9:15 - 9:25 - Valentina Zantedeschi: **Cumulo: A Dataset for Learning Cloud Classes** *(Spotlight talk)*   
+9:25 - 9:35 - Qinghu Tang: **Fine-Grained Distribution Grid Mapping Using Street View Imagery** *(Spotlight talk)*   
+9:35 - 9:45 - Shamindra Shrotriya: **Predictive Inference of a Wildfire Risk Pipeline in the United States** *(Spotlight talk)*   
+9:45 - 10:30 - Coffee break + Poster Session    
+10:30 - 11:05 - Felix Creutzig (MCC Berlin, TU Berlin) *(Invited talk)*    
+11:05 - 11:15 - Ashish Kapoor: **Helping Reduce Environmental Impact of Aviation with Machine Learning** *(Spotlight talk)*     
+11:15 - 12:00 - Yoshua Bengio, Andrew Ng, Carla Gomes, Lester Mackey, Jeff Dean: **Panel: Climate change and AI**   
+12:00 - 2:00 - Networking lunch (provided) + Poster Session    
+2:00 - 2:40 - Carla Gomes (Cornell) *(Invited talk)*    
+2:40 - 2:50 - Kyle Story: **A Global Census of Solar Facilities Using Deep Learning and Remote Sensing** *(Spotlight talk)*    
+2:50 - 3:00 - Kiwan Maeng: **Enhancing Stratospheric Weather Analyses and Forecasts by Deploying Sensors from a Weather Balloon** *(Spotlight talk)*   
+3:00 - 3:10 - Daisy Zhe Wang: **Measuring Impact of Climate Change on Tree Species: analysis of JSDM on FIA data** *(Spotlight talk)*   
+3:10 - 3:20 - Adrian Albert: **Emulating Numeric Hydroclimate Models with Physics-Informed cGANs** *(Spotlight talk)*   
+3:20 - 3:30 - Jan Drgona: **Stripping off the implementation complexity of physics-based model predictive control for buildings via deep learning** *(Spotlight talk)*   
+3:30 - 4:15 - Coffee break + Poster Session    
+4:15 - 4:40 - Lester Mackey (Microsoft Research) *(Invited talk)*    
+4:40 - 4:50 - Saumya Sinha: **Detecting Avalanche Deposits using Variational Autoencoder on Sentinel-1 Satellite Imagery** *(Spotlight talk)*  
+4:50 - 5:00 - Ruben Glatt: **Increasing performance of electric vehicles in ride-hailing services using deep reinforcement learning** *(Spotlight talk)*  
+5:00 - 6:00 - John Platt, Jennifer Chayes, Felix Creutzig, Craig Miller, Marta Gonzalez, Matt Horne: **Panel: Working with stakeholders**    
+
+## Organizers
+<a href="http://www.davidrolnick.com" target="_blank">David Rolnick (UPenn)</a> <br>
+<a href="https://priyadonti.com/" target="_blank">Priya Donti (CMU)</a> <br>
+<a href="https://scholar.google.fr/citations?user=jsy-VxMAAAAJ" target="_blank">Lynn Kaack (ETH Zürich)</a> <br>
+<a href="https://scholar.google.com/citations?user=71a2-WMAAAAJ&hl=en" target="_blank">Alexandre Lacoste (Element AI)</a> <br>
+<a href="http://www.teganmaharaj.com" target="_blank">Tegan Maharaj (Mila)</a> <br>
+<a href="https://www.andrewng.org/" target="_blank">Andrew Ng (Stanford)</a> <br>
+<a href="https://ai.google/research/people/JohnPlatt" target="_blank">John Platt (Google AI)</a> <br>
+<a href="https://www.microsoft.com/en-us/research/people/jchayes/" target="_blank">Jennifer Chayes (Microsoft Research)</a> <br>
+<a href="https://mila.quebec/en/yoshua-bengio/" target="_blank">Yoshua Bengio (Mila)</a> <br>
+
+## Sponsored By
+![ElementAI logo](./images/elementai.png)  
+
+![DeepMind logo](./images/deepmind.png)    
+
+![Microsoft logo](./images/microsoft.png)    
+
+## About NeurIPS
+NeurIPS (formerly written "NIPS") is one of the premier conferences on machine learning, and includes a wide audience of researchers and practitioners in academia, industry, and related fields. It is possible to attend the workshop without either presenting at or attending the main NeurIPS conference. 
+
+<!-- ### Registration
+Those interested in attending the "Tackling Climate Change with Machine Learning" workshop should register for the "Workshops" component of NeurIPS at <https://neurips.cc/Register/view-registration>. 
+Registration for NeurIPS will be based on a <a href="https://neurips.cc/Conferences/2019/Press?article=2299" target="_blank">lottery</a> -- entry to the lottery must be made **between Sept. 6 and Sept. 25**. We encourage all workshop participants to register for this lottery, regardless of whether they are submitting. A full refund is available until Nov. 28.
+
+In addition, a limited number of tickets will be reserved for accepted submissions to the workshop. We will make these available to accepted authors who are not selected in the NeurIPS registration lottery. -->
  
-## Call For Submissions<br>
+## Call for Submissions<br>
 We invite submissions of short papers using machine learning to address problems in climate mitigation, adaptation, or modeling, including but not limited to the following topics:
  - Power generation and grids
  - Transportation
@@ -102,7 +133,7 @@ Submissions for the Proposals track should describe detailed ideas for how machi
 
 ## Travel Grants
 
-We are excited to announce limited travel grants, sponsored by Microsoft Research. Travel grant applications can be submitted at <a href="https://forms.gle/Aq8EcV2VLD13LUov5" target="_blank">https://forms.gle/Aq8EcV2VLD13LUov5</a>, and are due October 3.
+We are excited to announce limited travel grants, sponsored by Microsoft Research. <s>Travel grant applications can be submitted at <a href="https://forms.gle/Aq8EcV2VLD13LUov5" target="_blank">https://forms.gle/Aq8EcV2VLD13LUov5</a>, and are due October 3.</s>
 
 We also encourage workshop participants to apply for <a href="https://neurips.cc/" target="_blank">NeurIPS 2019 travel grants</a> and other grants (e.g. <a href="https://buildyourfuture.withgoogle.com/scholarships/google-travel-scholarships/" target="_blank">Google Conference and Travel Scholarships</a>) for which they may be eligible. If you are aware of additional scholarships that may be relevant to workshop attendees, please contact the workshop organizers so we can make this information available.
 
@@ -144,17 +175,6 @@ We also encourage workshop participants to apply for <a href="https://neurips.cc
 
 **Q:** Can I submit work to this workshop if I am also submitting to another NeurIPS 2019 workshop?   
 **A:** Yes. We cannot, however, guarantee that you will not be expected to present the material at a time that conflicts with the other workshop.
-
-## Organizers
-<a href="http://www.davidrolnick.com" target="_blank">David Rolnick (UPenn)</a> <br>
-<a href="https://priyadonti.com/" target="_blank">Priya Donti (CMU)</a> <br>
-<a href="https://scholar.google.fr/citations?user=jsy-VxMAAAAJ" target="_blank">Lynn Kaack (ETH Zürich)</a> <br>
-<a href="https://scholar.google.com/citations?user=71a2-WMAAAAJ&hl=en" target="_blank">Alexandre Lacoste (Element AI)</a> <br>
-<a href="http://www.teganmaharaj.com" target="_blank">Tegan Maharaj (Mila)</a> <br>
-<a href="https://www.andrewng.org/" target="_blank">Andrew Ng (Stanford)</a> <br>
-<a href="https://ai.google/research/people/JohnPlatt" target="_blank">John Platt (Google AI)</a> <br>
-<a href="https://www.microsoft.com/en-us/research/people/jchayes/" target="_blank">Jennifer Chayes (Microsoft Research)</a> <br>
-<a href="https://mila.quebec/en/yoshua-bengio/" target="_blank">Yoshua Bengio (Mila)</a> <br>
 
 ## Program Committee
 Andrew Ross (Harvard) <br>
