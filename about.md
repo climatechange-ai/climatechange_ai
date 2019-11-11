@@ -251,7 +251,7 @@ To empower work that meaningfully addresses the climate crisis and is well-serve
 # Press
 
 ## Releases
-* Nov. 11, 2019: <a href="https://www.climatechange.ai/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](https://www.climatechange.ai/press_releases/2019-11-11/press_packet.zip)
+* Nov. 11, 2019: <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
 ## Selected coverage
 * "Not Cool: A Climate Podcast" by the Future of Life Institute: <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">Part 1</a> and <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">Part 2</a>

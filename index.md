@@ -12,8 +12,8 @@ Climate change is one of the greatest problems society has ever faced, with incr
       <div class='panel-block'>
         <ul>
           <li><a href='{{ site.paper_url }}' target='_blank'>Read</a> our paper</li>
-          <li><a href='./resources.html'>Explore</a> readings and data</li>
-          <li><a href='./ICML2019_workshop#schedule'>Watch</a> recordings and <a href='./ICML2019_workshop#research-track'>read</a> abstracts from ICML 2019</li>
+          <li><a href='/resources'>Explore</a> readings and data</li>
+          <li><a href='/ICML2019_workshop#schedule'>Watch</a> recordings and <a href='/ICML2019_workshop#research-track'>read</a> abstracts from ICML 2019</li>
         </ul>
       </div>
     </div>
@@ -23,9 +23,9 @@ Climate change is one of the greatest problems society has ever faced, with incr
       <div class='panel-heading'>ENGAGE</div>
       <div class='panel-block'>
         <ul>
-          <li><a href='https://forum.climatechange.ai/' target='_blank'>Join</a> our discussion forum</li>
-          <li><a href='./mailing_list.html'>Sign up</a> for our <a href='./newsletter.html'>newsletter</a></li>
-          <li>Attend our workshops at <a href='./NeurIPS2019_workshop.html'>NeurIPS 2019</a> or <a href='./AMLD2020_workshop.html'>AMLD 2020</a></li>
+          <li><a href='{{ site.forum_url }}' target='_blank'>Join</a> our discussion forum</li>
+          <li><a href='/mailing_list'>Sign up</a> for our <a href='/newsletter'>newsletter</a></li>
+          <li>Attend our workshops at <a href='/NeurIPS2019_workshop'>NeurIPS 2019</a> or <a href='/AMLD2020_workshop'>AMLD 2020</a></li>
         </ul>
       </div>
     </div>

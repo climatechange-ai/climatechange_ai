@@ -34,7 +34,7 @@
   <body>
     <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://www.climatechange.ai/index.html">
+        <a class="navbar-item" href="/">
           <h1>
             Climate Change AI
           </h1>
@@ -50,18 +50,18 @@
       <div id="navbar-menu" class="navbar-menu">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://www.climatechange.ai/about.html">
+            <a class="navbar-link" href="/about">
               About
             </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://www.climatechange.ai/about.html">
+              <a class="navbar-item" href="/about">
                 Vision, mission, and goals
               </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/about.html#people">
+              <a class="navbar-item" href="/about#people">
                 People
               </a>
-               <a class="navbar-item" href="https://www.climatechange.ai/about.html#press">
+               <a class="navbar-item" href="/about#press">
                 Press
               </a>
             </div>
@@ -73,59 +73,47 @@
             </a>
 
             <div class="navbar-dropdown">
+              <a class="navbar-item" href="/summaries">
+                Interactive summary
+              </a>
               <a class="navbar-item" href="{{ site.paper_url }}" target="_blank">
                 Full paper
               </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/summaries.html">
-                Interactive summary
-              </a>
-            </div>
-          </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://www.climatechange.ai/resources.html">
-              Resources
-            </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://www.climatechange.ai/resources.html">
+              <a class="navbar-item" href="/resources">
                 Readings and datasets
               </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/faq.html">
-                FAQ
-              </a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://www.climatechange.ai/workshops.html">
-              Workshops
-            </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://www.climatechange.ai/AMLD2020_workshop.html">
-                AMLD 2020
-              </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/NeurIPS2019_workshop.html">
-                NeurIPS 2019
-              </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/ICML2019_workshop.html">
-                ICML 2019
-              </a>
-            </div>
-          </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="https://www.climatechange.ai/newsletter.html">
+            <a class="navbar-link" href="/newsletter">
               Newsletter
             </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://www.climatechange.ai/mailing_list.html">
+              <a class="navbar-item" href="/mailing_list">
                 Sign up
               </a>
-              <a class="navbar-item" href="https://www.climatechange.ai/newsletter.html">
+              <a class="navbar-item" href="/newsletter">
                 Archive
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/workshops">
+              Workshops
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/AMLD2020_workshop">
+                AMLD 2020
+              </a>
+              <a class="navbar-item" href="/NeurIPS2019_workshop">
+                NeurIPS 2019
+              </a>
+              <a class="navbar-item" href="/ICML2019_workshop">
+                ICML 2019
               </a>
             </div>
           </div>
@@ -134,9 +122,20 @@
             <span class='link-text'>Forum</span><span class='tag'>new!</span>
           </a>
 
-          <a class="navbar-item" href="https://www.climatechange.ai/get_involved.html">
-            Get Involved
-          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/resources">
+              Get Involved
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/get_involved">
+                Get Involved
+              </a>
+              <a class="navbar-item" href="/faq">
+                FAQ
+              </a>
+            </div>
+          </div>
 
       </div>
     </nav>
