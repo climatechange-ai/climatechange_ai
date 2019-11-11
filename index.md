@@ -11,7 +11,7 @@ Climate change is one of the greatest problems society has ever faced, with incr
       <div class='panel-heading'>LEARN</div>
       <div class='panel-block'>
         <ul>
-          <li><a href='/summaries' target='_blank'>Search</a> our list of impactful applications</li>
+          <li><a href='/summaries'>Search</a> our list of impactful applications</li>
           <li><a href='{{ site.paper_url }}' target='_blank'>Read</a> our paper</li>
           <li><a href='/resources'>Explore</a> readings and data</li>
           <li><a href='/ICML2019_workshop#schedule'>Watch</a> recordings and <a href='/ICML2019_workshop#research-track'>read</a> abstracts from ICML 2019</li>
