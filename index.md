@@ -30,10 +30,21 @@ Climate change is one of the greatest problems society has ever faced, with incr
       </div>
     </div>
   </div>
+</div>
+
+<div class='columns'>
   <div class='column'>
     <div class='panel'>
-      <div class='panel-heading'>TEAM UP</div>
-      <div class='panel-block' style='display: block'>Looking for opportunities, have opportunities to share, or want to sponsor Climate Change AI? <a href='mailto:info@climatechange.ai'>Email us!</a>
+      <div class='panel-heading'>Updates</div>
+      <div class='panel-block'>
+        <ul>
+          <li>Nov 11, 2019 - <a href="/press_releases/2019-11-11/release">Press release</a> issued for our paper.</li>
+          <li>Nov 5, 2019 - <a href="{{ site.paper_url }}" target="_blank">Full version</a> of paper and <a href="/summaries">interactive summaries</a> released.</li>
+          <li>Oct 30, 2019 - Climate Change AI <a href="{{ site.forum_url }}" target="_blank">discussion forum</a> now live.</li>
+          <li>Oct 22, 2019 - D. Rolnick, P. Donti, L. Kaack, K. Kochanski, N. Jaques, T. Maharaj featured on Future of Life Institute podcast: <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">part 1</a>, <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">part 2</a>.</li>
+          <li>Sep 26, 2019 - D. Rolnick and P. Donti featured on Eye on A.I. <a href="https://www.eye-on.ai/podcast-024" target="_blank">podcast</a>.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
