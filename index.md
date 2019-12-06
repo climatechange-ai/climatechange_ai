@@ -38,6 +38,8 @@ Climate change is one of the greatest problems society has ever faced, with incr
   <div class='column'>
     <h3>Updates</h3>
     <ul>
+      <li>Dec 4, 2019 - Climate Change AI holds <a href="https://twitter.com/ClimateChangeAI/status/1202509336188248064" target="_blank">panel</a> at UN Climate Change Conference.</li>
+      <li>Nov 30, 2019 - Climate Change AI workshop <a href="https://twitter.com/iclr_conf/status/1068525834611253248?lang=en" target="_blank">announced</a> for ICLR 2020 (April 20, Addis Ababa).</li>
       <li>Nov 17, 2019 - D. Rolnick featured on <a href="https://www.capeandislands.org/post/artificial-intelligence-can-help-fight-climate-change#stream/0" target="_blank">Living Lab Radio</a>.</li>
       <li>Nov 11, 2019 - <a href="/press_releases/2019-11-11/release">Press release</a> issued for our paper.</li>
       <li>Nov 5, 2019 - <a href="{{ site.paper_url }}" target="_blank">Full version</a> of paper and <a href="/summaries">interactive summaries</a> released.</li>
