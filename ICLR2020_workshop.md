@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Tackling Climate Change with Machine Learning'
-description: ICLR 2020 Workshop: Tackling Climate Change with Machine Learning'
+description: 'ICLR 2020 Workshop: Tackling Climate Change with Machine Learning'
 ---
 
 <h1>ICLR 2020 Workshop <br> Tackling Climate Change with Machine Learning</h1>
