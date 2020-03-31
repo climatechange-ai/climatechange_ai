@@ -9,24 +9,149 @@ description: 'ICLR 2020 Workshop: Tackling Climate Change with Machine Learning'
 ***
 
 <center> <h3>Announcements</h3> </center>
-**The workshop will be held remotely** due to risks and travel restrictions associated with SARS-CoV-2/COVID-19. Please do not book travel, and please cancel travel arrangements where possible. More information to follow; for more information from ICLR, please see the [ICLR conference website](https://iclr.cc/Conferences/2020/virtual).
+**The workshop will be held remotely** due to risks and travel restrictions associated with COVID-19.
 
 ***
 
 Many in the ML community wish to take action on climate change, yet feel their skills are inapplicable. This workshop aims to show that in fact the opposite is true: while no silver bullet, **ML can be an invaluable tool both in reducing greenhouse gas emissions and in helping society adapt to the effects of climate change**. Climate change is a complex problem, for which action takes many forms - from designing smart electrical grids to tracking deforestation in satellite imagery. Many of these actions represent high-impact opportunities for real-world change, as well as being interesting problems for ML research.
 
-
 ## About ICLR
-The International Conference on Learning Representations (ICLR) is one of the premier conferences on machine learning, and includes a wide audience of researchers and practitioners in academia, industry, and related fields. It is possible to attend the workshop without either presenting at or attending the main ICLR conference. Those interested should register for the Workshops component of ICLR at <https://iclr.cc/Register/view-registration> starting January 21. (A number of spots will be reserved for accepted submissions.)
+The International Conference on Learning Representations (ICLR) is one of the premier conferences on machine learning, and includes a wide audience of researchers and practitioners in academia, industry, and related fields. It is possible to attend the workshop without either presenting at or attending the main ICLR conference. Those interested should register for ICLR at <https://iclr.cc/Register/view-registration>.
 
-## About the workshop
+## About the Workshop
  - Date:  Sunday, April 26, 2020
- - Location:  ~~Addis Ababa, Ethiopia~~ Virtual (details coming soon)
- - Mentorship program application deadline: January 14
- - Paper/Proposal submission deadline: ~~February 4~~ February 8, 11:59 PM Pacific Time
- - Notification:  February 25
+ - Location:  ~~Addis Ababa, Ethiopia~~ Virtual (more details coming soon)
+ - ~~Mentorship program application deadline: January 14~~
+ - ~~Paper/Proposal submission deadline: February 4 &rarr; February 8, 11:59 PM Pacific Time~~
+ - ~~Notification:  February 25~~
  - Submission website: <https://cmt3.research.microsoft.com/CCAIICLR2020>
  - Contact: <climatechangeai.iclr2020@gmail.com>
+
+## Invited Speakers
+**Stefano Ermon** (Stanford University)  
+**Cira wa Maina** (Dedan Kimathi University of Technology)  
+**Georgina Campbell** (ClimaCell.org)  
+**Dan Morris** (Microsoft AI for Earth)
+
+## Invited Panelists
+**John Platt** (Google)  
+**Dan Kammen** (UC Berkeley)  
+**Paula Hidalgo-Sanchis** (UN Global Pulse)  
+**Jessica Thorn** (University of York)  
+**Nana Ama Browne Kluntse** (University of Ghana)  
+**Sarvapali Ramchurn** (University of Southampton)  
+
+## Schedule
+_Coming soon! Please check back here for updates._
+
+## Organizers
+Priya Donti (CMU) <br>
+David Rolnick (UPenn) <br>
+Lynn Kaack (ETH Zürich) <br>
+Sasha Luccioni (Mila) <br>
+Kris Sankaran (Mila) <br>
+Sharon Zhou (Stanford) <br>
+Moustapha Cisse (Google Research) <br>
+Carla Gomes (Cornell) <br>
+Andrew Ng (Stanford) <br>
+Yoshua Bengio (Mila) <br>
+
+## Sponsored By
+![Microsoft logo](/images/microsoft.png)
+
+![DeepMind logo](/images/deepmind.png) 
+
+## Accepted Works
+_Coming soon! Please check back here for updates._
+
+## Program Committee
+Adrian Albert (terrafuse, inc.) <br>
+Alberto Chapchap (Visia Investments) <br>
+Alexandre Lacoste (Element AI) <br>
+Alireza Rezvanifar (University of Victoria) <br>
+Alpan Raval (Wadhwani Institute for Artificial Intelligence) <br>
+Andrew Ross (Harvard) <br>
+Aneesh Rangnekar (Rochester Institute of Technology) <br>
+Anthony Ortiz (University of Texas at El Paso) <br>
+Armi Tiihonen (MIT) <br>
+Ashish Kapoor (Microsoft) <br>
+Ashley Pilipiszyn (Stanford) <br>
+Bill Cai (MIT) <br>
+Björn Lütjens (MIT) <br>
+Brian Hutchinson (Western Washington University) <br>
+Caleb Robinson (Georgia Institute of Technology) <br>
+Christian Schroeder de Witt (University of Oxford) <br>
+Clement DUHART (MIT Media Lab) <br>
+Daniel Vallero (Duke) <br>
+Dara Farrell (Graduate of University of Washington) <br>
+David Dao (ETH Zurich) <br>
+Deval Pandya (Shell Global Solutions) <br>
+Eun-Kyeong Kim (University of Zurich) <br>
+Evan Sherwin (Stanford) <br>
+Fabrizio Falasca (Georgia Institute of Technology) <br>
+FELIPE OVIEDO (MIT) <br>
+Frederik Diehl (fortiss) <br>
+Frederik Kratzert (Johannes Kepler University) <br>
+Garima Jain (ClimateAi) <br>
+Gautier Cosne (Mila) <br>
+Gavin Portwood (Los Alamos National Lab) <br>
+Genevieve Flaspohler (MIT) <br>
+George Chen (Carnegie Mellon) <br>
+Greg Schivley (Carbon Impact Consulting) <br>
+Hari Prasanna Das (UC Berkeley) <br>
+Hovig Bayandorian <br>
+Ioannis C. Konstantakopoulos (UC Berkeley) <br>
+Jan Drgona (Pacific Northwest National Laboratory) <br>
+Jeremy Freeman <br>
+Jigar Doshi (Wadhwani AI) <br>
+Jingfan Wang (Stanford) <br>
+Johannes Rausch (ETH Zurich) <br>
+John Platt (Google) <br>
+Joris Guerin (ENSAM) <br>
+Joyjit Chatterjee (University of Hull) <br>
+Kara Lamb (Cooperative Institute for Research in the Environmental Sciences) <br>
+Kelly Kochanski (University of Colorado Boulder) <br>
+Kevin McCloskey (Google) <br>
+Kira Goldner (Columbia University) <br>
+Konstantin Klemmer (University of Warwick) <br>
+Lauren Kuntz (Gaiascope) <br>
+Lexie Yang (Oak Ridge National Laboratoy) <br>
+Lucas Liebenwein (MIT) <br>
+Lucas Kruitwagen (University of Oxford) <br>
+Mark Barna (IQVIA) <br>
+Max Evans (ClimateAi) <br>
+Michael Howland (Stanford) <br>
+Miguel Molina-Solana (Imperial College London) <br>
+Muge Komurcu (MIT) <br>
+Natasha Jaques <br>
+Nathan Williams (Rochester Institute of Technology) <br>
+Niccolo Dalmasso (Carnegie Mellon) <br>
+Nicholas Jones (World Bank) <br>
+Nikola Milojevic-Dupont (MCC Berlin) <br>
+Olya (Olga) Irzak (Frost Methane Labs) <br>
+Peetak Mitra (UMass Amherst) <br>
+Rajesh Sankaran (Argonne National Lab) <br>
+Ruben Glatt (LLNL) <br>
+Sam Skillman (Descartes Labs) <br>
+Saumya Sinha (University of Colorado, Boulder) <br>
+Sepehr Pashang (University of Waterloo) <br>
+Shamindra Shrotriya (Carnegie Mellon) <br>
+Slava Jankin (Hertie School of Governance) <br>
+Sookyung Kim (Lawrence Livermore National Laboratory) <br>
+Sophie Giffard-Roisin (University of Colorado Boulder) <br>
+Tegan Maharaj (Mila, Polytechnic Montreal) <br>
+Valentina Zantedeschi (Jean Monnet University) <br>
+Victor Schmidt (Mila) <br>
+Victor Kristof (EPFL) <br>
+Victoria Preston (MIT) <br>
+Vikram Voleti (Mila, University of Montreal) <br>
+Yanbing Wang (Vanderbilt University) <br>
+Yimeng Min (Mila) <br>
+Yonadav Shavit (Harvard University) <br>
+Yue Hu (Vanderbilt University) <br>
+Zhecheng Wang (Stanford) <br>
+
+***
  
  
 ## Call For Submissions<br>
@@ -137,26 +262,7 @@ Applications are due by Jan 14.
 **A:** Yes! We welcome applications from domains that are complementary to machine learning to solve the problems that we are targeting.
 
 **Q:** What happens if my mentor/mentee wants to continue meeting after the workshop?  
-**A:** We welcome and encourage continued interactions after the official mentorship period. That said, neither the mentor nor the mentee should feel obligated to maintain contact.
-
-
-
-## Organizers
-Priya Donti (CMU) <br>
-David Rolnick (UPenn) <br>
-Lynn Kaack (ETH Zürich) <br>
-Sasha Luccioni (Mila) <br>
-Kris Sankaran (Mila) <br>
-Sharon Zhou (Stanford) <br>
-Moustapha Cisse (Google Research) <br>
-Carla Gomes (Cornell) <br>
-Andrew Ng (Stanford) <br>
-Yoshua Bengio (Mila) <br>
-
-## Sponsored By
-![Microsoft logo](/images/microsoft.png)
-
-![DeepMind logo](/images/deepmind.png)    
+**A:** We welcome and encourage continued interactions after the official mentorship period. That said, neither the mentor nor the mentee should feel obligated to maintain contact.   
 
 
 
@@ -197,91 +303,3 @@ Yoshua Bengio (Mila) <br>
 
 **Q:** Can I submit work to this workshop if I am also submitting to another ICLR 2020 workshop?   
 **A:** Yes. We cannot, however, guarantee that you will not be expected to present the material at a time that conflicts with the other workshop.
-
-
-## Program Committee
-Adrian Albert (terrafuse, inc.) <br>
-Alberto Chapchap (Visia Investments) <br>
-Alexandre Lacoste (Element AI) <br>
-Alireza Rezvanifar (University of Victoria) <br>
-Alpan Raval (Wadhwani Institute for Artificial Intelligence) <br>
-Andrew Ross (Harvard) <br>
-Aneesh Rangnekar (Rochester Institute of Technology) <br>
-Anthony Ortiz (University of Texas at El Paso) <br>
-Armi Tiihonen (MIT) <br>
-Ashish Kapoor (Microsoft) <br>
-Ashley Pilipiszyn (Stanford) <br>
-Bill Cai (MIT) <br>
-Björn Lütjens (MIT) <br>
-Brian Hutchinson (Western Washington University) <br>
-Caleb Robinson (Georgia Institute of Technology) <br>
-Christian Schroeder de Witt (University of Oxford) <br>
-Clement DUHART (MIT Media Lab) <br>
-Daniel Vallero (Duke) <br>
-Dara Farrell (Graduate of University of Washington) <br>
-David Dao (ETH Zurich) <br>
-Deval Pandya (Shell Global Solutions) <br>
-Eun-Kyeong Kim (University of Zurich) <br>
-Evan Sherwin (Stanford) <br>
-Fabrizio Falasca (Georgia Institute of Technology) <br>
-FELIPE OVIEDO (MIT) <br>
-Frederik Diehl (fortiss) <br>
-Frederik Kratzert (Johannes Kepler University) <br>
-Garima Jain (ClimateAi) <br>
-Gautier Cosne (Mila) <br>
-Gavin Portwood (Los Alamos National Lab) <br>
-Genevieve Flaspohler (MIT) <br>
-George Chen (Carnegie Mellon) <br>
-Greg Schivley (Carbon Impact Consulting) <br>
-Hari Prasanna Das (UC Berkeley) <br>
-Hovig Bayandorian <br>
-Ioannis C. Konstantakopoulos (UC Berkeley) <br>
-Jan Drgona (Pacific Northwest National Laboratory) <br>
-Jeremy Freeman <br>
-Jigar Doshi (Wadhwani AI) <br>
-Jingfan Wang (Stanford) <br>
-Johannes Rausch (ETH Zurich) <br>
-John Platt (Google) <br>
-Joris Guerin (ENSAM) <br>
-Joyjit Chatterjee (University of Hull) <br>
-Kara Lamb (Cooperative Institute for Research in the Environmental Sciences) <br>
-Kelly Kochanski (University of Colorado Boulder) <br>
-Kevin McCloskey (Google) <br>
-Kira Goldner (Columbia University) <br>
-Konstantin Klemmer (University of Warwick) <br>
-Lauren Kuntz (Gaiascope) <br>
-Lexie Yang (Oak Ridge National Laboratoy) <br>
-Lucas Liebenwein (MIT) <br>
-Lucas Kruitwagen (University of Oxford) <br>
-Mark Barna (IQVIA) <br>
-Max Evans (ClimateAi) <br>
-Michael Howland (Stanford) <br>
-Miguel Molina-Solana (Imperial College London) <br>
-Muge Komurcu (MIT) <br>
-Natasha Jaques <br>
-Nathan Williams (Rochester Institute of Technology) <br>
-Niccolo Dalmasso (Carnegie Mellon) <br>
-Nicholas Jones (World Bank) <br>
-Nikola Milojevic-Dupont (MCC Berlin) <br>
-Olya (Olga) Irzak (Frost Methane Labs) <br>
-Peetak Mitra (UMass Amherst) <br>
-Rajesh Sankaran (Argonne National Lab) <br>
-Ruben Glatt (LLNL) <br>
-Sam Skillman (Descartes Labs) <br>
-Saumya Sinha (University of Colorado, Boulder) <br>
-Sepehr Pashang (University of Waterloo) <br>
-Shamindra Shrotriya (Carnegie Mellon) <br>
-Slava Jankin (Hertie School of Governance) <br>
-Sookyung Kim (Lawrence Livermore National Laboratory) <br>
-Sophie Giffard-Roisin (University of Colorado Boulder) <br>
-Tegan Maharaj (Mila, Polytechnic Montreal) <br>
-Valentina Zantedeschi (Jean Monnet University) <br>
-Victor Schmidt (Mila) <br>
-Victor Kristof (EPFL) <br>
-Victoria Preston (MIT) <br>
-Vikram Voleti (Mila, University of Montreal) <br>
-Yanbing Wang (Vanderbilt University) <br>
-Yimeng Min (Mila) <br>
-Yonadav Shavit (Harvard University) <br>
-Yue Hu (Vanderbilt University) <br>
-Zhecheng Wang (Stanford) <br>
