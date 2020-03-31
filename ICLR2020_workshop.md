@@ -27,13 +27,13 @@ The International Conference on Learning Representations (ICLR) is one of the pr
  - Submission website: <https://cmt3.research.microsoft.com/CCAIICLR2020>
  - Contact: <climatechangeai.iclr2020@gmail.com>
 
-## Invited Speakers
+## Keynote Speakers
 **Stefano Ermon** (Stanford University)  
 **Cira wa Maina** (Dedan Kimathi University of Technology)  
 **Georgina Campbell** (ClimaCell.org)  
 **Dan Morris** (Microsoft AI for Earth)
 
-## Invited Panelists
+## Panelists
 **John Platt** (Google)  
 **Dan Kammen** (UC Berkeley)  
 **Paula Hidalgo-Sanchis** (UN Global Pulse)  
