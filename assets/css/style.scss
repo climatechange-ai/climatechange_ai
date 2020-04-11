@@ -337,3 +337,21 @@ summary {
 details[open] summary {
   margin-bottom: 1rem;
 }
+
+// Ensure that anchor links don't skip the headers
+@media screen and (min-width: 1024px) {
+  h1::before, h2::before {
+    content: "";
+    display: block;
+    height: 80px; /* fixed header height*/
+    margin: -80px 0 0; /* negative fixed header height */
+  }
+}
+@media screen and (max-width: 1023px) {
+  h1::before, h2::before {
+    content: "";
+    display: block;
+    height: 68px; /* fixed header height*/
+    margin: -68px 0 0; /* negative fixed header height */
+  }
+}

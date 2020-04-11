@@ -6,6 +6,16 @@ description: 'NeurIPS 2019 Workshop: Tackling Climate Change with Machine Learni
 
 <h1>NeurIPS 2019 Workshop <br> Tackling Climate Change with Machine Learning</h1>
 
+<div class='buttons'>
+  <a class='button' href='#about-the-workshop'>About</a>
+  <a class='button' href='#invited-speakers'>Speakers</a>
+  <a class='button' href='#schedule'>Schedule</a>
+  <a class='button' href='#organizers'>Organizers</a>
+  <a class='button' href='#accepted-works'>Accepted Works</a>
+  <a class='button' href='#call-for-submissions'>Call for Submissions</a>
+  <a class='button' href='#frequently-asked-questions'>FAQ</a>
+</div>
+
 ***
 
 <center> <h3>Announcements</h3> </center>

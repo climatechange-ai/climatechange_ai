@@ -6,6 +6,16 @@ description: 'ICLR 2020 Workshop: Tackling Climate Change with Machine Learning'
 
 <h1>ICLR 2020 Workshop <br> Tackling Climate Change with Machine Learning</h1>
 
+<div class='buttons'>
+  <a class='button' href='#about-iclr'>About</a>
+  <a class='button' href='#keynote-speakers'>Speakers</a>
+  <a class='button' href='#schedule'>Schedule</a>
+  <a class='button' href='#organizers'>Organizers</a>
+  <a class='button' href='#accepted-works'>Accepted Works</a>
+  <a class='button' href='#call-for-submissions'>Call for Submissions</a>
+  <a class='button' href='#frequently-asked-questions'>FAQ</a>
+</div>
+
 ***
 
 <center> <h3>Announcements</h3> </center>
