@@ -191,7 +191,301 @@ The International Conference on Learning Representations (ICLR) is one of the pr
 ![DeepMind logo](/images/deepmind.png) 
 
 ## Accepted Works
-_Coming soon! Please check back here for updates._
+
+Works were submitted to one of two tracks: [Papers](#papers) or [Proposals](#proposals). 
+
+### Papers
+
+#### (1) BISCUIT: Building Intelligent System Customer Investment Tools
+
+*Ming Jin (U.C. Berkeley); Ruoxi Jia (UC Berkeley); Hari Prasanna Das  (UC Berkeley ); Wei Feng (Lawrence Berkeley National Laboratory); Costas J. Spanos (University of California at Berkeley)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Energy use in buildings account for approximately half of global electricity consumption and a significant amount of CO2 emissions. Often, the higher energy usage in buildings are accounted to old and poorly maintained infrastructure and equipments. On the other hand, Smart buildings are capable of achieving energy efficiency by using intelligent services such as indoor positioning, personalized lighting, demand-based heating ventilation and air-conditioning, automatic fault detection and recovery etc. However, most buildings nowadays lack the basic components and infrastructure to support such services. The investment decision of intelligent system design and retrofit can be a daunting task, because it involves both hardware (sensors, actuators, servers) and software (operating systems, service algorithms), which have issues of compatibility, functionality constraints, and opportunities of co-design of synergy. Our work proposes a user-oriented investment decision toolset using optimization and machine learning techniques aimed at handling the complexity of exploration in the large design space and to enhance cost-effectiveness, energy efficiency, and human-centric values. The toolset is demonstrated in a case study to retrofit a medium-sized building, where it is shown to propose a design that significantly lowers the overall investment cost while achieving user specifications.</details>
+#### (2) Deep Reinforcement Learning based Renewable Energy Error Compensable Forecasting
+
+*Jaeik Jeong (Sogang University); Hongseok Kim (Sogang University)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Recently, renewable energy is rapidly integrated into the power grid to prevent climate change, and accurate forecasting of renewable generation becomes critical for reliable power system operation. However, existing forecasting algorithms only focused on reducing forecasting errors without considering error compensability by using a large-scale battery. In this paper, we propose a novel strategy called error compensable forecasting. We switch the objective of forecasting from reducing errors to making errors compensable by leveraging a battery. Specifically, we propose a deep reinforcement learning based framework having forecasting in the loop of control. Extensive simulations show that the proposed one-hour ahead forecasting achieves zero error for more than 98% of time while reducing the operational expenditure by up to 44%.</details>
+#### (3) Missing-insensitive Short-term Load Forecasting Leveraging Autoencoder and LSTM
+
+*Kyungnam Park (Sogang University); Jaeik Jeong (Sogang University); Hongseok Kim (Sogang University)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Short-term load forecasting (STLF) is fundamental for power system operation, demand response, and also greenhouse gas emission reduction. So far, most deep learning-based STLF techniques require intact data, but many real-world datasets contain missing values due to various reasons, and thus missing imputation using deep learning is actively studied. However, missing imputation and STLF have been considered independently so far. In this paper, we jointly consider missing imputation and STLF and propose a family of autoencoder/LSTM combined models to realize missing-insensitive STLF. Specifically, autoencoder (AE), denoising autoencoder (DAE), and convolutional autoencoder (CAE) are investigated for extracting features, which is directly fed into the input of LSTM. Our results show that three proposed autoencoder/LSTM combined models significantly improve forecasting accuracy compared to the baseline models of deep neural network and LSTM. Furthermore, the proposed CAE/LSTM combined model outperforms all other models for 5%-25% of random missing data.</details>
+#### (4) A Machine Learning Pipeline to Predict Vegetation Health
+
+*Thomas Lees (University of Oxford); Gabriel Tseng (Okra Solar); Simon Dadson (University of Oxford); Alex Hernández (University of Osnabrück); Steven Reece (University of Oxford)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Agricultural droughts can exacerbate poverty and lead to famine. Timely distribution of disaster relief funds is essential to help minimise the impact of drought. Indices of vegetation health are indicative of higher risk of agricultural drought, but their prediction remains challenging, particularly in Africa. Here, we present an open-source machine learning pipeline for climate-related data. Specifically, we train and analyse a recurrent model to predict pixel-wise vegetation health in Kenya.</details>
+#### (5) Understanding the dynamics of climate-crucial food choice behaviours using Distributional Semantics
+
+*Claudia Haworth (University of Sheffield); Gabriella Viglioco (University College London)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Developed countries must make swift movements toward plant-based diets in order to mitigate climate change and maintain food security. However, researchers currently lack clear insight into the psychological dimensions that influence food choice, which is necessary to encourage the societal adaptation of new diets. In this project, we use Skip-gram word embeddings trained on the ukWaC corpus as a lens to study the implicit mental representations people have of foods. Our data-driven insights expand on findings from traditional, interview-based studies by uncovering implicit mental representations, thus allowing us to better understand the complex combination of conscious and sub-conscious processes surrounding food choice. In particular, our findings shed light on the pervasiveness of meat as the `centre' of the meal in the UK.</details>
+#### (6) SolarNet: A Deep Learning Framework to Map Solar Plants In China From Satellite Imagery
+
+*Xin Hou (WeBank); Anbu Huang (Webank); Biao Wang (Webank); lei yin (WeBank); Haishan Wu (Webank)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Renewable energy such as solar power is critical to fight the ever more serious climate, how to effectively detect renewable energy has became an important issue for governments. In this paper, we proposed a deep learning framework named SolarNet which is designed to perform semantic segmentation on large scale satellite imagery data to detect solar farms. SolarNet has successfully mapped 439 solar farms in China, covering near 2000 square kilometers, equivalent to the size of whole Shenzhen city or two and a half of New York city. To the best of our knowledge, it is the first time that we used deep learning to reveal the locations and sizes of solar farms in China, which could provide insights for solar power companies, climate finance and markets.</details>
+#### (7) Embedding Hard Physical Constraints in Convolutional Neural Networks for 3D Turbulence
+
+*Arvind T Mohan (Los Alamos National Laboratory)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Deep learning approaches have shown much promise for climate sciences, especially in dimensionality reduction and compression of large datasets. A major issue in deep learning of climate phenomena, like geophysical turbulence, is the lack of physical guarantees.  In this work, we propose a general framework to directly embed the notion of incompressible fluids into Convolutional Neural Networks, for coarse-graining of turbulence. These \textbf{physics-embedded neural networks} leverage interpretable strategies from numerical methods and computational fluid dynamics to enforce physical laws and boundary conditions by taking advantage the mathematical properties of the underlying equations. We demonstrate results on 3D fully-developed turbulence, showing that the \textit{physics-aware inductive bias} drastically improves local conservation of mass, without sacrificing performance according to several other metrics characterizing the fluid flow.</details>
+#### (8) DETECTION OF HOUSING AND AGRICULTURE AREAS ON DRY-RIVERBEDS FOR THE EVALUATION OF RISK BY LANDSLIDES USING LOW-RESOLUTION SATELLITE IMAGERY BASED ON DEEP LEARNING. STUDY ZONE: LIMA, PERU
+
+*Brian Cerrón (National University of Engineering); Cristopher Bazan (National University of Engineering); Alberto Coronado ( National University of Engineering)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+The expansion of human settlements in Peru has caused risk exposure to landslides. However, this risk could increase because the intensity of the El niño phenomenon will be greater in the coming years,  increasing rainfall on the Peruvian coast. In this paper, we present a novel methodology for detecting housing areas and agricultural lands in low-resolution satellite imagery in order to analyze potential risk in case of unexpected landslides. It was developed by creating two datasets from Lima Metropolitana in Peru, one of which is for detecting dry riverbeds and agriculture lands, and the other for classifying housing areas. We applied data augmentation based on geometrical methods and trained architectures based on U-net methods separately and then, overlap the results for risk assessment. We found that there are areas with significant potential risk that have been classified by the Peruvian government as medium or low risk areas. On this basis, it is recommended obtain a dataset with better resolution that can identify how many housing areas will be affected and take the appropriate prevention measures. Further research in post-processing is needed for suppress noise in our results.</details>
+#### (9) Towards causal dependencies between the Sustainable Development Goals and climate change
+
+*Felix Laumann (Imperial College London); Julius von Kügelgen (MPI for Intelligent Systems, Tübingen & University of Cambridge); Mauricio Barahona (Imperial College London)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+The United Nations' ambitions to combat climate change and prosper human development are manifested in the Paris Agreement and the Sustainable Development Goals (SDGs), respectively. These are inherently inter-dependent as progress towards some of these objectives may accelerate or hinder progress towards others. We investigate how these two agendas influence each other by defining networks of 18 nodes, consisting of the 17 SDGs and global warming, for various groupings of countries. We compute a non-linear measure of conditional dependence, the partial distance correlation, given any subset of the remaining 16 variables. These correlations are treated as weights on edges, and weighted eigenvector centralities are calculated to determine the most influential nodes. 
+
+We find that SDG 6, clean water and sanitation, together with SDG 4, quality education, are most important across nearly all groupings of countries. In developing regions, SDG 17, partnerships for the goals, is strongly connected to the progress of other objectives in the two agendas, whilst, SDG 8, decent work and economic growth, is not as influential.</details>
+#### (10) A CONTINUAL LEARNING APPROACH FOR LOCAL LEVEL ENVIRONMENTAL MONITORING IN LOW-RESOURCE SETTINGS
+
+*Arijit Patra (University of Oxford)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+An increasingly important dimension in the quest for mitigation and monitoring of environmental change is the role of citizens. The crowd-based monitoring of local level anthropogenic alterations is essential towards measurable changes in different contributing factors to climate change. With the proliferation of mobile technologies here in the African continent, it is useful to have machine learning based models that are deployed on mobile devices and that can learn continually from streams of data over extended time, possibly pertaining to different tasks of interest. In this paper, we demonstrate the localisation of deforestation indicators using lightweight models and extend to incorporate data about wildﬁres and smoke detection. The idea is to show the need and potential of continual learning approaches towards building robust models to track local environmental alterations.
+</details>
+#### (11) WeatherBench: A benchmark dataset for data-driven weather forecasting
+
+*Stephan Rasp (Technical University of Munich); Soukayna Mouatadid (University of Toronto); Peter Dueben (European Centre for Medium-Range Weather Forecasts (ECMWF) ); Sebastian Scher (Stockholm University); Jonathan Weyn (University of Washington); Nils Thuerey (nils.thuerey@tum.de)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Accurate weather forecasts are a crucial prerequisite for climate change adaptation. Can these be provided by deep learning? First studies show promise, but the lack of a common dataset and evaluation metrics make inter-comparison between the proposed models difficult. In fact, despite the recent research surge in data-driven weather forecasting, there is currently no standard approach for evaluating the proposed models. Here we introduce WeatherBench, a benchmark dataset for data-driven medium-range weather forecasting. We provide data derived from an archive of assimilated earth observations for the last 40 years that has been processed to facilitate the use in machine learning models. We propose a simple and clear evaluation metric which will enable a direct comparison between different proposed methods. Further, we provide baseline scores from simple linear regression techniques, purely physical forecasting models as well as existing deep learning weather forecasting models. All data and code are made publicly available along with tutorials for getting started. We believe WeatherBench will provide a useful and reproducible way of evaluating data-driven weather forecasting models and we hope that it will accelerate research in this direction.</details>
+#### (12) Modeling Cloud Reflectance Fields using Conditional Generative Adversarial Networks
+
+*Victor Schmidt (Mila); Kris Sankaran (Montreal Institute for Learning Algorithms); Mustafa Alghali Muhammed (University of Khartoum ); Tianle Yuan (NASA); Yoshua Bengio (Mila)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+We introduce a conditional Generative Adversarial Network (cGAN) approach to generate cloud reflectance fields (CRFs) conditioned on large scale meteorological variables such as sea surface temperature and relative humidity. We show that our trained model can generate realistic CRFs from the corresponding meteorological observations, which represents a step towards a data-driven framework for stochastic cloud parameterization.</details>
+#### (13) SMArtCast: Predicting soil moisture interpolations into the future using Earth observation data in a deep learning framework
+
+*Conrad J Foley (Deep Planet); Sagar Vaze (deepplanet.ai); Mohamed  El Amine Seddiq (Deep Planet); Aleksei  Unagaev (Deep Planet); Natalia Efremova (University of Oxford)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Soil moisture is critical component of crop health and monitoring it can enable further actions for increasing yield or preventing catastrophic die off. As climate change increases the likelihood of extreme weather events and reduces the predictability of weather, and non-optimal soil moistures for crops may become more likely. In this work, we a series of LSTM architectures to analyze measurements of soil moisture and vegetation indiced derived from satellite imagery. The system learns to predict the future values of these measurements. These spatially sparse values and indices are used as input features to an interpolation method that infer spatially dense moisture map for a future time point. This has the potential to provide advance warning for soil moistures that may be inhospitable to crops across an area with limited monitoring capacity.  
+</details>
+#### (14) Prediction of Bayesian Confidence Intervals for Tropical Storms
+
+*Max Chiswick (Independent); Sam Ganzfried (Ganzfried Research)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Building on recent research for prediction of hurricane trajectories using recurrent neural networks (RNNs), we have developed improved methods and generalized the approach to predict a confidence interval region of the trajectory utilizing Bayesian methods. Tropical storms are capable of causing severe damage, so accurately predicting their trajectories can bring significant benefits to cities and lives, especially as they grow more intense due to climate change effects. By implementing the Bayesian confidence interval using dropout in an RNN, we improve the actionability of the predictions, for example by estimating the areas to evacuate in the landfall region. We used an RNN to predict the trajectory of the storms at 6-hour intervals. We used latitude, longitude, windspeed, and pressure features from a Statistical Hurricane Intensity Prediction Scheme (SHIPS) dataset of about 500 tropical storms in the Atlantic Ocean. Our results show how neural network dropout values affect our predictions and Bayesian intervals. </details>
+#### (15) MobilityNet: Towards a Public Dataset for Multi-modal Mobility Research
+
+*K. Shankari (UC Berkeley); Jonathan Fürst (NEC Laboratories Europe); Mauricio Fadel Argerich (NEC Laboratories Europe); Eleftherios Avramidis (DFKI GmbH); Jesse Zhang (UC Berkeley)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Influencing transportation demand can significantly reduce CO2 emissions. Individual user mobility models are key to influencing demand at the personal and structural levels. Constructing such models is a challenging task that depends on a number of interdependent steps. Progress on this task is hamstrung by the lack of high quality public datasets.
+We introduce MobilityNet: the first step towards a common ground for multi-modal mobility research. MobilityNet solves the holistic evaluation, privacy preservation and fine grained ground truth problems through the use of artificial trips, control phones, and repeated travel. It currently includes 1080 hours of data from both
+Android and iOS, representing 16 different travel contexts and 4 different sensing configurations.</details>
+#### (16) Wavelet-Powered Neural Networks for Turbulence
+
+*Arvind T Mohan (Los Alamos National Laboratory)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+One of the fundamental driving phenomena for climate effects is fluid turbulence in geophysical flows. Modeling these flows and explaining its associated spatio-temporal phenomena are notoriously difficult tasks. Navier-Stokes (NS) equations describe all the details of the fluid motions, but require accounting for unfeasibly many degrees of freedom in the regime of developed turbulence. Model reduction and surrogate modeling of turbulence is a general methodology aiming to circumvent this curse of dimensionality. Originally driven by phenomenological considerations,  multiple attempts to model-reduce NS equations got a new boost recently with Deep Learning (DL), trained on the ground truth data, e.g. extracted from high-fidelity Direct Numerical Simulations (DNS). However, early attempts of building NNs to model turbulence has also revealed its lack of interpretability as the most significant shortcoming. In this paper we address the key challenge of devising reduced but, at least partially, interpretable model. We take advantage of the balance between strong mathematical foundations and the physical interpretability of wavelet theory to build a spatio-temporally reduced dynamical map which fuses wavelet based spatial decomposition with spatio-temporal modeling based on Convolutional Long Short Term Memory (C-LSTM) architecture.  It is shown that the wavelet-based NN makes progress in scaling to large flows, by reducing computational costs and GPU memory requirements. </details>
+
+
+
+### Proposals
+
+#### (17) Benchmarks for Grid Flexibility Prediction: Enabling Progress and Machine Learning Applications
+
+*Diego Kiedansk (Telecom ParisTech); Lauren Kuntz (Gaiascope); Daniel Kofman (Telecom ParisTech)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Decarbonizing the grid is recognized worldwide as one of the objectives for the next decades. Its success depends on our ability to massively deploy renewable resources, but to fully benefit from those, grid flexibility is needed. In this paper we put forward the design of a benchmark that will allow for the systematic measurement of demand response programs' effectiveness, information that we do not currently have. Furthermore, we explain how the proposed benchmark will facilitate the use of Machine Learning techniques in grid flexibility applications.</details>
+#### (18) Machine Learning Approaches to Safeguarding Continuous Water Supply in the Arid and Semi-arid Lands of Northern Kenya
+
+*Fred Otieno (IBM); Timothy Nyota (IBM); Isaac Waweru (IBM); Celia Cintas (IBM Research); Samuel C Maina (IBM Research); William Ogallo (IBM Research); Aisha Walcott-Bryant (IBM Research - Africa)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Arid and semi-arid regions (ASALs) in developing countries are heavily affected by the effects of global warming and climate change, leading to adverse climatic conditions such as drought and flooding. This paper explores the problem of fresh-water access in northern Kenya and measures being taken to safeguard water access despite these harsh climatic changes. We present an integrated water management and decision-support platform, eMaji Manager, that we developed and deployed in five ASAL counties in northern Kenya to manage waterpoint access for people and livestock. We then propose innovative machine learning methods for understanding waterpoint usage and repair patterns for sensor-instrumented waterpoints (e.g., boreholes).  We explore sub-sequence discriminatory models and recurrent neural networks to predict water-point failures, improve repair response times and ultimately support continuous access to water.</details>
+#### (19) Accelerated  Data Discovery for Scalable Climate Action
+
+*Henning Schwabe (Private); s s (myntra); Sergy Grebenschikov (Private)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+According to the Intergovernmental Panel on Climate Change (IPCC), the planet must decarbonize by 50% by 2030 in order to keep global warming below 1.5C. This goal calls for a prompt and massive deployment of solutions in all societal sectors - research, governance, finance, commerce, health care, consumption. One challenge for experts and non-experts is access to the rapidly growing body of relevant information, which is currently scattered across many weakly linked domains of expertise. We propose a large-scale, semi-automatic, AI-based discovery system to collect, tag, and semantically index this information. The ultimate goal is a near real-time, partially curated data catalog of global climate information for rapidly scalable climate action.</details>
+#### (20) YOU FORGOT IT IN THE GENOTYPE, MODELING TOWARDS ADAPTATION OF FOOD CROPS UNDER CLIMATE CHANGE THREAT
+
+*Olivia Mendivil Ramos (Cold Spring Harbor Laboratory); Linda Petrini (Mila)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Agriculture is facing the disastrous effects of frequent drastic climate changes. Efforts have increased towards the implementation of inexpensive solutions for crop-yield prediction using publicly available data to prevent severe long-term problems like food scarcity and security, amongst others. Agricultural productiv- ity is intrinsic to the choice of plant species (i.e. cultivar) and represents oppor- tunity cost for farm managers. The currently used cultivars have been artificially selected for productivity at the expense of not being flexible to survive drastic cli- mate changes. Current state-of-the-art machine learning models have modelled holistically all agricultural counterparts (i.e. soil, management, weather, crop cul- tivars etc), albeit, oversimplifying some of the biological features of their culti- vars without taking advantage of their data properties. Specifically, these models oversimplify some biological features like the genotype making them irrelevant or depicting incomplete conclusions since not all of the information from the cul- tivar is incorporated. With the goal of creating new models that perform well on the yield prediction task in unstable weather conditions (e.g. under the effect of climate change), here the authors argue for the importance of incorporating additional biological features inferred from the genotype, like stability, and hy- pothesise that current state-of-the-art models for grain-yield prediction are blind to such features, and hence not applicable in such scenario.</details>
+#### (21) Hurricane Nowcasting with Irregular Time-step using Neural-ODE and Video Prediction
+
+*Sunghyun  Park (KAIST); Kangyeol Kim (KAIST); Sookyung Kim (Lawrence Livermore National Laboratory); Joonseok Lee (Google Research); Junsoo Lee (KAIST); Jiwoo Lee (Lawrence Livermore National Laboratory); Jaegul  Choo (KAIST)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Fast and accurate prediction of extreme climate events is critical especially in the recent globally warming environment. Considering recent advancements in deep neural networks, it is worthwhile to tackle this problem as data-driven spatio-temporal prediction using neural networks. However, a nontrivial challenge in practice lies in irregular time gaps between which climate observation data are collected due to sensor errors and other issues. This paper proposes an approach for spatio-temporal hurricane prediction that can address this issue of irregular time gaps in collected data with a simple but robust end-to-end model based on Neural Ordinary Differential Equation and video prediction model based on Retrospective Cycle-GAN.</details>
+#### (22) Indigenous Knowledge Aware Drought Monitoring, Forecasting and Prediction Model Using Deep Learning Techniques
+
+*Kidane W Degefa (Haramaya University)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Among all extreme climate events, drought is considered as the most complex phenomenon affecting Ethiopia and its impact is high due to absence of intelligent technology-oriented early warning system and proper preservation of indigenous climate mitigation techniques in the country. Thus, studying Ethiopic perspective of drought monitoring and prediction in line with the continental and global climate change is vital for drought impact minimization in Ethiopia. Moreover, having early protective, preventative action has also been shown to be many times cheaper than the associated response to humanitarian crisis. Therefore, the general objective of this proposed research work is to design a deep learning based comprehensive framework of hybrid drought monitoring, forecasting and prediction using integration of scientific and indigenous knowledge. This proposed work will have different expected outputs, including: drought risk identification, drought monitoring, drought preparedness, drought forecasting, drought mitigation and post drought best practice recommendation models.</details>
+#### (23) TrueBranch: Robust Deep Learning-based Verification of Forest Conservation Projects
+
+*Simona Santamaria (ETH Zurich); David Dao (ETH Zurich); Björn Lütjens (MIT); Ce Zhang (ETH)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+International stakeholders increasingly invest in offsetting carbon emissions, for example, via issuing Payments for Ecosystem Services (PES) to forest conservation projects. Issuing trusted payments requires a transparent monitoring, reporting, and verification (MRV) process of the ecosystem services (e.g., carbon stored in forests).
+The current MRV process, however, is either too expensive (on-ground inspection of forest) or inaccurate (satellite). Recent works propose low-cost and accurate MRV via automatically determining forest carbon from drone imagery, collected by the landowners. The automation of MRV, however, opens up the possibility that landowners report untruthful drone imagery. To be robust against untruthful reporting, we propose TrueBranch, a robust deep learning-based algorithm that verifies the truthfulness of drone imagery from forest conservation projects.
+TrueBranch aims to detect untruthfully reported drone imagery by matching it with public satellite imagery. Preliminary results suggest that nominal distance metrics are not sufficient to reliably detect untruthfully reported imagery. TrueBranch leverages a method from metric learning to create a feature embedding in which truthfully and untruthfully collected imagery is easily distinguishable by distance thresholding.</details>
+#### (24) Advancing Renewable Electricity Consumption With Reinforcement Learning
+
+*Filip Tolovski (Fraunhofer Heinrich-Hertz-Institut )*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+As the share of renewable energy sources in the present electric energy mix rises, their intermittence proves to be the biggest challenge to carbon free electricity generation. To address this challenge, we propose an electricity pricing agent, which sends price signals to the customers and contributes to shifting the customer demand to periods of high renewable energy generation. We propose an implementation of a pricing agent with a reinforcement learning approach where the environment is represented by the customers, the electricity generation utilities and the weather conditions.</details>
+#### (25) Xingu: Explaining critical geospatial predictions in weak supervision for climate finance
+
+*David Dao (ETH Zurich); Johannes Rausch (ETH Zurich); Ce Zhang (ETH)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Monitoring, Reporting, and Verification (MRV) play a crucial key role in the decision-making of climate investors, policymakers and conservationists. 
+Remote sensing is commonly used for MRV but practical solutions are constrained by a lack of labels to train machine learning-based downstream tasks. Recent work leverages weak supervision to alleviate the problem of labeled data scarcity. However, the definition of weak supervision signals is limited by the existence of millions of possible heuristic-based feature generation rules. Furthermore, these rules are often difficult to interpret for climate finance and underperform in critical data subsets.
+We propose Xingu, an interpretable MRV system to explain weak supervision rules using game-theoretic SHAP values for critical model predictions. Moreover, Xingu enables domain experts to collectively design and share labeling functions, thus curating a reusable knowledge base for weak supervision signals.</details>
+#### (26) Towards unified standards for smart infrastructure datasets
+
+*Abdulrahman A Ahmed (Cairo University)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+Development of smart devices and smart home appliances allowed us to harness more data about energy patterns inside households, overtime this will increase. There are contributions published to address building datasets for smart buildings and working for objective of energy consumption optimization. Yet there are still factors if included could help in understanding problem better. This proposal tries to annotate missing features that if applied could help in better understanding energy consumption in smart buildings. Also, to have a unified standards that help different solutions to be compared appear properly.</details>
+#### (27) MACHINE   LEARNING   APPLICATIONS   THAT CAN HELP PASTORAL COMMUNITIES IN NORTHERN  KENYA  AND  ELSEWHERE  ADAPT TO CLIMATE CHANGE
+
+*Jefferson Sankara (Lori Systems)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+We propose the use of Machine Learning techniques such as Active Learning(AL) and Transfer Learning(TL) to translate information about adapting to the effects of climate change from major Western and Asian languages to thousands of low resource languages in the developing world. Studies have shown that access to information can help people assess the magnitude of the climate change challenge, possible options and those feasible within the relevant context (Nyahunda & Tiri-vangasi, 2019) We endeavor to demonstrate that if this information was available in a language the locals can understand, it would result in local empowerment and as a result inspire action.</details>
+#### (28) Nutrient demand, Risk and Climate change: Evidence from historical rice yield trials in India
+
+*Sandip K Agarwal (IISER Bhopal)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+We use data from historical agronomic fertilizer trials to identify the effect of climate change on the average rice yield and the yield variability in India. The contribution of this paper is three folds: firstly, it has a methodological contribution by modelling the input conditional yield densities using a stochastic production structure for a developing country like India. In doing so, it predicts and measure the effects of climate change on rice grown in tropical regions; secondly,it estimates the nutrient demand and its link with the climate change; thirdly, by modelling the yield uncertainty, it characterizes the risk and role for insurance as a tool for tackling climate change in the developing countries.</details>
+#### (29) USING MACHINE LEARNING TO ANALYZE CLIMATE CHANGE TECHNOLOGY TRANSFER (CCTT)
+
+*Shruti Kulkarni (Indian Institute of Science (IISc))*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+The objective of the present paper is to review the climate change technology transfer. This research proposes a method for analyzing climate change technology transfer using patent analysis and topic modeling A collection of climate change patents from the US patent database has been used as input to group patents in several relevant topics for climate change mitigation using the LDA model in this research. Topic modeling is a statistical approach for discovering topics that occur in a document corpus (Blei et al.,2003). Latent Dirichlet Allocation (LDA) will be used as an unsupervised approach in topic modeling for the identification of relationships between terms and topics related to climate change mitigation technologies, enabling better visualizations of underlying intellectual property dynamics. Further, a predictive model for climate change technology transfer will be developed using techniques such as social network analysis (SNA) and regression analysis. The projected results from the predictive models would be useful to facilitate the transfer process associated with existing and emerging climate change technologies and improve technology cooperation between governments.</details>
+#### (30) Using ML to close the vocabulary gap in the context of environment and climate change in Chichewa
+
+*Amelia Taylor (University of Malawi, The Polytechnic)*
+
+<details>
+<summary>Abstract: (click to expand)
+</summary>
+
+In the west, alienation from nature and deteriorating opportunities to experience it, have led educators to incorporate educational programs in schools, to bring pupils in contact with nature and to enhance their understanding of issues related to the environment and its protection. In Africa, and in Malawi, where most people engage in agriculture, and spend most of their time in the 'outdoors', alienation from nature is happening too, although in different ways.  Large portion of the indigenous vocabulary and knowledge remains unknown or is slowly disappearing, and there is a need to build a glossary of terms regarding environment and climate change in the vernacular to improve the dialog regarding climate change and environmental protection.. We believe that ML has a role to play in closing the ‘vocabulary gap’ of terms and concepts regarding the environment and climate change that exists in Chichewa and other Malawian languages by helping to creating a visual dictionary of key terms used to describe the environment and explain the issues involved in climate change and their meaning. Chichewa is a descriptive language, one English term may be translated using several words. Thus, the task is not to detect just literal translations, but also translations by means of ‘descriptions’ and illustrations and thus extract correspondence between terms and definitions and to  measure how appropriate a term is to convey the meaning intended.  As part of this project, ML can be used to identify ‘loanword patterns’, which may be useful in understanding the transmission of cultural items.
+</details>
+
+
+
+
 
 ## Program Committee
 Adrian Albert (terrafuse, inc.) <br>
