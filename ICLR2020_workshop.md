@@ -53,32 +53,137 @@ The International Conference on Learning Representations (ICLR) is one of the pr
 **Sarvapali Ramchurn** (University of Southampton)  
 
 ## Schedule
-_Detailed schedule coming soon! Please check back here for updates._ <br>
 
-**April 26**: Main workshop <br>
-**April 27**: Energy Day <br>
-**April 28**: Agriculture, Forestry, and Other Land Use (AFOLU) Day <br>
-**April 29**: Climate Science and Adaptation Day <br> 
-**April 30**: Cross-cutting Methods Day <br>
+### April 26: Main Workshop
+<details open>
+<summary>
+  Click to expand (all times in UTC):
+</summary>
+<!-- <table style="width:100%">
+  <tr>
+    <th>Time (UTC)</th>
+    <th>Speakers</th>
+  </tr>
+  <tr>
+    <td>8:45 – 9:00</td>
+    <td><b>Welcome and opening remarks</b></td>
+  </tr>
+  <tr>
+    <td>9:00 - 10:15</td>
+    <td><b>Panel:</b> Ciira wa Maina, Georgina Campbell Flatter, Gopal Ramchurn, Paula Hidalgo-Sanchis</td>
+  </tr>
+  <tr>
+    <td>10:15 - 11:00</td>
+    <td><b>Invited talk:</b> Ciira wa Maina</td>
+  </tr>
+  <tr>
+    <td>11:00 - 12:00</td>
+    <td><b>Poster spotlight talks</b></td>
+  </tr>
+  <tr>
+    <td>12:00 - 13:00</td>
+    <td><b>Poster session</b></td>
+  </tr>
+  <tr>
+    <td>13:00 - 13:45</td>
+    <td><b>Invited talk:</b> Georgina Campbell Flatter</td>
+  </tr>
+  <tr>
+    <td>13:45 - 15:30</td>
+    <td>Break</td>
+  </tr>
+  <tr>  
+    <td>15:30 - 17:00</td>
+    <td><b>Panel:</b> Dan Kammen, Dan Morris, Jessica Thorn, John Platt, Nana Ama Browne Klutse, Stefano Ermon</td>
+  </tr>
+  <tr>
+    <td>17:00 - 17:45</td>
+    <td><b>Invited talk:</b> Stefano Ermon</td>
+  </tr>
+  <tr>
+    <td>17:45 - 19:00</td>
+    <td><b>Poster spotlight talks</b></td>
+  </tr>
+  <tr>
+    <td>19:00 - 20:00</td>
+    <td><b>Poster session</b></td>
+  </tr>
+  <tr>
+    <td>20:00 - 20:45</td>
+    <td><b>Invited talk: Dan Morris</b></td>
+  </tr>
+  <tr>
+    <td>20:45 - 21:00</td>
+    <td>Closing remarks and conclusion</td>
+  </tr>
+</table> -->
+8:45 – 9:00 - <b>Welcome and opening remarks</b><br> 
+9:00 - 10:15  - <b>Panel:</b> Ciira wa Maina, Georgina Campbell Flatter, Gopal Ramchurn, Paula Hidalgo-Sanchis<br>
+10:15 - 11:00 - <b>Invited talk:</b> Ciira wa Maina<br>
+11:00 - 12:00 - <b>Poster spotlight talks</b><br>
+12:00 - 13:00 - <b>Poster session</b><br>
+13:00 - 13:45 - <b>Invited talk:</b> Georgina Campbell Flatter<br>
+13:45 - 15:30 - Break<br>
+15:30 - 17:00 - <b>Panel:</b> Dan Kammen, Dan Morris, Jessica Thorn, John Platt, Nana Ama Browne Klutse, Stefano Ermon<br>
+17:00 - 17:45 - <b>Invited talk:</b> Stefano Ermon<br>
+17:45 - 19:00 - <b>Poster spotlight talks</b><br>
+19:00 - 20:00 - <b>Poster session</b><br>
+20:00 - 20:45 - <b>Invited talk:</b> Dan Morris<br>
+20:45 - 21:00 - <b>Closing remarks and conclusion</b>
+</details>
+
+### April 27: Energy Day
+<details>
+<summary>
+  Click to expand (all times in UTC):
+</summary>
+<i>Schedule coming soon! Please check back here for updates.</i>
+</details>
+
+
+### April 28: Agriculture, Forestry, and Other Land Use (AFOLU) Day
+<details>
+<summary>
+  Click to expand (all times in UTC):
+</summary>
+<i>Schedule coming soon! Please check back here for updates.</i>
+</details>
+
+### April 29: Climate Science and Adaptation Day
+<details>
+<summary>
+  Click to expand (all times in UTC):
+</summary>
+<i>Schedule coming soon! Please check back here for updates.</i>
+</details>
+
+### April 30: Cross-cutting Methods Day
+<details>
+<summary>
+  Click to expand (all times in UTC):
+</summary>
+<i>Schedule coming soon! Please check back here for updates.</i>
+</details>
+
 
 ## Organizers
-Priya Donti (CMU) <br>
-David Rolnick (UPenn) <br>
-Lynn Kaack (ETH Zürich) <br>
-Sasha Luccioni (Mila) <br>
-Kris Sankaran (Mila) <br>
-Sharon Zhou (Stanford) <br>
-Moustapha Cisse (Google Research) <br>
-Carla Gomes (Cornell) <br>
-Andrew Ng (Stanford) <br>
-Yoshua Bengio (Mila) <br>
+<a href="https://priyadonti.com/" target="_blank">Priya Donti (CMU)</a> <br>
+<a href="http://www.davidrolnick.com" target="_blank">David Rolnick (UPenn)</a> <br>
+<a href="https://scholar.google.fr/citations?user=jsy-VxMAAAAJ" target="_blank">Lynn Kaack (ETH Zürich)</a> <br>
+<a href="https://www.sashaluccioni.com/" target="_blank">Sasha Luccioni (Mila)</a> <br>
+<a href="https://mila.quebec/en/person/kris-sankaran/" target="_blank">Kris Sankaran (Mila)</a> <br>
+<a href="http://sharonzhou.me/" target="_blank">Sharon Zhou (Stanford)</a> <br>
+<a href="http://moustaphacisse.com/" target="_blank">Moustapha Cisse (Google Research)</a> <br>
+<a href="https://www.cs.cornell.edu/gomes/" target="_blank">Carla Gomes (Cornell)</a> <br>
+<a href="https://www.andrewng.org/" target="_blank">Andrew Ng (Stanford)</a> <br>
+<a href="https://mila.quebec/en/yoshua-bengio/" target="_blank">Yoshua Bengio (Mila)</a> <br>
 
 ## Co-organizers
-David Dao (ETH Zürich): _AFOLU Day_ <br>
-Natasha Jaques (UC Berkeley, Google Brain): _Social media_ <br> 
-Kelly Kochanski (CU Boulder): _Climate Science and Adaptation Day_ <br>
-Nikola Milojevic-Dupont (MCC Berlin): _Energy Day_ <br>
-Peetak Mitra (UMass Amherst): _Climate Science and Adaptation Day_ <br>
+<a href="https://daviddao.org/" target="_blank">David Dao (ETH Zürich)</a>: _AFOLU Day_ <br>
+<a href="https://www.media.mit.edu/people/jaquesn/overview/" target="_blank">Natasha Jaques (UC Berkeley, Google Brain)</a>: _Social media_ <br>
+<a href="http://www.kochanski.org/kelly/" target="_blank">Kelly Kochanski (CU Boulder)</a>: _Climate Science and Adaptation Day_ <br>
+<a href="https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html" target="_blank">Nikola Milojevic-Dupont (MCC Berlin)</a>: _Energy Day_ <br>
+<a href="https://sites.google.com/prod/view/peetak" target="_blank">Peetak Mitra (UMass Amherst)</a>: _Climate Science and Adaptation Day_ <br>
 
 ## Sponsored By
 ![Microsoft logo](/images/microsoft.png)
