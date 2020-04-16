@@ -3,6 +3,12 @@ title: Climate Change AI
 description: Tackling Climate Change with Machine Learning
 ---
 
+<article class='message is-warning'>
+  <div class='message-body'>
+    Attend our <a href='/ICLR2020_workshop'>virtual workshop</a> at ICLR 2020! Main proceedings on April 26, additional events April 27-30.
+  </div>
+</article>
+
 Climate change is one of the greatest problems society has ever faced, with increasingly severe consequences for humanity as natural disasters multiply, sea levels rise, and ecosystems falter. While no silver bullet, machine learning can be an invaluable tool in fighting climate change via a wide array of applications and techniques. Climate Change AI aims to facilitate work at the nexus of climate change and machine learning.
 
 <div class='columns'>
