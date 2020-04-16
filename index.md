@@ -5,7 +5,7 @@ description: Tackling Climate Change with Machine Learning
 
 <article class='message is-warning'>
   <div class='message-body'>
-    Attend our <a href='/ICLR2020_workshop'>virtual workshop</a> at ICLR 2020! Main proceedings on April 26, additional events April 27-30.
+    Attend our <a href='/ICLR2020_workshop'>virtual workshop</a> at ICLR 2020! Main event on April 26, additional events April 27-30.
   </div>
 </article>
 
