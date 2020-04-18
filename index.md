@@ -20,7 +20,7 @@ Climate change is one of the greatest problems society has ever faced, with incr
           <li><a href='/summaries'>Search</a> our list of impactful applications</li>
           <li><a href='{{ site.paper_url }}' target='_blank'>Read</a> our paper</li>
           <li><a href='/resources'>Explore</a> readings and data</li>
-          <li>Watch recordings and read abstracts from our <a href='/events'>previous events</a></li>
+          <li><a href='/events'>View</a> recordings and abstracts from our events</li>
         </ul>
       </div>
     </div>
