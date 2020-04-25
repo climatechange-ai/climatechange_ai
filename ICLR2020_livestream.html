@@ -15,7 +15,10 @@ body_class: 'iclr-livestream'
 <div class='columns'>
   <div class='column is-two-thirds'>
     <h2>SlidesLive</h2>
-    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"><em>Loading&hellip;</em></div>
+    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"></div>
+    <div id='status-message'>
+      <em>Loading&hellip;</em>
+    </div>
   </div>
 
   <div class='column'>
@@ -37,9 +40,10 @@ body_class: 'iclr-livestream'
     zoomRatio: 0.25,
     hideTitle: true,
   });
-  slides_live_embed.callbacks.onError.push((err) => {
-    if (err == 'unauthorized') {
-      document.getElementById(embed_id).innerHTML = "<em>Video coming soon!</em>";
-    }
+  slides_live_embed.addCallback("onError", (err) => {
+    document.getElementById('status-message').innerHTML = "<em>Video coming soon!</em>";
+  });
+  slides_live_embed.addCallback("onLoad", () => {
+    document.getElementById('status-message').innerHTML = "";
   });
 </script>
