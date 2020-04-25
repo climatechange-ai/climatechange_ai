@@ -1,0 +1,39 @@
+---
+layout: default
+title: 'ICLR 2020 Livestream - Tackling Climate Change with Machine Learning'
+description: 'Tackling Climate Change with Machine Learning'
+og_image_url: 'https://www.climatechange.ai/images/ICLR2020_preview.png'
+og_image_type: 'image/png'
+og_image_width: 1063
+og_image_height: 555
+slides_live_id: 38926837
+body_class: 'iclr-livestream'
+---
+
+<h1>ICLR 2020 Workshop Livestream</h1>
+
+<div class='columns'>
+  <div class='column is-two-thirds'>
+    <h2>SlidesLive</h2>
+    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"></div>
+  </div>
+
+  <div class='column'>
+    <h2>Chat</h2>
+    <div class="rocket">
+      <iframe frameborder="0" src="https://iclr.rocket.chat/channel/workshop_climatechange?layout=embedded" width="100%" height="680px"></iframe>
+    </div>
+  </div>
+</div>
+
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+  window.slides_live_embed = new SlidesLiveEmbed('presentation-embed-{{ page.slides_live_id }}', {
+    presentationId: '{{ page.slides_live_id }}',
+    autoPlay: false, // change to true to autoplay the embedded presentation
+    verticalEnabled: true,
+    allowHiddenControlsWhenPaused: true,
+    zoomRatio: 0.25,
+    hideTitle: true,
+  });
+</script>
