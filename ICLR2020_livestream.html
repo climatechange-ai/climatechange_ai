@@ -15,7 +15,7 @@ body_class: 'iclr-livestream'
 <div class='columns'>
   <div class='column is-two-thirds'>
     <h2>SlidesLive</h2>
-    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"></div>
+    <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"><em>Loading&hellip;</em></div>
   </div>
 
   <div class='column'>
@@ -28,12 +28,18 @@ body_class: 'iclr-livestream'
 
 <script src='https://slideslive.com/embed_presentation.js'></script>
 <script>
-  window.slides_live_embed = new SlidesLiveEmbed('presentation-embed-{{ page.slides_live_id }}', {
+  const embed_id = "presentation-embed-{{ page.slides_live_id }}";
+  window.slides_live_embed = new SlidesLiveEmbed(embed_id, {
     presentationId: '{{ page.slides_live_id }}',
     autoPlay: false, // change to true to autoplay the embedded presentation
     verticalEnabled: true,
     allowHiddenControlsWhenPaused: true,
     zoomRatio: 0.25,
     hideTitle: true,
+  });
+  slides_live_embed.callbacks.onError.push((err) => {
+    if (err == 'unauthorized') {
+      document.getElementById(embed_id).innerHTML = "<em>Video coming soon!</em>";
+    }
   });
 </script>
