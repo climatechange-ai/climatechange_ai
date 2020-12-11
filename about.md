@@ -52,7 +52,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ## Content Committee
 - Sasha Luccioni <em>(Committee Chair)</em>
 - Ebude Antem Yolande Ebong
-- Lauren Kuntz <em>(Course Curriculum Lead)</em>
+- Lauren Kuntz
 - Alexandre Lacoste
 - Tegan Maharaj
 - Ankur Mahesh
@@ -62,12 +62,12 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Marcus Voss
 
 ## Communications Committee
-- Konstantin Klemmer <em>(Committee Chair, Social Media Lead)</em>
+- Konstantin Klemmer <em>(Committee Chair)</em>
 - Ján Drgoňa
 - Jesse Dunietz
 - Wei-Wei Lin
-- Andrew Ross <em>(Web Lead)</em>
-- Kris Sankaran <em>(Newsletter Lead, Forum Lead)</em>
+- Andrew Ross
+- Kris Sankaran
 - Katherine Stapleton
 - Kasia Tokarska
 
@@ -81,7 +81,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - John Kieffer
 - Konstantin Klemmer
 - Felipe Oviedo
-- Yumna Yusuf <em>(Meetups Lead)</em>
+- Yumna Yusuf
 
 ## Community Leads
 - David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
@@ -89,7 +89,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - Lynn H. Kaack <em>(Public Sector and International Organizations)</em>
 - Kelly Kochanski <em>(Climate and Earth Sciences)</em>
 - Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
-- Kelton Minor
+- Kelton Minor <em>(Computational Social Sciences)</em>
 - David Rolnick <em>(Tech Industry and ML Academia)</em>
 
 ## Former Core Team Members
