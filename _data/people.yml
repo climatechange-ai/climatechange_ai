@@ -29,7 +29,41 @@
     - website_url: https://daviddao.org/
       image_url: images/people/daviddao_400x400.jpg
       name: David Dao
-      affiliation: ETH Zurich
+      affiliation: ETH Zürich
+    - website_url: http://hariprasanna.com/
+      image_url: images/people/hariprasannadas_400x400.jpg
+      name: Hari Prasanna Das
+      affiliation: UC Berkeley
+    - website_url: https://drgona.github.io/
+      image_url: images/people/jandrgona_400x400.jpg
+      name: Ján Drgoňa
+      affiliation: Pacific Northwest National Laboratory
+    - website_url: https://jessedunietz.com/
+      image_url: images/people/jessedunietz_400x400.jpg
+      name: Jesse Dunietz
+      affiliation: Elemental Cognition
+    - website_url: https://yolandebude.wixsite.com/profile/about-me
+      image_url: images/people/ebudeantemyolandeebong_400x400.jpg
+      name: Ebude Antem Yolande Ebong
+      affiliation: Eindhoven University of Technology
+    - image_url: images/people/jessicafan_400x400.jpg
+      name: Jessica Fan
+      affiliation: QuantumBlack, McKinsey
+    - website_url: https://www.linkedin.com/in/meareg-a-hailemariam/
+      image_url: images/people/meareghailemariam_400x400.jpg
+      name: Meareg Hailemariam
+      affiliation: Dakar American University of Science and Technology
+    - website_url: https://jirvin16.github.io/
+      image_url: images/people/jeremyirvin_400x400.jpg
+      name: Jeremy Irvin
+      affiliation: Stanford University
+    - website_url: https://www.linkedin.com/in/mariajoaosousa/
+      image_url: images/people/mariajoaosousa_400x400.jpg
+      name: Maria João Sousa
+      affiliation: IST, ULisboa
+    - image_url: images/people/johnkieffer_400x400.jpg
+      name: John Kieffer
+      affiliation: University of Pittsburgh
     - website_url: https://www.gaia-scope.com/
       image_url: images/people/lauren_400x400.jpg
       name: Lauren Kuntz
@@ -42,14 +76,30 @@
       image_url: images/people/Alexandre_Lacoste_400x400.jpg
       name: Alexandre Lacoste
       affiliation: Element AI
+    - website_url: https://weiwei.design/
+      image_url: images/people/weiweilin_400x400.jpg
+      name: Wei-Wei Lin
     - website_url: http://www.teganmaharaj.com
       image_url: images/people/teganmaharaj_400x400.jpg
       name: Tegan Maharaj
       affiliation: Mila, Polytechnique Montréal
+    - image_url: images/people/ankurmahesh_400x400.jpg
+      name: Ankur Mahesh
+      affiliation: LBNL, UC Berkeley
     - website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
       image_url: images/people/nikolamilojevicdupont_400x400.jpg
       name: Nikola Milojevic-Dupont
       affiliation: MCC Berlin, TU Berlin
+    - website_url: https://www.linkedin.com/in/kelton-minor-86a0b5106/
+      image_url: images/people/keltonminor_400x400.jpg
+      name: Kelton Minor
+      affiliation: UCPH, UC Berkeley
+    - image_url: images/people/felipeoviedo_400x400.jpg
+      name: Felipe Oviedo
+      affiliation: Microsoft AI for Good
+    - website_url: https://genp.github.io
+      image_url: images/people/genevievepatterson_400x400.jpg
+      name: Geneviève Patterson
     - website_url: https://asross.github.io/
       image_url: images/people/andrew_ross_400x400.jpg
       name: Andrew Slavin Ross
@@ -58,9 +108,26 @@
       image_url: images/people/krissankaran_400x400.jpg
       name: Kris Sankaran
       affiliation: UW Madison
+    - website_url: https://sites.google.com/view/katherinestapleton
+      image_url: images/people/katherinestapleton_400x400.jpg
+      name: Katherine Stapleton
+      affiliation: World Bank & Oxford University
+    - website_url: https://www.linkedin.com/in/isabelletingzon/
+      image_url: images/people/isabelletingzon_400x400.jpg
+      name: Isabelle Tingzon
+      affiliation: Thinking Machines Data Science
+    - website_url: https://www.kasiatokarska.com/
+      image_url: images/people/kasiatokarska_400x400.jpg
+      name: Kasia Tokarska
+      affiliation: ETH Zürich
+    - website_url: https://dai-labor.de/team/marcus-vo%c3%9f/
+      image_url: images/people/marcusvoss_400x400.jpg
+      name: Marcus Voss
+      affiliation: TU Berlin
     - image_url: images/people/yumna_400x400.jpg
       name: Yumna Yusuf
       affiliation: International Climate Strategy and Negotiations, UK Gov
+
 - group: 'Advisors'
   anchor: 'advisors'
   members:
