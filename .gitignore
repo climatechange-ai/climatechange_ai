@@ -1,3 +1,5 @@
 _site
 *.DS_Store
 raw_workshop_files
+.env
+core_team_info.csv
