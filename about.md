@@ -50,50 +50,52 @@ To catalyze impactful work at the intersection of climate change and machine lea
 - David Rolnick
 
 ## Content Committee
-- Sasha Luccioni <em>(Committee Chair)</em>
-- Ebude Antem Yolande Ebong
-- Lauren Kuntz
+- Sasha Luccioni <em>(Committee Co-chair)</em>
+- Nikola Milojevic-Dupont <em>(Committee Co-chair)</em>
+- Ebude Antem Yolande Ebong <em>(Wiki)</em>
+- Lauren Kuntz <em>(Course)</em>
 - Alexandre Lacoste
 - Tegan Maharaj
-- Ankur Mahesh
-- Geneviève Patterson
-- Kris Sankaran
-- Isabelle Tingzon
-- Marcus Voss
+- Ankur Mahesh <em>(Tutorials)</em>
+- Geneviève Patterson <em>(Course)</em>
+- Isabelle Tingzon <em>(Tutorials)</em>
+- Marcus Voss <em>(Wiki)</em>
 
 ## Communications Committee
 - Konstantin Klemmer <em>(Committee Chair)</em>
-- Ján Drgoňa
-- Jesse Dunietz
-- Wei-Wei Lin
-- Andrew Ross
-- Kris Sankaran
-- Katherine Stapleton
-- Kasia Tokarska
+- Ján Drgoňa <em>(Forum)</em>
+- Jesse Dunietz <em>(Press)</em>
+- Wei-Wei Lin <em>(Website)</em>
+- Andrew Ross <em>(Website)</em>
+- Katherine Stapleton <em>(Press)</em>
+- Kasia Tokarska <em>(Newsletter)</em>
 
 ## Programs Committee
 - Evan D. Sherwin <em>(Committee Chair)</em>
-- Hari Prasanna Das
-- Jessica Fan
-- Meareg Hailemariam
-- Jeremy Irvin
-- Maria João Sousa
-- John Kieffer
+- Hari Prasanna Das <em>(Summer School)</em>
+- Jessica Fan <em>(Industry Events)</em>
+- Meareg Hailemariam <em>(Webinar)</em>
+- Jeremy Irvin <em>(Summer School)</em>
+- John Kieffer <em>(Community Events)</em>
 - Konstantin Klemmer
-- Felipe Oviedo
-- Yumna Yusuf
+- Felipe Oviedo <em>(Webinar)</em>
+- Maria João Sousa <em>(Summer School)</em>
+- Yumna Yusuf <em>(Happy Hours)</em>
 
 ## Community Leads
 - David Dao <em>(Agriculture, Forestry, and Other Land Use)</em>
 - Priya L. Donti <em>(Power Sector)</em>
-- Lynn H. Kaack <em>(Public Sector and International Organizations)</em>
+- Lynn H. Kaack <em>(Public Sector)</em>
 - Kelly Kochanski <em>(Climate and Earth Sciences)</em>
+- Raphaela Kotsch <em>(Economics & Markets)</em>
 - Nikola Milojevic-Dupont <em>(Buildings and Transportation)</em>
 - Kelton Minor <em>(Computational Social Sciences)</em>
 - David Rolnick <em>(Tech Industry and ML Academia)</em>
+- Katherine Stapleton <em>(International Organizations)</em>
 
 ## Former Core Team Members
 - Natasha Jaques
+- Kris Sankaran
 - Anna Waldman-Brown
 - Sharon Zhou
 

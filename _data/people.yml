@@ -22,6 +22,10 @@
       image_url: images/people/sashaluccioni_400x400.jpg
       name: Sasha Luccioni
       affiliation: Mila, U. de Montréal
+    - website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
+      image_url: images/people/nikolamilojevicdupont_400x400.jpg
+      name: Nikola Milojevic-Dupont
+      affiliation: MCC Berlin, TU Berlin
     - website_url: https://www.evansherwin.com/
       image_url: images/people/evansherwin_400x400.jpg
       name: Evan D. Sherwin
@@ -68,6 +72,10 @@
       image_url: images/people/kellykochanski_400x400.jpg
       name: Kelly Kochanski
       affiliation: CU Boulder
+    - website_url: https://www.rkotsch.com
+      image_url: images/people/raphaelakotsch_400x400.jpg
+      name: Raphaela Kotsch
+      affiliation: University of Zurich, ZHAW
     - website_url: https://scholar.google.com/citations?user=71a2-WMAAAAJ&hl=en
       image_url: images/people/Alexandre_Lacoste_400x400.jpg
       name: Alexandre Lacoste
@@ -82,10 +90,6 @@
     - image_url: images/people/ankurmahesh_400x400.jpg
       name: Ankur Mahesh
       affiliation: LBNL, UC Berkeley
-    - website_url: https://www.mcc-berlin.net/en/about/team/milojevic-dupont-nikola.html
-      image_url: images/people/nikolamilojevicdupont_400x400.jpg
-      name: Nikola Milojevic-Dupont
-      affiliation: MCC Berlin, TU Berlin
     - website_url: https://www.linkedin.com/in/kelton-minor-86a0b5106/
       image_url: images/people/keltonminor_400x400.jpg
       name: Kelton Minor
@@ -102,10 +106,6 @@
       image_url: images/people/andrew_ross_400x400.jpg
       name: Andrew Slavin Ross
       affiliation: Harvard University
-    - website_url: http://krisrs1128.github.io/personal-site/
-      image_url: images/people/krissankaran_400x400.jpg
-      name: Kris Sankaran
-      affiliation: UW Madison
     - website_url: https://www.linkedin.com/in/mariajoaosousa/
       image_url: images/people/mariajoaosousa_400x400.jpg
       name: Maria João Sousa
