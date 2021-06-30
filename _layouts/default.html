@@ -144,6 +144,17 @@
       </div>
     </nav>
 
+    {% if page.show_hero %}
+      <section class="hero is-dark site-hero">
+        <div class="hero-body">
+          <div class='main-content'>
+            <h1 class="title">Climate Change AI</h1>
+            <h3 class="subtitle">A global initiative to catalyze impactful work at the intersection of climate change and machine learning</h3>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
     <main id="content" class="main-content" role="main">
 
       {{ content }}

@@ -23,11 +23,38 @@ $dark: black;
 @import "bulma-scss/elements/_button";
 @import "bulma-scss/elements/_tag";
 @import "bulma-scss/form/_all";
+@import "bulma-scss/layout/_hero";
 @import "chosen";
 
 :root {
   --navbar-height-normal: 80px;
   --navbar-height-mobile: 64px;
+}
+
+.site-hero {
+  background-image: url(/images/full_light_earth_lowres.jpeg);
+  background-repeat: no-repeat;
+  background-size: calc(min(500px, 100%));
+  background-position-y: 50%;
+  background-position-x: calc(max(-50%, -100px));
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width: 768px) {
+  .site-hero {
+    background-image: none;
+    margin: 0;
+  }
+
+  .site-hero h3 {
+    font-size: 1rem;
+  }
+  
+  .site-hero .hero-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .clearfix::after {
