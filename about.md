@@ -13,7 +13,7 @@ To catalyze impactful work at the intersection of climate change and machine lea
 ### Our Goals
 * **Community:** To build a community of diverse stakeholders.
 * **Education:** To guide impactful work through educational resources and programs.
-* **Infrastructure:** To fill gaps in essential infrastructure such as funding, tools, and datasets. 
+* **Infrastructure:** To fill gaps in essential infrastructure such as funding, tools, and datasets.
 * **Discourse:** To advance discourse and advise relevant players.
 
 ### Our Guiding Principles
@@ -65,7 +65,8 @@ To catalyze impactful work at the intersection of climate change and machine lea
 # Press
 
 ## Releases
-* Nov. 11, 2019: <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
+* MIT Technology Review 35 Under 35 awards (Jun. 30, 2021): <a href="/press_releases/2021-06-30/release.html" target="_blank">press release</a>
+* CCAI paper (Nov. 11, 2019): <a href="/press_releases/2019-11-11/release.html" target="_blank">press release</a> and [press packet](/press_releases/2019-11-11/press_packet.zip)
 
 ## Selected articles
 * <b>The Economist Intelligence Unit:</b> <a href="https://eiuperspectives.economist.com/sustainability/green-intelligence-ai-could-boost-efforts-fight-climate-change" target="_blank">Green Intelligence - AI could boost efforts to fight climate change</a> (May 2021)
@@ -84,5 +85,3 @@ To catalyze impactful work at the intersection of climate change and machine lea
 * <b>The Interchange:</b> <a href="https://www.greentechmedia.com/articles/read/beyond-forecasting-artificial-intelligence-is-a-powerful-decarbonization-tool" target="_blank">Beyond Forecasting: Artificial Intelligence Is a Powerful Decarbonization Tool</a> (Feb 2020)
 * "Not Cool: A Climate Podcast" by the <b>Future of Life Institute:</b> <a href="https://futureoflife.org/2019/10/22/not-cool-ep-16-tackling-climate-change-with-machine-learning-part-1/" target="_blank">Part 1</a> and <a href="https://futureoflife.org/2019/10/24/not-cool-ep-17-tackling-machine-learning-with-climate-change-part-2/" target="_blank">Part 2</a> (Oct 2019)
 * <b>Eye on A.I. podcast:</b> <a href="https://www.eye-on.ai/podcast-024" target="_blank">Climate Change and AI</a> (Sep 2019)
-
-
