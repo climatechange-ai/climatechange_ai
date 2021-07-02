@@ -30,6 +30,10 @@ $dark: black;
   --navbar-height-mobile: 64px;
 }
 
+.main-content {
+  max-width: 100%;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -134,7 +138,13 @@ html, body {
   margin-bottom: 1rem;
   position: relative;
   display: block;
-  width: calc(25% - 1rem);
+  width: calc(20% - 1rem);
+}
+
+@media only screen and (max-width: 1200px) {
+  .person__item {
+    width: calc(25% - 1rem);
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -442,11 +452,6 @@ td {
 .webinar {
   padding: 1rem;
 
-  .webinar-title {
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-  }
-
   .webinar-subtitle {
     font-style: italic;
     margin-bottom: 1rem;
@@ -502,10 +507,7 @@ td {
 }
 
 .webinar-header-image{
-  width: 75%;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+  max-width: 800px;
 }
 
 .abstract-header {
